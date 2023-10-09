@@ -24,7 +24,7 @@ const Default = () => {
                 {/*====== Top Left ======*/}
                 <div className="top-left">
                   <span>
-                    Welcome to Gadden a modern Gardening &amp; Landscape Contact
+                    Welcome to GBedazzled Window Cleaning: Contact
                     Us
                   </span>
                 </div>
