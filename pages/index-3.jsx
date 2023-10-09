@@ -7,7 +7,7 @@ import Layout from "@/src/layouts/Layout";
 import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
 import Slider from "react-slick";
-const Index3 = () => {
+const Index = () => {
   return (
     <Layout header={1} footer={1}>
       {/*====== Start Banner Section ======*/}
