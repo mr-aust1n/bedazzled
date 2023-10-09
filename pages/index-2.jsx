@@ -37,7 +37,7 @@ const Index2 = () => {
                         data-animation="fadeInUp"
                         data-delay=".34"
                       >
-                        Beautiful Gardening
+                        North West Commercial Cleaning
                       </span>
                       <h1 data-animation="fadeInDown" data-delay=".5s">
                         Gardening &amp; Landscape
