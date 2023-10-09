@@ -40,13 +40,13 @@ const Index3 = () => {
                         data-animation="fadeInUp"
                         data-delay=".4s"
                       >
-                        Beautiful Gardening
+                        North West
                       </span>
                       <h1 data-animation="fadeInDown" data-delay=".5s">
-                        Gardening
+                        COMMERCIAL
                       </h1>
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        We Provide Beautiful Gardening &amp; Landscaping
+                        Window Cleaner
                       </p>
                       <div
                         className="hero-button mb-30"
