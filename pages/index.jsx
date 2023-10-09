@@ -55,7 +55,7 @@ const Index3 = () => {
                       >
                         <Link legacyBehavior href="/about">
                           <a className="main-btn golden-btn mb-10">
-                            Explore More
+                            Explore More cleaners
                           </a>
                         </Link>
                         <Link legacyBehavior href="/index">
