@@ -29,7 +29,7 @@ const App = ({ Component, pageProps }) => {
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.ico"
+          href="assets/images/squeege.ico"
           type="image/png"
         />
         {/*====== Google Fonts ======*/}

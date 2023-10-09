@@ -20,7 +20,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
-                    <h6>55 Main Street, 2nd Floor Melbourne, Australia</h6>
+                    <h6>168 Pentrose Street, Blackpool</h6>
                   </div>
                 </div>
               </div>
@@ -33,7 +33,7 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Email Address</span>
                     <h6>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:Cleaning@bedazzled.co.uk">Cleaning@bedazzled.co.uk</a>
                     </h6>
                     <h6>
                       <a href="mailto:infogarden.net">infogarden.net</a>
@@ -50,7 +50,7 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Phone No</span>
                     <h6>
-                      <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="tel:+000(123)45688">+44 (123) 456 88</a>
                     </h6>
                   </div>
                 </div>
