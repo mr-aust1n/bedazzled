@@ -60,7 +60,7 @@ const Index3 = () => {
                         </Link>
                         <Link legacyBehavior href="/index">
                           <a className="main-btn filled-btn filled-white mb-10">
-                            How It Work
+                            How It Works
                           </a>
                         </Link>
                       </div>
