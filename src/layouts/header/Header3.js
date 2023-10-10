@@ -26,16 +26,16 @@ const Header3 = () => {
                   <span>
                     <i className="far fa-envelope" />
                     <b className="title">Email :</b>
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <a href="mailto:sbedazzledwcs@gmail.com">bedazzledwcs@gmail.com</a>
                   </span>
                   <span>
                     <i className="far fa-phone-plus" />
                     <b className="title">Call :</b>
-                    <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                    <a href="tel:07773780671">07773 780671</a>
                   </span>
                   <span>
                     <i className="far fa-map-marker-alt" />
-                    <b className="title">Location :</b>169 Pentrose Ava, Blackpool.
+                    <b className="title">Location :</b>168 Penrose Avenue, Blackpool, FY4 4JX
                   </span>
                 </div>
               </div>
@@ -44,17 +44,17 @@ const Header3 = () => {
                 <div className="top-right float-lg-right">
                   <ul className="social-link">
                     <li>
-                      <a href="#">Facebook</a>
+                      <a href="https://www.facebook.com/bedazzledwcs/?locale=en_GB" target="_blank">Facebook</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="#">Twitter</a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="#">Instagram</a>
+                      <a href="https://www.instagram.com/bedazzledwcs/" target="_blank">Instagram</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="#">YouTube</a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
