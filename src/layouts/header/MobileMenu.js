@@ -44,7 +44,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                 </Link>
               </div>
               {/*=== Nav Search ===*/}
-              <div className="nav-search mb-30 d-block d-xl-none ">
+              {/* <div className="nav-search mb-30 d-block d-xl-none ">
                 <form onSubmit={(e) => e.preventDefault()}>
                   <div className="form_group">
                     <input
@@ -59,7 +59,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> */}
               {/*====== main Menu ======*/}
               <nav className="main-menu">
                 <ul>
@@ -69,11 +69,10 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                       <span
                         className="dd-trigger"
                         onClick={() => active("home")}
-                      >
-                        <i className="far fa-angle-down" />
+                      >                        
                       </span>
                     </a>
-                    <ul className="sub-menu" style={activeSubMenu("home")}>
+                    {/* <ul className="sub-menu" style={activeSubMenu("home")}>
                       <li>
                         <Link legacyBehavior href="/">
                           Home 01
@@ -89,7 +88,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                           Home 03
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li className="menu-item">
                     <Link legacyBehavior href="about">
