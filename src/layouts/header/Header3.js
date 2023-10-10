@@ -119,20 +119,20 @@ const Header3 = () => {
               </div>
               {/*======= Nav Right Item ======*/}
               <div className="nav-right-item d-flex align-items-center">
-                <div className="lang-dropdown">
+                {/* <div className="lang-dropdown">
                   <select className="wide">
                     <option value="English">English</option>
                     <option value="French">French</option>
                   </select>
-                </div>
-                <div
+                </div> */}
+                {/* <div
                   className="search-btn"
                   data-toggle="modal"
                   data-target="#search-modal"
                   onClick={() => setSearchModal(true)}
                 >
                   <i className="far fa-search" />
-                </div>
+                </div> */}
                 <div className="menu-button d-xl-block d-none">
                   <Link legacyBehavior href="/contact">
                     <a className="main-btn secondary-btn">Book now</a>

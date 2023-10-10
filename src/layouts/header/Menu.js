@@ -12,16 +12,16 @@ const Menu = () => {
             </span>
           </a>
           <ul className="sub-menu">
-            <li>
+            {/* <li>
               <Link legacyBehavior href="/">
                 Home 01
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link legacyBehavior href="index-2">
                 Home 02
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link legacyBehavior href="index-3">
                 Home 03
