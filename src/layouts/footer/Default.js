@@ -21,7 +21,7 @@ const Default = () => {
                     </Link>
                   </div>
                   <p>
-                    Quis autem eum reprehenderit volutate velit quam molestiae
+                    default footer Quis autem eum reprehenderit volutate velit quam molestiae
                     conseuatur{" "}
                   </p>
                   <Link legacyBehavior href="/contact">

@@ -21,7 +21,7 @@ const Footer1 = () => {
                     </Link>
                   </div>
                   <p>
-                    Quis autem eum reprehenderit volutate velit quam molestiae
+                    footer 1 js Quis autem eum reprehenderit volutate velit quam molestiae
                     conseuatur{" "}
                   </p>
                   <form

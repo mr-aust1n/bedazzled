@@ -26,7 +26,7 @@ const Sidebar = ({ show, handleClose }) => {
                     </a>
                   </Link>
                   <p>
-                    Sed ut perspiciatis unde omni natus voluptatem accusantium
+                    side bar js ed ut perspiciatis unde omni natus voluptatem accusantium
                     doloremque laudantium aperia maquep quae abillo inventore
                     veritatis architecto
                   </p>

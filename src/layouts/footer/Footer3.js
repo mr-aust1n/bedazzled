@@ -44,7 +44,7 @@ const Footer3 = () => {
                       </Link>
                     </div>
                     <p>
-                      Quis autem eum reprehenderit volutate velit quam molestiae
+                      footer 3 js Quis autem eum reprehenderit volutate velit quam molestiae
                       conseuatur{" "}
                     </p>
                     <Link legacyBehavior href="/contact">

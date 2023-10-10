@@ -36,7 +36,7 @@ const Menu = () => {
         </li>
         <li className="menu-item has-children">
           <a href="#">
-            Service
+            Services
             <span className="dd-trigger">
               <i className="far fa-angle-down" />
             </span>
@@ -44,12 +44,12 @@ const Menu = () => {
           <ul className="sub-menu">
             <li>
               <Link legacyBehavior href="service">
-                Our Service
+              High Level Work
               </Link>
             </li>
             <li>
               <Link legacyBehavior href="service-details">
-                Service Details
+              Schools, Offices and Hotels
               </Link>
             </li>
           </ul>
