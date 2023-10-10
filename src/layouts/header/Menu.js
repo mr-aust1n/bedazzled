@@ -7,27 +7,27 @@ const Menu = () => {
         <li className="menu-item has-children">
           <a href="#">
             Home
-            <span className="dd-trigger">
+            {/* <span className="dd-trigger">
               <i className="far fa-angle-down" />
-            </span>
+            </span> */}
           </a>
-          <ul className="sub-menu">
-            {/* <li>
+          {/* <ul className="sub-menu">
+            <li>
               <Link legacyBehavior href="/">
                 Home 01
               </Link>
-            </li> */}
-            {/* <li>
+            </li>
+            <li>
               <Link legacyBehavior href="index-2">
                 Home 02
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link legacyBehavior href="index-3">
                 Home 03
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         <li className="menu-item">
           <Link legacyBehavior href="about">
