@@ -63,7 +63,8 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
               {/*====== main Menu ======*/}
               <nav className="main-menu">
                 <ul>
-                  <li className="menu-item has-children">
+                  
+                  <li className="menu-item">
                     <a href="#">
                       Home
                       <span
