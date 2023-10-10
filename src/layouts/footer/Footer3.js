@@ -44,8 +44,9 @@ const Footer3 = () => {
                       </Link>
                     </div>
                     <p>
-                      footer 3 js Quis autem eum reprehenderit volutate velit quam molestiae
-                      conseuatur{" "}
+                      Bedazzled Window Cleaning: Exceptional commercial window
+                      cleaning in the North West of England. Trust us for
+                      sparkling results that make your business shine.{" "}
                     </p>
                     <Link legacyBehavior href="/contact">
                       <a className="main-btn filled-btn filled-white">
@@ -61,12 +62,14 @@ const Footer3 = () => {
                   <h4 className="widget-title">Get In Touch</h4>
                   <div className="widget-content">
                     <ul className="info-list">
-                      <li>558 Main Street, 2nd Block Melbourne, Australia</li>
+                      <li>168 Penrose Avenue, Blackpool, FY4 4JX</li>
                       <li>
-                        <a href="mailto:support@gmail.com">support@gmail.com</a>
+                        <a href="mailto:bedazzledwcs@gmail.com">
+                          bedazzledwcs@gmail.com
+                        </a>
                       </li>
                       <li>
-                        <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                        <a href="tel:+000(123)45688">07773 780671</a>
                       </li>
                     </ul>
                   </div>
@@ -79,13 +82,13 @@ const Footer3 = () => {
                   <div className="widget-content">
                     <ul className="footer-nav">
                       <li>
+                        <a href="#">Need a Quote?</a>
+                      </li>
+                      <li>
+                        <a href="#">Our Services</a>
+                      </li>
+                      <li>
                         <a href="#">About Company</a>
-                      </li>
-                      <li>
-                        <a href="#">Popular Services</a>
-                      </li>
-                      <li>
-                        <a href="#">Need a Career ?</a>
                       </li>
                       <li>
                         <a href="#">Meet Our Team</a>
