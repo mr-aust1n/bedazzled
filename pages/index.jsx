@@ -299,7 +299,7 @@ const Index3 = () => {
                   <div className="section-title mb-50">
                     <span className="sub-title">
                       <i className="flaticon-plant" />
-                      About Gardening
+                      About BeDAZzled
                     </span>
                     <h2>We Care Your Garden &amp; Landscaping</h2>
                   </div>
