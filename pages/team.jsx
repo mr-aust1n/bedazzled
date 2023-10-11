@@ -21,7 +21,7 @@ const Team = () => {
                   <h2>Smart Pricing Package</h2>
                 </div>
                 <p className="mb-30">
-                  Sed ut perspiciatis unde omnis iste natus voluptatem
+                  Team.jsx Sed ut perspiciatis unde omnis iste natus voluptatem
                   accusantiue doloremque laudantium totam rem aperiam, eaque
                   ipsa quae abilloy inventore veritatis et quasi architecto
                   beatae vitae dicta sunt

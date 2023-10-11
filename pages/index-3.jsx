@@ -304,12 +304,12 @@ const Index = () => {
                     <div className="section-title mb-25 wow fadeInUp">
                       <span className="sub-title">
                         <i className="flaticon-plant" />
-                        About Gardening
+                        About Bedazzled
                       </span>
                       <h2>Perfect Gardening The Result Of Nature</h2>
                     </div>
                     <p className="mb-40 wow fadeInDown">
-                      Sed ut perspiciatis unde omnis iste natus voluptatem
+                      index 3 index 3 ut perspiciatis unde omnis iste natus voluptatem
                       accusantiue doloremque laudantium totam rem aperiam, eaque
                       ipsa quae abilloy inventore
                     </p>
@@ -412,7 +412,7 @@ const Index = () => {
                       <a>Spring Cleaning</a>
                     </Link>
                   </h4>
-                  <p>Sed ut perspiciatis omnisey natus voluptate accusa</p>
+                  <p>index 3 ut perspiciatis omnisey natus voluptate accusa</p>
                   <Link legacyBehavior href="/service-details">
                     <a className="icon-btn">
                       <i className="fal fa-long-arrow-right" />

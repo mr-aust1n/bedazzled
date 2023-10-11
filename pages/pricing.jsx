@@ -15,7 +15,7 @@ const Pricing = () => {
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">
                   <i className="flaticon-plant" />
-                  Pricing Plan
+                  Pricing .jsx
                 </span>
                 <h2>Smart Pricing Package</h2>
               </div>
@@ -200,7 +200,7 @@ const Pricing = () => {
                   <h2>Looking For a Garden Specialist</h2>
                 </div>
                 <p className="mb-30">
-                  Sed ut perspiciatis unde omnis isnatu volunteer accusantium
+                  pricing ut perspiciatis unde omnis isnatu volunteer accusantium
                   doloremque laudantium
                 </p>
                 <Link legacyBehavior href="/team">

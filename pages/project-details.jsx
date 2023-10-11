@@ -14,7 +14,7 @@ const ProjectDetails = () => {
                 <div className="project-info mb-30 wow fadeInLeft">
                   <h3 className="title">Yard Cleaning</h3>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
+                    project details jsx  Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem
                     aperiam, eaque ipsa quae ab illo inventore veritatis et
                     quasi architecto beatae vitae dicta sunt explicabo. Nemo

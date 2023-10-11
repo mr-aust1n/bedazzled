@@ -50,7 +50,7 @@ const ProductDetails = () => {
                     <span className="currency">$</span>232.00
                   </span>
                   <p>
-                    Quis ipsum sed et proin sit aliquet in quis aliqu
+                    roduct details.jsx Quis ipsum sed et proin sit aliquet in quis aliqu
                     ullamcorper sollicitudin quis ut sedorbi dui porttitor duis
                     porttitore fringilla Estauris purus vita volutpat. Estorem
                     felis mau libero nisiey Rhoncus phasellus facilisi praesent

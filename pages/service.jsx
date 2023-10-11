@@ -16,7 +16,7 @@ const Service = () => {
                 <div className="section-title mb-50 wow fadeInDown">
                   <span className="sub-title">
                     <i className="flaticon-plant" />
-                    What We Do For Gardening
+                    Service.jsx 
                   </span>
                   <h2>We Care Your Garden &amp; Landscaping</h2>
                 </div>

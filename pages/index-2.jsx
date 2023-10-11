@@ -496,7 +496,7 @@ const Index2 = () => {
                   <h2>We Care Your Garden &amp; Landscaping</h2>
                 </div>
                 <p className="mb-30">
-                  Sed ut perspiciatis unde omnis isnatu volunteer accusantium
+                  index 2 ut perspiciatis unde omnis isnatu volunteer accusantium
                   doloremque laudantium totam rem apeira eaque ipsa quae ab
                   eillo inventore veritatis et quasi architecto beatae vitae
                 </p>
@@ -576,7 +576,7 @@ const Index2 = () => {
                           <Tab.Pane className="tab-pane" eventKey="tab1">
                             <div className="choose-content-box">
                               <p>
-                                Sed ut perspiciatis unde omnis natus error
+                                index 2 ut perspiciatis unde omnis natus error
                                 voluptatem accusantium doloremque laudantium,
                                 totam rem aperia eaque quae abillo inventore
                                 veritatis architecto beatae vitae dicta sunt
@@ -611,7 +611,7 @@ const Index2 = () => {
                           <Tab.Pane className="tab-pane" eventKey="tab2">
                             <div className="choose-content-box">
                               <p>
-                                Sed ut perspiciatis unde omnis natus error
+                                index 2 ut perspiciatis unde omnis natus error
                                 voluptatem accusantium doloremque laudantium,
                                 totam rem aperia eaque quae abillo inventore
                                 veritatis architecto beatae vitae dicta sunt
@@ -690,7 +690,7 @@ const Index2 = () => {
                     </div>
                     <div className="text">
                       <h4 className="title">Choose Landscape</h4>
-                      <p>Sed ut perspiciatis omnis volunteer accusa</p>
+                      <p>index 2 ut perspiciatis omnis volunteer accusa</p>
                       <img src="assets/images/line.png" alt="Line" />
                     </div>
                   </div>
@@ -706,7 +706,7 @@ const Index2 = () => {
                     </div>
                     <div className="text">
                       <h4 className="title">Design and Planting</h4>
-                      <p>Sed ut perspiciatis omnis volunteer accusa</p>
+                      <p>index 2 ut perspiciatis omnis volunteer accusa</p>
                       <img src="assets/images/line.png" alt="Line" />
                     </div>
                   </div>
@@ -722,7 +722,7 @@ const Index2 = () => {
                     </div>
                     <div className="text">
                       <h4 className="title">Completion &amp; Testing</h4>
-                      <p>Sed ut perspiciatis omnis volunteer accusa</p>
+                      <p>index 2 ut perspiciatis omnis volunteer accusa</p>
                       <img src="assets/images/line.png" alt="Line" />
                     </div>
                   </div>
@@ -740,7 +740,7 @@ const Index2 = () => {
                       <h4 className="title">
                         Transportation &amp; Maintenance
                       </h4>
-                      <p>Sed ut perspiciatis omnis volunteer accusa</p>
+                      <p>index 2 ut perspiciatis omnis volunteer accusa</p>
                       <img src="assets/images/line.png" alt="Line" />
                     </div>
                   </div>
@@ -769,7 +769,7 @@ const Index2 = () => {
               {/*====== Project Content Box ======*/}
               <div className="project-content-box mb-50 pl-lg-100 wow fadeInRight">
                 <p className="mb-35">
-                  Sed perspiciatis unde omnis isnatu volunteer accusantium
+                  index 2 perspiciatis unde omnis isnatu volunteer accusantium
                   doloremque laudantium totam rem apeira eaque ipsa quae ab
                   eillo inventore veritatis et quasi architecto beatae vitae
                 </p>
@@ -1066,7 +1066,7 @@ const Index2 = () => {
                         <h5 className="title">
                           Modern Gardening &amp; Expert Team
                         </h5>
-                        <p>Sed ut perspiciatis omnis volunteer accusan</p>
+                        <p>index 2 ut perspiciatis omnis volunteer accusan</p>
                       </div>
                     </div>
                   </div>
@@ -1080,7 +1080,7 @@ const Index2 = () => {
                         <h5 className="title">
                           Tree Plantations &amp; Landscape
                         </h5>
-                        <p>Sed ut perspiciatis omnis volunteer accusan</p>
+                        <p>index 2 ut perspiciatis omnis volunteer accusan</p>
                       </div>
                     </div>
                   </div>
@@ -1142,7 +1142,7 @@ const Index2 = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
+                  index 2 ut perspiciatis unde omnis iste natus error voluptatem
                   accusantium doloremque laudantium, totam rem aperiam eaque
                   quae abillo inventore veritatis et quasi architecto
                 </p>
@@ -1192,7 +1192,7 @@ const Index2 = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
+                  index 2 ut perspiciatis unde omnis iste natus error voluptatem
                   accusantium doloremque laudantium, totam rem aperiam eaque
                   quae abillo inventore veritatis et quasi architecto
                 </p>
@@ -1242,7 +1242,7 @@ const Index2 = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
+                  index 2 ut perspiciatis unde omnis iste natus error voluptatem
                   accusantium doloremque laudantium, totam rem aperiam eaque
                   quae abillo inventore veritatis et quasi architecto
                 </p>
@@ -1292,7 +1292,7 @@ const Index2 = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
+                  index 2 ut perspiciatis unde omnis iste natus error voluptatem
                   accusantium doloremque laudantium, totam rem aperiam eaque
                   quae abillo inventore veritatis et quasi architecto
                 </p>
@@ -1332,7 +1332,7 @@ const Index2 = () => {
                   <h2>Looking For a Garden Specialist</h2>
                 </div>
                 <p className="mb-35">
-                  Sed ut perspiciatis unde omnis isnatu volunteer accusantium
+                  index 2 ut perspiciatis unde omnis isnatu volunteer accusantium
                   doloremque laudantium
                 </p>
                 <Link legacyBehavior href="/team">
@@ -1406,7 +1406,7 @@ const Index2 = () => {
                     </Link>
                   </h4>
                   <p>
-                    Sed ut perspiciatis unde omnis isnate volunteer accusantium
+                    index 2 ut perspiciatis unde omnis isnate volunteer accusantium
                     dolore
                   </p>
                   <div className="post-meta">
@@ -1465,7 +1465,7 @@ const Index2 = () => {
                     </Link>
                   </h4>
                   <p>
-                    Sed ut perspiciatis unde omnis isnate volunteer accusantium
+                    index 2 ut perspiciatis unde omnis isnate volunteer accusantium
                     dolore
                   </p>
                   <div className="post-meta">
@@ -1524,7 +1524,7 @@ const Index2 = () => {
                     </Link>
                   </h4>
                   <p>
-                    Sed ut perspiciatis unde omnis isnate volunteer accusantium
+                    index 2 ut perspiciatis unde omnis isnate volunteer accusantium
                     dolore
                   </p>
                   <div className="post-meta">

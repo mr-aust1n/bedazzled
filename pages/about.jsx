@@ -16,7 +16,7 @@ const About = () => {
               <div className="section-title mb-50 wow fadeInLeft">
                 <span className="sub-title">
                   <i className="flaticon-plant" />
-                  About Gardening
+                  About BeDAZzled
                 </span>
                 <h2>We Care Your Garden &amp; Landscaping</h2>
               </div>
@@ -25,7 +25,7 @@ const About = () => {
               {/*====== About Content Box ======*/}
               <div className="about-content-box mb-50 wow fadeInRight">
                 <p className="mb-30">
-                  Sed ut perspiciatis unde omnis isnatu volunteer accusantium
+                  about about jsx ut perspiciatis unde omnis isnatu volunteer accusantium
                   doloremque laudantium totam rem apeira eaque ipsa quae ab
                   eillo inventore veritatis et quasi architecto beatae vitae
                 </p>
@@ -88,7 +88,7 @@ const About = () => {
                       <div className="text">
                         <h3 className="title">Our Mission</h3>
                         <p>
-                          Sed persiciatis unde omnis esnatu volunteer
+                          about jsx persiciatis unde omnis esnatu volunteer
                           accusantium doloreue laudan totam
                         </p>
                         <Link legacyBehavior href="/about">
@@ -116,7 +116,7 @@ const About = () => {
                       <div className="text">
                         <h3 className="title">Our Vision</h3>
                         <p>
-                          Sed persiciatis unde omnis esnatu volunteer
+                          about jsx persiciatis unde omnis esnatu volunteer
                           accusantium doloreue laudan totam
                         </p>
                         <Link legacyBehavior href="/about">
@@ -144,7 +144,7 @@ const About = () => {
                       <div className="text">
                         <h3 className="title">Plan &amp; Goals</h3>
                         <p>
-                          Sed persiciatis unde omnis esnatu volunteer
+                          about jsx persiciatis unde omnis esnatu volunteer
                           accusantium doloreue laudan totam
                         </p>
                         <Link legacyBehavior href="/about">
@@ -183,7 +183,7 @@ const About = () => {
                 <h2>We Offers Landscape &amp; Tree Plantations</h2>
               </div>
               <p className="mb-40">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                about jsx ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 quae abillo inventore veritatis quasi architecto beatae vitae
                 dicta sunt explicabo emo enim ipsam voluptatem quia voluptas{" "}
@@ -311,7 +311,7 @@ const About = () => {
                   <h2>Looking For a Garden Specialist</h2>
                 </div>
                 <p className="mb-30">
-                  Sed ut perspiciatis unde omnis isnatu volunteer accusantium
+                  about jsx ut perspiciatis unde omnis isnatu volunteer accusantium
                   doloremque laudantium
                 </p>
                 <Link legacyBehavior href="/team">
@@ -380,7 +380,7 @@ const About = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
+                  about jsx ut perspiciatis unde omnis iste natus error voluptatem
                   accusantium doloremque laudantium, totam rem aperiam eaque
                   quae abillo inventore veritatis et quasi architecto
                 </p>
@@ -430,7 +430,7 @@ const About = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
+                  about jsx ut perspiciatis unde omnis iste natus error voluptatem
                   accusantium doloremque laudantium, totam rem aperiam eaque
                   quae abillo inventore veritatis et quasi architecto
                 </p>
@@ -480,7 +480,7 @@ const About = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
+                  about jsx ut perspiciatis unde omnis iste natus error voluptatem
                   accusantium doloremque laudantium, totam rem aperiam eaque
                   quae abillo inventore veritatis et quasi architecto
                 </p>
@@ -530,7 +530,7 @@ const About = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
+                  about jsx ut perspiciatis unde omnis iste natus error voluptatem
                   accusantium doloremque laudantium, totam rem aperiam eaque
                   quae abillo inventore veritatis et quasi architecto
                 </p>

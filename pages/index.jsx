@@ -185,7 +185,7 @@ const Index3 = () => {
             <div className="col-lg-6">
               <div className="features-content-box mb-55 wow fadeInRight">
                 <p>
-                  Sed perspiciatis unde omnis isnatu volunteer accusantium
+                  index perspiciatis unde omnis isnatu volunteer accusantium
                   doloremque laudantium totam rem apeira eaque ipsa quae ab
                   eillo inventore veritatis et quasi architecto beatae vitae
                 </p>
@@ -215,7 +215,7 @@ const Index3 = () => {
                     <i className="flaticon-landscape-1" />
                   </div>
                   <h5 className="title">Gardens</h5>
-                  <p>Sed perspiciatis unde omnis volunteer accusantium</p>
+                  <p>index perspiciatis unde omnis volunteer accusantium</p>
                 </div>
               </div>
             </div>
@@ -235,7 +235,7 @@ const Index3 = () => {
                     <i className="flaticon-watering-can" />
                   </div>
                   <h5 className="title">Urbans</h5>
-                  <p>Sed perspiciatis unde omnis volunteer accusantium</p>
+                  <p>index perspiciatis unde omnis volunteer accusantium</p>
                 </div>
               </div>
             </div>
@@ -255,7 +255,7 @@ const Index3 = () => {
                     <i className="flaticon-lawnmower" />
                   </div>
                   <h5 className="title">Maintenance</h5>
-                  <p>Sed perspiciatis unde omnis volunteer accusantium</p>
+                  <p>index perspiciatis unde omnis volunteer accusantium</p>
                 </div>
               </div>
             </div>
@@ -275,7 +275,7 @@ const Index3 = () => {
                     <i className="flaticon-spider-plant" />
                   </div>
                   <h5 className="title">Event &amp; Programs</h5>
-                  <p>Sed perspiciatis unde omnis volunteer accusantium</p>
+                  <p>index perspiciatis unde omnis volunteer accusantium</p>
                 </div>
               </div>
             </div>
@@ -304,7 +304,7 @@ const Index3 = () => {
                     <h2>We Care Your Garden &amp; Landscaping</h2>
                   </div>
                   <p className="mb-45">
-                    Sed ut perspiciatis unde omnis iste natus voluptatem
+                    index ut perspiciatis unde omnis iste natus voluptatem
                     accusantiue doloremque laudantium totam rem aperiam, eaque
                     ipsa quae abilloy inventore veritatis et quasi architecto
                     beatae vitae dicta sunt
@@ -587,7 +587,7 @@ const Index3 = () => {
                   <h2>Experience Gardening &amp; Landscape Center</h2>
                 </div>
                 <p className="mb-30">
-                  Sed ut perspiciatis unde omnis iste natus voluptatem
+                  index ut perspiciatis unde omnis iste natus voluptatem
                   accusantiue doloremque laudantium totam rem aperiam, eaque
                   ipsa quae abilloy inventore veritatis et quasi architecto
                   beatae vitae dicta sunt
@@ -1046,7 +1046,7 @@ const Index3 = () => {
                         </div>
                       </div>
                       <p>
-                        Sed persiciatis unde omnis iste natus voluptatem
+                        index persiciatis unde omnis iste natus voluptatem
                         accusantium doloremquey laudantium totam rem aperiam
                         eaque psa quae abillo inventore veritatis quas
                         architecto beatae dicta explicabo
@@ -1095,7 +1095,7 @@ const Index3 = () => {
                         </div>
                       </div>
                       <p>
-                        Sed persiciatis unde omnis iste natus voluptatem
+                        index persiciatis unde omnis iste natus voluptatem
                         accusantium doloremquey laudantium totam rem aperiam
                         eaque psa quae abillo inventore veritatis quas
                         architecto beatae dicta explicabo
@@ -1144,7 +1144,7 @@ const Index3 = () => {
                         </div>
                       </div>
                       <p>
-                        Sed persiciatis unde omnis iste natus voluptatem
+                        index persiciatis unde omnis iste natus voluptatem
                         accusantium doloremquey laudantium totam rem aperiam
                         eaque psa quae abillo inventore veritatis quas
                         architecto beatae dicta explicabo
