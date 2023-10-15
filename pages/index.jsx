@@ -58,7 +58,7 @@ const Index3 = () => {
                             Explore More cleaners
                           </a>
                         </Link> */}
-                        {<Link legacyBehavior href="/contact.html">
+                        {<Link legacyBehavior href="/contact">
                           <a className="main-btn filled-btn filled-white mb-10">
                           Contact Us!
                           </a>
@@ -106,7 +106,7 @@ const Index3 = () => {
                             Explore More
                           </a>
                         </Link> */}
-                        <Link legacyBehavior href="/contact.html">
+                        <Link legacyBehavior href="/contact">
                           <a className="main-btn filled-btn filled-white mb-10">
                             Contact Us!
                           </a>
@@ -154,7 +154,7 @@ const Index3 = () => {
                             Explore More
                           </a>
                         </Link> */}
-                        <Link legacyBehavior href="/contact.html">
+                        <Link legacyBehavior href="/contact">
                           <a className="main-btn filled-btn filled-white mb-10">
                             Contact Us!
                           </a>
