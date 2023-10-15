@@ -89,7 +89,7 @@ const Sidebar = ({ show, handleClose }) => {
               </div>
               <div className="col-lg-4 sidebar-widget">
                 <div className="sidebar-info-widget">
-                  <h4 className="title">Newsletter</h4>
+                  {/* <h4 className="title">Newsletter</h4> */}
                   {/* <form onSubmit={(e) => e.preventDefault()}>
                     <div className="form_group">
                       <input
