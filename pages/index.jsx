@@ -213,7 +213,7 @@ const Index3 = () => {
                     <i className="flaticon-landscape-1" />
                   </div>
                   <h5 className="title">Managed Properties</h5>
-                  <p>Whether you own a single property or manage a diverse portfolio of properties, we've got you covered. With tailored service packages and flexible scheduling options, we provide hassle-free property maintenance solutions to meet your unique needs and budget requirements.</p>
+                  <p>Whether you own a single property or manage a portfolio, we've got you covered. With tailored service packages and flexible scheduling options, we provide unique needs and budget to your requirements.</p>
                 </div>
               </div>
             </div>
@@ -253,7 +253,7 @@ const Index3 = () => {
                     <i className="flaticon-lawnmower" />
                   </div>
                   <h5 className="title">Fascia and Gutter Cleaning</h5>
-                  <p>Maintaining the appearance of your property is crucial; it's one of the first things your customers see. First impressions are lasting, so it's essential to make a good one. Trust us to elevate your property's aesthetics through comprehensive, top-quality maintenance services.</p>
+                  <p>Maintaining your property's appearance is vital for making lasting first impressions. Trust us to elevate your property's look through comprehensive, high-quality maintenance services tailored to your needs.</p>
                 </div>
               </div>
             </div>
@@ -297,30 +297,27 @@ const Index3 = () => {
                   <div className="section-title mb-50">
                     <span className="sub-title">
                       <i className="flaticon-plant" />
-                      About BeDAZzled
+                      About Bedazzled
                     </span>
-                    <h2>We Care Your Garden &amp; Landscaping</h2>
+                    <h2>Choose Bedazzled Commercial Window Cleaning</h2>
                   </div>
                   <p className="mb-45">
-                    index ut perspiciatis unde omnis iste natus voluptatem
-                    accusantiue doloremque laudantium totam rem aperiam, eaque
-                    ipsa quae abilloy inventore veritatis et quasi architecto
-                    beatae vitae dicta sunt
+                    With over 6 years in business, our team of 4 offers specialised cleaning solutions. We're one of the few companies IPAF-certified and DBS-checked, trusted by a multitude of schools, offices, and showrooms across the North West. Get your free quote today.
                   </p>
                   <div className="about-inner-content d-flex justify-content-between">
                     <div className="inner-content">
                       <ul className="check-style-one mb-45">
                         <li>
                           <i className="far fa-check" />
-                          We’re Experience Gardening
+                          IPAF Trained
                         </li>
                         <li>
                           <i className="far fa-check" />
-                          Awards Winning &amp; Expert Team Member
+                          DBS Checked
                         </li>
                       </ul>
                       <Link legacyBehavior href="/about">
-                        <a className="main-btn primary-btn">Learn More Us</a>
+                        <a className="main-btn primary-btn">Learn More!</a>
                       </Link>
                     </div>
                     <div className="experience-box-two">
