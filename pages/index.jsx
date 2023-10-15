@@ -213,7 +213,7 @@ const Index3 = () => {
                     <i className="flaticon-landscape-1" />
                   </div>
                   <h5 className="title">Managed Properties</h5>
-                  <p>Whether you have a single property or a portfolio of properties, we have it covered.</p>
+                  <p>Whether you own a single property or manage a diverse portfolio of properties, we've got you covered. With tailored service packages and flexible scheduling options, we provide hassle-free property maintenance solutions to meet your unique needs and budget requirements.</p>
                 </div>
               </div>
             </div>
@@ -253,7 +253,7 @@ const Index3 = () => {
                     <i className="flaticon-lawnmower" />
                   </div>
                   <h5 className="title">Fascia and Gutter Cleaning</h5>
-                  <p>Maintaining the appearance of your property is important and is one of the first things your customer sees. First impressions last. Make sure its a good one.</p>
+                  <p>Maintaining the appearance of your property is crucial; it's one of the first things your customers see. First impressions are lasting, so it's essential to make a good one. Trust us to elevate your property's aesthetics through comprehensive, top-quality maintenance services.</p>
                 </div>
               </div>
             </div>
