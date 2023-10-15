@@ -327,7 +327,7 @@ const Index3 = () => {
                     </div>
                     <div className="experience-box-two">
                       <h2 className="number">
-                        <Counter end={25} />+
+                        <Counter end={6} />+
                       </h2>
                       <h6>Years Of Experience</h6>
                       <Link legacyBehavior href="/about">
