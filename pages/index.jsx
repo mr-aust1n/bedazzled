@@ -395,7 +395,7 @@ const Index3 = () => {
                           />
                         </div>
                         <div className="ratings-box">
-                          <h3>Quality Services</h3>
+                          <h3>Five Stars All Around</h3>
                           <ul className="ratings">
                             <li>
                               <i className="fas fa-star" />
@@ -416,10 +416,54 @@ const Index3 = () => {
                         </div>
                       </div>
                       <p>
-                        index persiciatis unde omnis iste natus voluptatem
-                        accusantium doloremquey laudantium totam rem aperiam
-                        eaque psa quae abillo inventore veritatis quas
-                        architecto beatae dicta explicabo
+                        They are professional, reliable, and genuinely committed to customer satisfaction.<br />
+                        If you're in the North West and in need of a top-notch window cleaning service, look no further than Bedazzled!
+                      </p>
+                      <div className="author-thumb-title">
+                        <div className="author-thumb">
+                          <img
+                            src="assets/images/testimonial/thumb-1.jpg"
+                            alt="Author Image"
+                          />
+                        </div>
+                        {/* <div className="author-title">
+                          <h6 className="title">Douglas D. Hall</h6>
+                          <p className="position">CEO &amp; Founder</p>
+                        </div> */}
+                      </div>
+                    </div>
+                    {/*====== Single Testimonial Item  ======*/}
+                    <div className="single-testimonial-item-two mb-60">
+                      <div className="quote-rating-box">
+                        <div className="icon">
+                          <img
+                            src="assets/images/testimonial/quote2.png"
+                            alt="quote icon"
+                          />
+                        </div>
+                        <div className="ratings-box">
+                          <h3>10 out of 10</h3>
+                          <ul className="ratings">
+                            <li>
+                              <i className="fas fa-star" />
+                            </li>
+                            <li>
+                              <i className="fas fa-star" />
+                            </li>
+                            <li>
+                              <i className="fas fa-star" />
+                            </li>
+                            <li>
+                              <i className="fas fa-star" />
+                            </li>
+                            <li>
+                              <i className="fas fa-star" />
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <p>
+                      Well what to say ... Amazing... the customer service was fantastic... so friendly, polite and helpful. I didn’t realise that the deep clean would be so good. My facias, gutters, conservatory and cladding ALL look like new .. The job wasn’t easy but the end result .... WOW! they didn’t rush and made sure the job was done right. Impeccable work and service ... 10/10. Thank you soooo much Bedazzled window cleaning services .. 
                       </p>
                       <div className="author-thumb-title">
                         <div className="author-thumb">
@@ -429,8 +473,8 @@ const Index3 = () => {
                           />
                         </div>
                         <div className="author-title">
-                          <h6 className="title">Douglas D. Hall</h6>
-                          <p className="position">CEO &amp; Founder</p>
+                          <h6 className="title">Yvonne-Charley Walsh</h6>
+                          {/* <p className="position">CEO &amp; Founder</p> */}
                         </div>
                       </div>
                     </div>
@@ -444,7 +488,7 @@ const Index3 = () => {
                           />
                         </div>
                         <div className="ratings-box">
-                          <h3>Quality Services</h3>
+                          <h3>Thank you!!</h3>
                           <ul className="ratings">
                             <li>
                               <i className="fas fa-star" />
@@ -465,10 +509,7 @@ const Index3 = () => {
                         </div>
                       </div>
                       <p>
-                        index persiciatis unde omnis iste natus voluptatem
-                        accusantium doloremquey laudantium totam rem aperiam
-                        eaque psa quae abillo inventore veritatis quas
-                        architecto beatae dicta explicabo
+                      Thank you for the fab recommendation Amanda, brilliant first clean of my windows, no hesitation in asking for a regular four week clean. Really impressed.
                       </p>
                       <div className="author-thumb-title">
                         <div className="author-thumb">
@@ -478,56 +519,7 @@ const Index3 = () => {
                           />
                         </div>
                         <div className="author-title">
-                          <h6 className="title">Douglas D. Hall</h6>
-                          <p className="position">CEO &amp; Founder</p>
-                        </div>
-                      </div>
-                    </div>
-                    {/*====== Single Testimonial Item  ======*/}
-                    <div className="single-testimonial-item-two mb-60">
-                      <div className="quote-rating-box">
-                        <div className="icon">
-                          <img
-                            src="assets/images/testimonial/quote2.png"
-                            alt="quote icon"
-                          />
-                        </div>
-                        <div className="ratings-box">
-                          <h3>Quality Services</h3>
-                          <ul className="ratings">
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                            <li>
-                              <i className="fas fa-star" />
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <p>
-                        index persiciatis unde omnis iste natus voluptatem
-                        accusantium doloremquey laudantium totam rem aperiam
-                        eaque psa quae abillo inventore veritatis quas
-                        architecto beatae dicta explicabo
-                      </p>
-                      <div className="author-thumb-title">
-                        <div className="author-thumb">
-                          <img
-                            src="assets/images/testimonial/thumb-1.jpg"
-                            alt="Author Image"
-                          />
-                        </div>
-                        <div className="author-title">
-                          <h6 className="title">Douglas D. Hall</h6>
+                          <h6 className="title">Sarah Yates</h6>
                           <p className="position">CEO &amp; Founder</p>
                         </div>
                       </div>
@@ -542,7 +534,7 @@ const Index3 = () => {
       {/*====== End Testimonial Section  ======*/}
 
       {/*====== Start Blog Section  ======*/}
-      {<section className="blog-section pt-100 pb-60">
+      {/* {<section className="blog-section pt-100 pb-60">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-12">
@@ -693,10 +685,10 @@ const Index3 = () => {
             </div>
           </div>
         </div>
-      </section> }
+      </section> } */}
       {/*====== End Blog Section  ======*/}
 
-
+  {/*====== Customers Section  ======*/}
       {<section>
         <div className="container">
           <div className="row justify-content-center">
@@ -712,6 +704,8 @@ const Index3 = () => {
           </div>
         </div>
       </section> }
+      
+  {/*====== Customers Section  ======*/}
 
       {/*====== Start Partners Section ======*/}
       <Partners />
