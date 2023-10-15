@@ -282,7 +282,115 @@ const Index3 = () => {
       </section>
       {/*====== End Features Section ======*/}
      
+      
     
+      {/*====== Start Gallery Section ======*/}
+      <section className="gallery-section">
+        <div className="container-fluid">
+          {/*====== Gallery Slider ======*/}
+          <Slider
+            {...sliderProps.projectsSliderTwo}
+            className="projects-slider-two wow fadeInDown"
+          >
+            {/*====== Project Item ======*/}
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery/gl-4.jpg" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className="hover-content text-white text-center">
+                    <h3 className="title">
+                      <Link legacyBehavior href="/product-details">
+                        <a>Garden Caring</a>
+                      </Link>
+                    </h3>
+                    <p>Water The Plants</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*====== Project Item ======*/}
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery/gl-5.jpg" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className="hover-content text-white text-center">
+                    <h3 className="title">
+                      <Link legacyBehavior href="/product-details">
+                        <a>Garden Caring</a>
+                      </Link>
+                    </h3>
+                    <p>Water The Plants</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*====== Project Item ======*/}
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery/gl-6.jpg" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className="hover-content text-white text-center">
+                    <h3 className="title">
+                      <Link legacyBehavior href="/product-details">
+                        <a>Garden Caring</a>
+                      </Link>
+                    </h3>
+                    <p>Water The Plants</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*====== Project Item ======*/}
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery/gl-7.jpg" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className="hover-content text-white text-center">
+                    <h3 className="title">
+                      <Link legacyBehavior href="/product-details">
+                        <a>Garden Caring</a>
+                      </Link>
+                    </h3>
+                    <p>Water The Plants</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*====== Project Item ======*/}
+            <div className="single-project-item-two">
+              <div className="project-img">
+                <img src="assets/images/gallery/gl-6.jpg" alt="Gallery Image" />
+                <div className="project-overlay">
+                  <a href="#" className="icon-btn">
+                    <i className="far fa-arrow-right" />
+                  </a>
+                  <div className="hover-content text-white text-center">
+                    <h3 className="title">
+                      <Link legacyBehavior href="/product-details">
+                        <a>Garden Caring</a>
+                      </Link>
+                    </h3>
+                    <p>Water The Plants</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Slider>
+        </div>
+      </section>
+      {/*====== End Gallery Section ======*/}
     
       {/*====== Start Testimonial Section  ======*/}
       <section className="testimonial-section">
@@ -290,9 +398,9 @@ const Index3 = () => {
           {/*====== Testimonial Wrapper ======*/}
           <div className="testimonial-wrapper main-bg wow fadeInDown">
             <div className="shape shape-one">
-              {/* <span>
+              <span>
                 <img src="assets/images/testimonial/img-1.jpg" alt="image" />
-              </span> */}
+              </span>
             </div>
             <div className="shape shape-two">
               <span>
@@ -499,7 +607,7 @@ const Index3 = () => {
           </div>
           <div className="row justify-content-center">
             <div className="col-xl-4 col-md-6 col-sm-12">
-               
+              {/*====== Single Blog Post  ======*/}
               <div
                 className="single-blog-post-two mb-40 wow wow fadeInUp"
                 data-wow-delay=".2s"
@@ -544,7 +652,7 @@ const Index3 = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12">
-               
+              {/*====== Single Blog Post  ======*/}
               <div
                 className="single-blog-post-two mb-40 wow fadeInDown"
                 data-wow-delay=".25s"
@@ -589,7 +697,7 @@ const Index3 = () => {
               </div>
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12">
-               
+              {/*====== Single Blog Post  ======*/}
               <div
                 className="single-blog-post-two mb-40 wow fadeInUp"
                 data-wow-delay=".3s"
@@ -637,13 +745,6 @@ const Index3 = () => {
         </div>
       </section>
       {/*====== End Blog Section  ======*/}
-
-      <div className="col-xl-7 col-lg-12">
-              <div className="section-title text-center mb-50 wow fadeInDown">
-               
-                <h2>Some of our Customers</h2>
-              </div>
-            </div>
       {/*====== Start Partners Section ======*/}
       <Partners />
       {/*====== End Partners Section ======*/}
