@@ -25,7 +25,7 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {/*====== Title ======*/}
-        <title>BeDAZzled Commercial Window Cleaning - Blackpool </title>
+        <title>BeDAZzled Commercial Window Cleaning - North West - UK</title>
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"

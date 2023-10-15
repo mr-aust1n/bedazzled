@@ -54,10 +54,10 @@ const BlogDetails = () => {
                     </div>
                     <p>
                       Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                      aut odit aut fugit sed quia consequuntur magni dolores eos
+                      aut odit aut fugit blod-details quia consequuntur magni dolores eos
                       qui ratione voluptatem sequi nesciunt. Neque porro
                       quisquam est qui dolorem ipsum quia dolor sit amet,
-                      consectetur, adipisci velit, sed quia non numquam eius
+                      consectetur, adipisci velit, blod-details quia non numquam eius
                       modi tempora incidunt
                     </p>
                     <blockquote className="wp-block-quote">
@@ -344,7 +344,7 @@ const BlogDetails = () => {
                       <span className="posiiton">CEO &amp; Founder</span>
                     </div>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
+                      blod-details ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium doloremque laudantium totam
                     </p>
                     <ul className="social-link">

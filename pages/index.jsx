@@ -40,7 +40,7 @@ const Index3 = () => {
                         data-animation="fadeInUp"
                         data-delay=".4s"
                       >
-                        North West
+                        Bedazzled
                       </span>
                       <h1 data-animation="fadeInDown" data-delay=".5s">
                         COMMERCIAL
@@ -53,16 +53,16 @@ const Index3 = () => {
                         data-animation="fadeInDown"
                         data-delay=".7s"
                       >
-                        <Link legacyBehavior href="/about">
+                        {/* <Link legacyBehavior href="/about">
                           <a className="main-btn golden-btn mb-10">
                             Explore More cleaners
                           </a>
-                        </Link>
-                        <Link legacyBehavior href="/index">
+                        </Link> */}
+                        {<Link legacyBehavior href="/contact.html">
                           <a className="main-btn filled-btn filled-white mb-10">
-                            How It Works
+                          Contact Us!
                           </a>
-                        </Link>
+                        </Link> }
                       </div>
                     </div>
                   </div>
@@ -88,27 +88,27 @@ const Index3 = () => {
                         data-animation="fadeInUp"
                         data-delay=".4s"
                       >
-                        Beautiful Gardening
+                        Bedazzled
                       </span>
                       <h1 data-animation="fadeInDown" data-delay=".5s">
-                        Landscape
+                        Window Cleaning
                       </h1>
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        We Provide Beautiful Gardening &amp; Landscaping
+                        Bringing a shine to the NorthWest!
                       </p>
                       <div
                         className="hero-button mb-30"
                         data-animation="fadeInDown"
                         data-delay=".7s"
                       >
-                        <Link legacyBehavior href="/about">
+                        {/* <Link legacyBehavior href="/about">
                           <a className="main-btn golden-btn mb-10">
                             Explore More
                           </a>
-                        </Link>
-                        <Link legacyBehavior href="/index">
+                        </Link> */}
+                        <Link legacyBehavior href="/contact.html">
                           <a className="main-btn filled-btn filled-white mb-10">
-                            How It Work
+                            Contact Us!
                           </a>
                         </Link>
                       </div>
@@ -136,27 +136,27 @@ const Index3 = () => {
                         data-animation="fadeInUp"
                         data-delay=".4s"
                       >
-                        Beautiful Gardening
+                        Bedazzled
                       </span>
                       <h1 data-animation="fadeInDown" data-delay=".5s">
-                        Gardening
+                        Commercial
                       </h1>
                       <p data-animation="fadeInUp" data-delay=".6s">
-                        We Provide Beautiful Gardening &amp; Landscaping
+                        Window Cleaning for the North West
                       </p>
                       <div
                         className="hero-button mb-30"
                         data-animation="fadeInDown"
                         data-delay=".7s"
                       >
-                        <Link legacyBehavior href="/about">
+                        {/* <Link legacyBehavior href="/about">
                           <a className="main-btn golden-btn mb-10">
                             Explore More
                           </a>
-                        </Link>
-                        <Link legacyBehavior href="/index">
+                        </Link> */}
+                        <Link legacyBehavior href="/contact.html">
                           <a className="main-btn filled-btn filled-white mb-10">
-                            How It Work
+                            Contact Us!
                           </a>
                         </Link>
                       </div>

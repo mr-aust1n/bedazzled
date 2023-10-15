@@ -48,7 +48,7 @@ const BlogStandard = () => {
                       </h6>
                     </div>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
+                      blog-standard ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium
                     </p>
                   </div>
@@ -90,7 +90,7 @@ const BlogStandard = () => {
                       </h6>
                     </div>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
+                      blog-standard ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium
                     </p>
                   </div>
@@ -132,7 +132,7 @@ const BlogStandard = () => {
                       </h6>
                     </div>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
+                      blog-standard ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium
                     </p>
                   </div>
@@ -177,7 +177,7 @@ const BlogStandard = () => {
                       </h6>
                     </div>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
+                      blog-standard ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium
                     </p>
                   </div>
@@ -222,7 +222,7 @@ const BlogStandard = () => {
                       </h6>
                     </div>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
+                      blog-standard ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium
                     </p>
                   </div>
@@ -267,7 +267,7 @@ const BlogStandard = () => {
                       </h6>
                     </div>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
+                      blog-standard ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium
                     </p>
                   </div>
@@ -312,7 +312,7 @@ const BlogStandard = () => {
                       </h6>
                     </div>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
+                      blog-standard ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium
                     </p>
                   </div>
@@ -357,7 +357,7 @@ const BlogStandard = () => {
                       </h6>
                     </div>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
+                      blog-standard ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium
                     </p>
                   </div>
@@ -422,7 +422,7 @@ const BlogStandard = () => {
                       <span className="posiiton">CEO &amp; Founder</span>
                     </div>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
+                      blog-standard ut perspiciatis unde omnis iste natus error sit
                       voluptatem accusantium doloremque laudantium totam
                     </p>
                     <ul className="social-link">
