@@ -283,36 +283,7 @@ const Index3 = () => {
       {/*====== End Features Section ======*/}
      
       
-      {/*====== Start CTA Section ======*/}
-      <section className="cta-section">
-        <div className="container">
-          {/*====== CTA Wrapper ======*/}
-          <div className="cta-wrapper pt-60 border-top-1">
-            <div className="row align-items-center">
-              <div className="col-lg-9">
-                {/*====== CTA Content Box ======*/}
-                <div className="cta-content-box d-flex align-items-center mb-40 wow fadeInLeft">
-                  <img
-                    src="assets/images/gallery/circle-logo.png"
-                    className="circle-logo"
-                    alt="Circle Logo"
-                  />
-                  <h2>Looking For a Experience Garden Specialist?</h2>
-                </div>
-              </div>
-              <div className="col-lg-3">
-                {/*====== CTA Button ======*/}
-                <div className="cta-button float-lg-right mb-40 wow fadeInRight">
-                  <Link legacyBehavior href="/team">
-                    <a className="main-btn golden-btn">Find Specialist</a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End CTA Section ======*/}
+    
       {/*====== Start Gallery Section ======*/}
       <section className="gallery-section">
         <div className="container-fluid">
@@ -321,64 +292,7 @@ const Index3 = () => {
             {...sliderProps.projectsSliderTwo}
             className="projects-slider-two wow fadeInDown"
           >
-            {/*====== Project Item ======*/}
-            <div className="single-project-item-two">
-              <div className="project-img">
-                <img src="assets/images/gallery/gl-4.jpg" alt="Gallery Image" />
-                <div className="project-overlay">
-                  <a href="#" className="icon-btn">
-                    <i className="far fa-arrow-right" />
-                  </a>
-                  <div className="hover-content text-white text-center">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/product-details">
-                        <a>Garden Caring</a>
-                      </Link>
-                    </h3>
-                    <p>Water The Plants</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*====== Project Item ======*/}
-            <div className="single-project-item-two">
-              <div className="project-img">
-                <img src="assets/images/gallery/gl-5.jpg" alt="Gallery Image" />
-                <div className="project-overlay">
-                  <a href="#" className="icon-btn">
-                    <i className="far fa-arrow-right" />
-                  </a>
-                  <div className="hover-content text-white text-center">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/product-details">
-                        <a>Garden Caring</a>
-                      </Link>
-                    </h3>
-                    <p>Water The Plants</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*====== Project Item ======*/}
-            <div className="single-project-item-two">
-              <div className="project-img">
-                <img src="assets/images/gallery/gl-6.jpg" alt="Gallery Image" />
-                <div className="project-overlay">
-                  <a href="#" className="icon-btn">
-                    <i className="far fa-arrow-right" />
-                  </a>
-                  <div className="hover-content text-white text-center">
-                    <h3 className="title">
-                      <Link legacyBehavior href="/product-details">
-                        <a>Garden Caring</a>
-                      </Link>
-                    </h3>
-                    <p>Water The Plants</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*====== Project Item ======*/}
+        
             <div className="single-project-item-two">
               <div className="project-img">
                 <img src="assets/images/gallery/gl-7.jpg" alt="Gallery Image" />
