@@ -177,19 +177,17 @@ const Index3 = () => {
               <div className="section-title mb-55 wow fadeInLeft">
                 <span className="sub-title">
                   <i className="flaticon-plant" />
-                  What We Do For Gardening
+                  Bedazzled Commercial Window Cleaning:
                 </span>
-                <h2>We Care Your Garden &amp; Landscaping</h2>
+                <h2> Your Sparkling Solution in the North West of England</h2>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="features-content-box mb-55 wow fadeInRight">
                 <p>
-                  index perspiciatis unde omnis isnatu volunteer accusantium
-                  doloremque laudantium totam rem apeira eaque ipsa quae ab
-                  eillo inventore veritatis et quasi architecto beatae vitae
+                Choose Bedazzled for unparalleled window cleaning services in the North West of England. Specialising in schools, offices, and showrooms. Exceptional quality and professionalism guaranteed. Contact us today for a free, no-obligation quote.
                 </p>
-                <Link legacyBehavior href="/about">
+                <Link legacyBehavior href="/service">
                   <a className="btn-link">
                     Learn More
                     <i className="far fa-angle-double-right" />
@@ -214,8 +212,8 @@ const Index3 = () => {
                   <div className="icon">
                     <i className="flaticon-landscape-1" />
                   </div>
-                  <h5 className="title">Gardens</h5>
-                  <p>index perspiciatis unde omnis volunteer accusantium</p>
+                  <h5 className="title">Managed Properties</h5>
+                  <p>Whether you have a single property or a portfolio of properties, we have it covered.</p>
                 </div>
               </div>
             </div>
@@ -234,8 +232,8 @@ const Index3 = () => {
                   <div className="icon">
                     <i className="flaticon-watering-can" />
                   </div>
-                  <h5 className="title">Urbans</h5>
-                  <p>index perspiciatis unde omnis volunteer accusantium</p>
+                  <h5 className="title">High Level Work </h5>
+                  <p> IPAF trained to use both mobile boom and mobile vertical MEWP (Mobile elevated work platform). We can maintain the appearance of your property. Our services include gutter, roof and fascia cleaning. </p>
                 </div>
               </div>
             </div>
@@ -254,8 +252,8 @@ const Index3 = () => {
                   <div className="icon">
                     <i className="flaticon-lawnmower" />
                   </div>
-                  <h5 className="title">Maintenance</h5>
-                  <p>index perspiciatis unde omnis volunteer accusantium</p>
+                  <h5 className="title">Fascia and Gutter Cleaning</h5>
+                  <p>Maintaining the appearance of your property is important and is one of the first things your customer sees. First impressions last. Make sure its a good one.</p>
                 </div>
               </div>
             </div>
@@ -274,8 +272,8 @@ const Index3 = () => {
                   <div className="icon">
                     <i className="flaticon-spider-plant" />
                   </div>
-                  <h5 className="title">Event &amp; Programs</h5>
-                  <p>index perspiciatis unde omnis volunteer accusantium</p>
+                  <h5 className="title">Schools, Offices &amp; Hotels</h5>
+                  <p>Using only the very best Reach and Wash pole systems we offer window cleaning to a height of 70ft (21m). We only use purified water, so we ensure your premises are left gleaming" All our staff are DBS checked</p>
                 </div>
               </div>
             </div>

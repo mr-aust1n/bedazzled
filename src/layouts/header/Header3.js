@@ -46,9 +46,9 @@ const Header3 = () => {
                     <li>
                       <a href="https://www.facebook.com/bedazzledwcs/?locale=en_GB" target="_blank">Facebook</a>
                     </li>
-                    {/* <li>
-                      <a href="#">Twitter</a>
-                    </li> */}
+                    {<li>
+                      <a href="https://www.tiktok.com/@bedazzledwcs" target="_blank">TikTok</a>
+                    </li> }
                     <li>
                       <a href="https://www.instagram.com/bedazzledwcs/" target="_blank">Instagram</a>
                     </li>

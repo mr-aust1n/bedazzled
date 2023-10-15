@@ -26,11 +26,9 @@ const Sidebar = ({ show, handleClose }) => {
                     </a>
                   </Link>
                   <p>
-                    side bar js ed ut perspiciatis unde omni natus voluptatem accusantium
-                    doloremque laudantium aperia maquep quae abillo inventore
-                    veritatis architecto
+                  For impeccable window cleaning in the North West, trust Bedazzled. Professional, reliable service for schools, offices, and showrooms. Contact us for a free quote today.
                   </p>
-                  <div className="social-item">
+                  {/* <div className="social-item">
                     <h6>Follow Us</h6>
                     <ul className="social-link">
                       <li>
@@ -54,7 +52,7 @@ const Sidebar = ({ show, handleClose }) => {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-4 sidebar-widget">
@@ -103,14 +101,14 @@ const Sidebar = ({ show, handleClose }) => {
                           <i className="fab fa-twitter" />
                         </a>
                       </li> */}
-                      {/* <li>
-                        <a href="#">
-                          <i className="fab fa-youtube" />
+                      {<li>
+                        <a href="https://www.tiktok.com/@bedazzledwcs"target="_blank">
+                          <i className="fab fa-tiktok" />
                         </a>
-                      </li> */}
+                      </li>}
                       <li>
                         <a href="https://www.instagram.com/bedazzledwcs/" target="_blank">
-                          <i className="fab fa-instagram-i" />
+                          <i className="fab fa-instagram" />
                         </a>
                       </li>
                     </ul>
