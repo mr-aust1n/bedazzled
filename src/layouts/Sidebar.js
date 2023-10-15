@@ -82,7 +82,7 @@ const Sidebar = ({ show, handleClose }) => {
                       Hotline
                     </h6>
                     <p>
-                      <a href="tel:07773 780671">+07773 780671</a>
+                      <a href="tel:07773 780671">07773 780671</a>
                     </p>
                   </div>
                 </div>
