@@ -82,15 +82,15 @@ const Sidebar = ({ show, handleClose }) => {
                       Hotline
                     </h6>
                     <p>
-                      <a href="tel:07773 780671">07773 780671</a>
+                      <a href="tel:07773 780671">+07773 780671</a>
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 sidebar-widget">
-                {/* <div className="sidebar-info-widget">
+                <div className="sidebar-info-widget">
                   <h4 className="title">Newsletter</h4>
-                  <form onSubmit={(e) => e.preventDefault()}>
+                  {/* <form onSubmit={(e) => e.preventDefault()}>
                     <div className="form_group">
                       <input
                         type="email"
