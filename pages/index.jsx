@@ -281,7 +281,64 @@ const Index3 = () => {
         </div>
       </section>
       {/*====== End Features Section ======*/}
-     
+      {/*====== Start About Section ======*/}
+      <section className="about-bg-section">
+        {/*====== About BG ======*/}
+        <div
+          className="about-bg bg_cover wow fadeInLeft"
+          style={{ backgroundImage: "url(assets/images/bg/about-bg-1.jpg)" }}
+        />
+        <div className="container">
+          <div className="row align-items-center justify-content-end">
+            <div className="col-lg-6">
+              {/*====== About Content Box ======*/}
+              <div className="about-two_content-box pb-80 wow fadeInRight">
+                <div className="section-title">
+                  <div className="section-title mb-50">
+                    <span className="sub-title">
+                      <i className="flaticon-plant" />
+                      About Bedazzled
+                    </span>
+                    <h2>Why Choose Bedazzled</h2>
+                  </div>
+                  <p className="mb-45">
+                    With over 6 years in business, our team of 4 offers specialised cleaning solutions. We're one of the few companies IPAF-certified and DBS-checked, trusted by a multitude of schools, offices, and showrooms across the North West. Get your free quote today.
+                  </p>
+                  <div className="about-inner-content d-flex justify-content-between">
+                    <div className="inner-content">
+                      <ul className="check-style-one mb-45">
+                        <li>
+                          <i className="far fa-check" />
+                          IPAF Trained
+                        </li>
+                        <li>
+                          <i className="far fa-check" />
+                          DBS Checked
+                        </li>
+                      </ul>
+                      <Link legacyBehavior href="/about">
+                        <a className="main-btn primary-btn">Learn More!</a>
+                      </Link>
+                    </div>
+                    <div className="experience-box-two">
+                      <h2 className="number">
+                        <Counter end={6} />+
+                      </h2>
+                      <h6>Years Of Experience</h6>
+                      <Link legacyBehavior href="/about">
+                        <a className="icon-btn">
+                          <i className="far fa-arrow-right" />
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== End About Section ======*/}
       {/*====== Start Service Section ======*/}
       <section className="service-bgc-section p-r z-1 main-bg pt-150 pb-70">
         <div className="shape shape-one">
