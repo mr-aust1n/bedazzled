@@ -422,14 +422,14 @@ const Index3 = () => {
                       <div className="author-thumb-title">
                         <div className="author-thumb">
                           <img
-                            src="assets/images/testimonial/thumb-1.jpg"
-                            alt="Author Image"
+                            // src="assets/images/testimonial/thumb-1.jpg"
+                            // alt="Author Image"
                           />
                         </div>
-                        {/* <div className="author-title">
-                          <h6 className="title">Douglas D. Hall</h6>
-                          <p className="position">CEO &amp; Founder</p>
-                        </div> */}
+                        {<div className="author-title">
+                          <h6 className="title">Craig A</h6>
+                          {/* <p className="position">CEO &amp; Founder</p> */}
+                        </div> }
                       </div>
                     </div>
                     {/*====== Single Testimonial Item  ======*/}
@@ -467,10 +467,10 @@ const Index3 = () => {
                       </p>
                       <div className="author-thumb-title">
                         <div className="author-thumb">
-                          <img
+                          {/* <img
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
-                          />
+                          /> */}
                         </div>
                         <div className="author-title">
                           <h6 className="title">Yvonne-Charley Walsh</h6>
@@ -513,10 +513,10 @@ const Index3 = () => {
                       </p>
                       <div className="author-thumb-title">
                         <div className="author-thumb">
-                          <img
+                          {/* <img
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Author Image"
-                          />
+                          /> */}
                         </div>
                         <div className="author-title">
                           <h6 className="title">Sarah Yates</h6>
