@@ -63,14 +63,14 @@ const Sidebar = ({ show, handleClose }) => {
                   <div className="contact-info-item-two">
                     <h6 className="title">
                       <i className="far fa-map-marker-alt" />
-                      Location
+                      Location:
                     </h6>
                     <p>168 Penrose Avenue, Blackpool, FY4 4JX</p>
                   </div>
                   <div className="contact-info-item-two">
                     <h6 className="title">
                       <i className="far fa-envelope-open" />
-                      Email Us
+                      Email Us:
                     </h6>
                     <p>
                       <a href="mailto:sbedazzledwcs@gmail.com">bedazzledwcs@gmail.com</a>
@@ -79,16 +79,42 @@ const Sidebar = ({ show, handleClose }) => {
                   <div className="contact-info-item-two">
                     <h6 className="title">
                       <i className="far fa-phone-plus" />
-                      Hotline
+                      Phone:
                     </h6>
                     <p>
-                      <a href="tel:07773 780671">+07773 780671</a>
+                      <a href="tel:07773 780671">07773 780671</a>
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 sidebar-widget">
                 <div className="sidebar-info-widget">
+
+                <div className="social-item">
+                    <h6>Follow Us</h6>
+                    <ul className="social-link">
+                      <li>
+                        <a href="https://www.facebook.com/bedazzledwcs/?locale=en_GB" target="_blank">
+                          <i className="fab fa-facebook-f" />
+                        </a>
+                      </li>
+                      {/* <li>
+                        <a href="#">
+                          <i className="fab fa-twitter" />
+                        </a>
+                      </li> */}
+                      {/* <li>
+                        <a href="#">
+                          <i className="fab fa-youtube" />
+                        </a>
+                      </li> */}
+                      <li>
+                        <a href="https://www.instagram.com/bedazzledwcs/" target="_blank">
+                          <i className="fab fa-instagram-i" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                   {/* <h4 className="title">Newsletter</h4> */}
                   {/* <form onSubmit={(e) => e.preventDefault()}>
                     <div className="form_group">
