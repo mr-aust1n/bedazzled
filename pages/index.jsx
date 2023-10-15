@@ -698,7 +698,7 @@ const Index3 = () => {
 
 
       {<section className="blog-section pt-100 pb-60">
-        <div className="container">
+       
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-12">
               <div className="section-title text-center mb-50 wow fadeInDown">
@@ -707,10 +707,8 @@ const Index3 = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
-        
-          </div>
-        </div>
+       
+       
       </section> }
 
       {/*====== Start Partners Section ======*/}
