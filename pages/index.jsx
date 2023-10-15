@@ -347,9 +347,9 @@ const Index3 = () => {
           {/*====== Testimonial Wrapper ======*/}
           <div className="testimonial-wrapper main-bg wow fadeInDown">
             <div className="shape shape-one">
-              <span>
+              {/* <span>
                 <img src="assets/images/testimonial/img-1.jpg" alt="image" />
-              </span>
+              </span> */}
             </div>
             <div className="shape shape-two">
               <span>
