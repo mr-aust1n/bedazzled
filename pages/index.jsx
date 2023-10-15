@@ -282,8 +282,350 @@ const Index3 = () => {
       </section>
       {/*====== End Features Section ======*/}
      
-      
-    
+      {/*====== Start Service Section ======*/}
+      <section className="service-bgc-section p-r z-1 main-bg pt-150 pb-70">
+        <div className="shape shape-one">
+          <span>
+            <img src="assets/images/shape/leaf-1.png" alt="Leaf Png" />
+          </span>
+        </div>
+        <div className="shape shape-two">
+          <span>
+            <img src="assets/images/shape/leaf-2.png" alt="Leaf Png" />
+          </span>
+        </div>
+        <div className="shape shape-three">
+          <span>
+            <img src="assets/images/shape/leaf-3.png" alt="Leaf Png" />
+          </span>
+        </div>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-9 col-lg-12">
+              {/*====== Section Title ======*/}
+              <div className="section-title text-white text-center mb-50 wow fadeInDown">
+                <span className="sub-title">
+                  <i className="flaticon-plant" />
+                  Popular Services
+                </span>
+                <h2>We Care Your Garden &amp; Landscape</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xl-4 col-lg-6 col-sm-12">
+              {/*====== Service Item ======*/}
+              <div
+                className="single-service-item mb-30 wow fadeInUp"
+                data-wow-delay=".2s"
+              >
+                <div className="service-info">
+                  <div className="shape icon-shape">
+                    <i className="flaticon-agriculture" />
+                  </div>
+                  <div className="icon">
+                    <i className="flaticon-agriculture" />
+                  </div>
+                  <h4 className="title">
+                    <Link legacyBehavior href="/service-details">
+                      <a>Yard Cleaning</a>
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-img">
+                  <Link legacyBehavior href="/service-details">
+                    <a className="icon-btn">
+                      <i className="far fa-plus" />
+                    </a>
+                  </Link>
+                  <img
+                    src="assets/images/service/sv-1.jpg"
+                    alt="Service Image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-sm-12">
+              {/*====== Service Item ======*/}
+              <div
+                className="single-service-item mb-30 wow fadeInDown"
+                data-wow-delay=".25s"
+              >
+                <div className="service-info">
+                  <div className="shape icon-shape">
+                    <i className="flaticon-field-1" />
+                  </div>
+                  <div className="icon">
+                    <i className="flaticon-field-1" />
+                  </div>
+                  <h4 className="title">
+                    <Link legacyBehavior href="/service-details">
+                      <a>Garden Makeup</a>
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-img">
+                  <Link legacyBehavior href="/service-details">
+                    <a className="icon-btn">
+                      <i className="far fa-plus" />
+                    </a>
+                  </Link>
+                  <img
+                    src="assets/images/service/sv-2.jpg"
+                    alt="Service Image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-sm-12">
+              {/*====== Service Item ======*/}
+              <div
+                className="single-service-item mb-30 wow fadeInUp"
+                data-wow-delay=".3s"
+              >
+                <div className="service-info">
+                  <div className="shape icon-shape">
+                    <i className="flaticon-farming" />
+                  </div>
+                  <div className="icon">
+                    <i className="flaticon-farming" />
+                  </div>
+                  <h4 className="title">
+                    <Link legacyBehavior href="/service-details">
+                      <a>Landscaping</a>
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-img">
+                  <Link legacyBehavior href="/service-details">
+                    <a className="icon-btn">
+                      <i className="far fa-plus" />
+                    </a>
+                  </Link>
+                  <img
+                    src="assets/images/service/sv-3.jpg"
+                    alt="Service Image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-sm-12">
+              {/*====== Service Item ======*/}
+              <div
+                className="single-service-item mb-30 wow fadeInDown"
+                data-wow-delay=".35s"
+              >
+                <div className="service-info">
+                  <div className="shape icon-shape">
+                    <i className="flaticon-park" />
+                  </div>
+                  <div className="icon">
+                    <i className="flaticon-park" />
+                  </div>
+                  <h4 className="title">
+                    <Link legacyBehavior href="/service-details">
+                      <a>Lawn Mowing</a>
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-img">
+                  <Link legacyBehavior href="/service-details">
+                    <a className="icon-btn">
+                      <i className="far fa-plus" />
+                    </a>
+                  </Link>
+                  <img
+                    src="assets/images/service/sv-4.jpg"
+                    alt="Service Image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-sm-12">
+              {/*====== Service Item ======*/}
+              <div
+                className="single-service-item mb-30 wow fadeInUp"
+                data-wow-delay=".4s"
+              >
+                <div className="service-info">
+                  <div className="shape icon-shape">
+                    <i className="flaticon-rake" />
+                  </div>
+                  <div className="icon">
+                    <i className="flaticon-rake" />
+                  </div>
+                  <h4 className="title">
+                    <Link legacyBehavior href="/service-details">
+                      <a>Decorative Plants</a>
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-img">
+                  <Link legacyBehavior href="/service-details">
+                    <a className="icon-btn">
+                      <i className="far fa-plus" />
+                    </a>
+                  </Link>
+                  <img
+                    src="assets/images/service/sv-5.jpg"
+                    alt="Service Image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-sm-12">
+              {/*====== Service Item ======*/}
+              <div
+                className="single-service-item mb-30 wow fadeInDown"
+                data-wow-delay=".45s"
+              >
+                <div className="service-info">
+                  <div className="shape icon-shape">
+                    <i className="flaticon-growth-1" />
+                  </div>
+                  <div className="icon">
+                    <i className="flaticon-growth-1" />
+                  </div>
+                  <h4 className="title">
+                    <Link legacyBehavior href="/service-details">
+                      <a>Yard Maintaince</a>
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-img">
+                  <Link legacyBehavior href="/service-details">
+                    <a className="icon-btn">
+                      <i className="far fa-plus" />
+                    </a>
+                  </Link>
+                  <img
+                    src="assets/images/service/sv-6.jpg"
+                    alt="Service Image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== End Service Section ======*/}
+      {/*====== Start Skills Section  ======*/}
+      <section className="skills-section pt-100 pb-50">
+        <div className="container">
+          <div className="row align-items-lg-center">
+            <div className="col-xl-6 col-lg-12">
+              {/*====== Skill Content Box ======*/}
+              <div className="skill-content-box mb-35 mr-lg-50 wow fadeInLeft">
+                {/*====== Section-title ======*/}
+                <div className="section-title mb-25">
+                  <span className="sub-title">
+                    <i className="flaticon-plant" />
+                    We’re Skilled Full
+                  </span>
+                  <h2>Experience Gardening &amp; Landscape Center</h2>
+                </div>
+                <p className="mb-30">
+                  index ut perspiciatis unde omnis iste natus voluptatem
+                  accusantiue doloremque laudantium totam rem aperiam, eaque
+                  ipsa quae abilloy inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt
+                </p>
+                {/*====== Skills List ======*/}
+                <ul className="skills-list">
+                  <li>
+                    <div className="single-skill-bar mb-15">
+                      <h5 className="title">Gardening</h5>
+                      <div className="progress-bar">
+                        <div
+                          className="progress wow slideInLeft"
+                          style={{ width: "89%" }}
+                        />
+                      </div>
+                      <span className="number">89%</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="single-skill-bar mb-15">
+                      <h5 className="title">Landscape</h5>
+                      <div className="progress-bar">
+                        <div
+                          className="progress wow slideInLeft"
+                          style={{ width: "83%" }}
+                        />
+                      </div>
+                      <span className="number">83%</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="single-skill-bar mb-15">
+                      <h5 className="title">Maintenance</h5>
+                      <div className="progress-bar">
+                        <div
+                          className="progress wow slideInLeft"
+                          style={{ width: "93%" }}
+                        />
+                      </div>
+                      <span className="number">93%</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-12">
+              {/*====== Skills Image Box ======*/}
+              <div className="skill-two_image-box mb-20 p-r z-1 wow fadeInRight">
+                <img
+                  src="assets/images/skill/skill-4.jpg"
+                  className="skill-img-one"
+                  alt="Skill Image"
+                />
+                <img
+                  src="assets/images/skill/skill-5.jpg"
+                  className="skill-img-two"
+                  alt="Skill Image"
+                />
+                <div className="circle-logo">
+                  <div className="inner-circle">
+                    <i className="flaticon-carnivorous-plant" />
+                    <h5>Gadden</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== End Skills Section  ======*/}
+      {/*====== Start CTA Section ======*/}
+      <section className="cta-section">
+        <div className="container">
+          {/*====== CTA Wrapper ======*/}
+          <div className="cta-wrapper pt-60 border-top-1">
+            <div className="row align-items-center">
+              <div className="col-lg-9">
+                {/*====== CTA Content Box ======*/}
+                <div className="cta-content-box d-flex align-items-center mb-40 wow fadeInLeft">
+                  <img
+                    src="assets/images/gallery/circle-logo.png"
+                    className="circle-logo"
+                    alt="Circle Logo"
+                  />
+                  <h2>Looking For a Experience Garden Specialist?</h2>
+                </div>
+              </div>
+              <div className="col-lg-3">
+                {/*====== CTA Button ======*/}
+                <div className="cta-button float-lg-right mb-40 wow fadeInRight">
+                  <Link legacyBehavior href="/team">
+                    <a className="main-btn golden-btn">Find Specialist</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*====== End CTA Section ======*/}
       {/*====== Start Gallery Section ======*/}
       <section className="gallery-section">
         <div className="container-fluid">
