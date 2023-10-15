@@ -135,7 +135,7 @@ const Header3 = () => {
                 </div> */}
                 <div className="menu-button d-xl-block d-none">
                   <Link legacyBehavior href="/contact">
-                    <a className="main-btn secondary-btn">Book now</a>
+                    <a className="main-btn secondary-btn">Get a Quote</a>
                   </Link>
                 </div>
                 <div

@@ -65,7 +65,7 @@ const Sidebar = ({ show, handleClose }) => {
                       <i className="far fa-map-marker-alt" />
                       Location
                     </h6>
-                    <p>558 Main Street, 2nd Block Melbourne, Australia</p>
+                    <p>168 Penrose Avenue, Blackpool, FY4 4JX</p>
                   </div>
                   <div className="contact-info-item-two">
                     <h6 className="title">
@@ -73,7 +73,7 @@ const Sidebar = ({ show, handleClose }) => {
                       Email Us
                     </h6>
                     <p>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:sbedazzledwcs@gmail.com">bedazzledwcs@gmail.com</a>
                     </p>
                   </div>
                   <div className="contact-info-item-two">
@@ -82,13 +82,13 @@ const Sidebar = ({ show, handleClose }) => {
                       Hotline
                     </h6>
                     <p>
-                      <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="tel:07773 780671">+07773 780671</a>
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 sidebar-widget">
-                <div className="sidebar-info-widget">
+                {/* <div className="sidebar-info-widget">
                   <h4 className="title">Newsletter</h4>
                   <form onSubmit={(e) => e.preventDefault()}>
                     <div className="form_group">
@@ -102,7 +102,7 @@ const Sidebar = ({ show, handleClose }) => {
                         Subscribe Now
                       </button>
                     </div>
-                  </form>
+                  </form> */}
                 </div>
               </div>
             </div>
