@@ -68,7 +68,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     <a href="#">
                       Home
                       <span
-                        className="dd-trigger"
+                        
                         onClick={() => active("home")}
                       >                        
                       </span>
@@ -92,7 +92,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </ul> */}
                   </li>
                   <li className="menu-item">
-                    <Link legacyBehavior href="about">
+                    <Link legacyBehavior href="#">
                       About
                     </Link>
                   </li>
@@ -108,12 +108,12 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </a>
                     <ul className="sub-menu" style={activeSubMenu("Service")}>
                       <li>
-                        <Link legacyBehavior href="service">
+                        <Link legacyBehavior href="#">
                           Our Service
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="service-details">
+                        <Link legacyBehavior href="#">
                           Service Details
                         </Link>
                       </li>
@@ -131,22 +131,22 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </a>
                     <ul className="sub-menu" style={activeSubMenu("Portfolio")}>
                       <li>
-                        <Link legacyBehavior href="project-grid">
+                        <Link legacyBehavior href="#">
                           Project Grid
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="project-grid-2-column">
+                        <Link legacyBehavior href="#">
                           Project Grid Two
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="project-masonry">
+                        <Link legacyBehavior href="#">
                           Project Masonry
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="project-details">
+                        <Link legacyBehavior href="#">
                           Project Details
                         </Link>
                       </li>
@@ -164,12 +164,12 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </a>
                     <ul className="sub-menu" style={activeSubMenu("Blog")}>
                       <li>
-                        <Link legacyBehavior href="blog-standard">
+                        <Link legacyBehavior href="#">
                           Blog Standard
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="blog-details">
+                        <Link legacyBehavior href="#">
                           Blog Details
                         </Link>
                       </li>
@@ -187,37 +187,37 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </a>
                     <ul className="sub-menu" style={activeSubMenu("Pages")}>
                       <li>
-                        <Link legacyBehavior href="team">
+                        <Link legacyBehavior href="#">
                           Our Team
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="shop">
+                        <Link legacyBehavior href="#">
                           Our Shop
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="product-details">
+                        <Link legacyBehavior href="#">
                           Product Details
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="testimonials">
+                        <Link legacyBehavior href="#">
                           Testimonial
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="pricing">
+                        <Link legacyBehavior href="#">
                           Pricing
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="faqs">
+                        <Link legacyBehavior href="#">
                           Faq
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="contact">
+                        <Link legacyBehavior href="#">
                           Contact
                         </Link>
                       </li>
@@ -227,7 +227,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
               </nav>
               {/*====== Menu Button ======*/}
               <div className="menu-button mt-40 d-xl-none">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="/#">
                   <a className="main-btn secondary-btn">Get a Quote</a>
                 </Link>
               </div>
@@ -235,7 +235,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
             {/*====== Nav Right Item ======*/}
             <div className="nav-right-item d-flex align-items-center">
               <div className="menu-button d-xl-block d-none">
-                <Link legacyBehavior href="/contact">
+                <Link legacyBehavior href="/#">
                   <a className="main-btn primary-btn">Get a Quote</a>
                 </Link>
               </div>

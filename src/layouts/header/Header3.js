@@ -92,7 +92,7 @@ const Header3 = () => {
                   </Link>
                 </div>
                 {/*=== Nav Search ===*/}
-                <div className="nav-search mb-30 d-block d-xl-none ">
+                {/* <div className="nav-search mb-30 d-block d-xl-none ">
                   <form onSubmit={(e) => e.preventDefault()}>
                     <div className="form_group">
                       <input
@@ -107,12 +107,12 @@ const Header3 = () => {
                       </button>
                     </div>
                   </form>
-                </div>
+                </div> */}
                 {/*=== Main menu ===*/}
                 <Menu />
                 {/*====== Menu Button ======*/}
                 <div className="menu-button mt-40 d-xl-none">
-                  <Link legacyBehavior href="/contact">
+                  <Link legacyBehavior href="/#">
                     <a className="main-btn secondary-btn">Get a Quote</a>
                   </Link>
                 </div>
@@ -134,7 +134,7 @@ const Header3 = () => {
                   <i className="far fa-search" />
                 </div> */}
                 <div className="menu-button d-xl-block d-none">
-                  <Link legacyBehavior href="/contact">
+                  <Link legacyBehavior href="/#">
                     <a className="main-btn secondary-btn">Get a Quote</a>
                   </Link>
                 </div>
