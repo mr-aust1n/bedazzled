@@ -58,7 +58,7 @@ const Index3 = () => {
                             Explore More cleaners
                           </a>
                         </Link> */}
-                        {<Link legacyBehavior href="/contact">
+                        {<Link legacyBehavior href="#">
                           <a className="main-btn filled-btn filled-white mb-10">
                           Contact Us!
                           </a>
@@ -106,7 +106,7 @@ const Index3 = () => {
                             Explore More
                           </a>
                         </Link> */}
-                        <Link legacyBehavior href="/contact">
+                        <Link legacyBehavior href="#">
                           <a className="main-btn filled-btn filled-white mb-10">
                             Contact Us!
                           </a>
@@ -154,7 +154,7 @@ const Index3 = () => {
                             Explore More
                           </a>
                         </Link> */}
-                        <Link legacyBehavior href="/contact">
+                        <Link legacyBehavior href="#">
                           <a className="main-btn filled-btn filled-white mb-10">
                             Contact Us!
                           </a>
@@ -187,7 +187,7 @@ const Index3 = () => {
                 <p>
                 Choose Bedazzled for unparalleled window cleaning services in the North West of England. Specialising in schools, offices, and showrooms. Exceptional quality and professionalism guaranteed. Contact us today for a free, no-obligation quote.
                 </p>
-                <Link legacyBehavior href="/service">
+                <Link legacyBehavior href="#">
                   <a className="btn-link">
                     Learn More
                     <i className="far fa-angle-double-right" />
@@ -316,7 +316,7 @@ const Index3 = () => {
                           DBS Checked
                         </li>
                       </ul>
-                      <Link legacyBehavior href="/about">
+                      <Link legacyBehavior href="#">
                         <a className="main-btn primary-btn">Learn More!</a>
                       </Link>
                     </div>
@@ -325,7 +325,7 @@ const Index3 = () => {
                         <Counter end={6} />+
                       </h2>
                       <h6>Years Of Experience</h6>
-                      <Link legacyBehavior href="/about">
+                      <Link legacyBehavior href="#">
                         <a className="icon-btn">
                           <i className="far fa-arrow-right" />
                         </a>
