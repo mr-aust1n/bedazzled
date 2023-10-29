@@ -114,16 +114,15 @@ const Team = () => {
                 <div className="section-title mb-20">
                   <span className="sub-title">
                     <i className="flaticon-plant" />
-                    Need a Expert
+                    Need a Expert - Look no Further!
                   </span>
-                  <h2>Looking For a Garden Specialist</h2>
+                  {/* <h2>Looking For a Garden Specialist</h2> */}
                 </div>
                 <p className="mb-30">
-                  Sed ut perspiciatis unde omnis isnatu volunteer accusantium
-                  doloremque laudantium
+                Bedazzled is a top-tier commercial window cleaning enterprise with over 40 years' experience. Specialising in servicing showrooms, schools, and hotels across the Fylde Coast and beyond, we utilise the latest window cleaning technology and advanced filtered water systems. Our expert team meets diverse property needs with competitive pricing, comprehensive public liability insurance, and free quotes available.
                 </p>
-                <Link legacyBehavior href="/team">
-                  <a className="main-btn golden-btn">Find Specialist</a>
+                <Link legacyBehavior href="/contact">
+                  <a className="main-btn golden-btn">Get a Quote</a>
                 </Link>
               </div>
             </div>
