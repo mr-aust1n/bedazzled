@@ -16,7 +16,7 @@ const Contact = () => {
                 {/*====== Contact Info Item ======*/}
                 <div className="contact-info-item text-center">
                   <div className="icon">
-                    <img src="assets/images/icon/icon-1.png" alt="icon" />
+                    <img src="assets/images/icon/icons8-map-pin.gif" alt="icon" />
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
@@ -33,7 +33,7 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Email Address</span>
                     <h6>
-                      <a href="mailto:Cleaning@bedazzled.co.uk">Cleaning@bedazzled.co.uk</a>
+                      <a href="mailto::bedazzledwcs@gmail.com">bedazzledwcs@gmail.com</a>
                     </h6>
                     <h6>
                       <a href="mailto:infogarden.net">infogarden.net</a>
@@ -50,7 +50,7 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Phone No</span>
                     <h6>
-                      <a href="tel:+000(123)45688">+44 (123) 456 88</a>
+                      <a href="tel:07773780671">07773 780671</a>
                     </h6>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ const Contact = () => {
                   <i className="flaticon-plant" />
                   Contact Us
                 </span>
-                <h2>Ready to Work With Us</h2>
+                <h2>Ready to Work With Us?</h2>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@ const Contact = () => {
               <div className="col-lg-6">
                 {/*=== Map Box ===*/}
                 <div className="map-box wow fadeInLeft mb-50">
-                  <iframe src="https://maps.app.goo.gl/HZFrJGF4B6QrW99p7" />
+                  <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
                 </div>
               </div>
               <div className="col-lg-6">

@@ -24,8 +24,7 @@ const Default = () => {
                 {/*====== Top Left ======*/}
                 <div className="top-left">
                   <span>
-                    Welcome to GBedazzled Window Cleaning: Contact
-                    Us
+                    Welcome to Bedazzled Comerical Window Cleaning
                   </span>
                 </div>
               </div>
@@ -34,25 +33,25 @@ const Default = () => {
                 <div className="top-right float-lg-right">
                   <ul className="social-link">
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/bedazzledwcs/?locale=en_GB" target="_blank" >
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
+                    <a href="https://www.tiktok.com/@bedazzledwcs" target="_blank" >
+                        <i className="fab fa-tiktok" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fab fa-youtube" />
+                    <a href="https://www.instagram.com/bedazzledwcs/" target="_blank" >
+                        <i className="fab fa-instagram" />
                       </a>
                     </li>
-                    <li>
-                      <a href="#">
+                    {/* <li>
+                    <a href="https://www.facebook.com/bedazzledwcs/?locale=en_GB" target="_blank" >
                         <i className="fab fa-pinterest-p" />
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -73,7 +72,7 @@ const Default = () => {
                         </div>
                         <div className="info">
                           <span>Locations</span>
-                          <h5>55 Main Street, USA</h5>
+                          <h5>168 Pentrose Street, Blackpool</h5>
                         </div>
                       </div>
                     </div>
@@ -100,9 +99,9 @@ const Default = () => {
                           <i className="far fa-phone-plus" />
                         </div>
                         <div className="info">
-                          <span>Hotline</span>
+                          <span>Telephone</span>
                           <h5>
-                            <a href="tel:+000(123)45699">+000 (123) 456 99</a>
+                            <a href="tel:07773780671">07773 780671</a>
                           </h5>
                         </div>
                       </div>
@@ -169,23 +168,7 @@ const Default = () => {
                     </a>
                   </Link>
                 </div>
-                {/*=== Nav Search ===*/}
-                <div className="nav-search mb-30 d-block d-xl-none ">
-                  <form onSubmit={(e) => e.preventDefault()}>
-                    <div className="form_group">
-                      <input
-                        type="email"
-                        className="form_control"
-                        placeholder="Search Here"
-                        name="email"
-                        required
-                      />
-                      <button className="search-btn">
-                        <i className="fas fa-search" />
-                      </button>
-                    </div>
-                  </form>
-                </div>
+               
                 {/*====== main Menu ======*/}
                 <Menu />
                 {/*====== Menu Button ======*/}
@@ -196,13 +179,7 @@ const Default = () => {
                 </div>
               </div>
               {/*====== Nav Right Item ======*/}
-              <div className="nav-right-item">
-                <div className="lang-dropdown">
-                  <select className="wide" style={{ display: "none" }}>
-                    <option value="English">English</option>
-                    <option value="French">French</option>
-                  </select>
-                </div>
+              <div className="nav-right-item">              
                 <div className="menu-button d-xl-block d-none">
                   <Link legacyBehavior href="/contact">
                     <a className="main-btn primary-btn">Get a Quote</a>
