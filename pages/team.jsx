@@ -43,7 +43,34 @@ const Team = () => {
         </div>
       </section>
       {/*====== End CTA Section  ======*/}
-    
+      {/*====== Start Team Section  ======*/}
+      <section className="team-section pt-125 pb-100">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-8 col-lg-12">
+              {/*====== Section-title ======*/}
+              <div className="section-title text-center mb-50 wow fadeInDown">
+                <span className="sub-title">
+                  <i className="flaticon-plant" />
+                  Team Member
+                </span>
+                <h2>Meet Our Expert Gardener</h2>
+              </div>
+            </div>
+          </div>
+        
+          <div className="row">
+            <div className="col-lg-12">
+              {/*====== Single Team Item ======*/}
+              <div className="team-button text-center wow fadeInDown">
+                <Link legacyBehavior href="/team">
+                  <a className="main-btn secondary-btn">Our Customers</a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <Partners />
     </Layout>
   );
