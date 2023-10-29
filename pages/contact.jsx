@@ -16,7 +16,7 @@ const Contact = () => {
                 {/*====== Contact Info Item ======*/}
                 <div className="contact-info-item text-center">
                   <div className="icon">
-                    <img src="assets/images/icon/icon-1.png" alt="icon" />
+                    <img src="assets/images/icon/icons8-map-pin.gif" alt="icon" />
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
@@ -28,7 +28,7 @@ const Contact = () => {
                 {/*====== Contact Info Item ======*/}
                 <div className="contact-info-item text-center">
                   <div className="icon">
-                    <img src="assets/images/icon/icons8-map-pin.gif" alt="icon" />
+                    <img src="assets/images/icon/icons8-email.gif" alt="icon" />
                   </div>
                   <div className="info">
                     <span className="title">Email Address</span>

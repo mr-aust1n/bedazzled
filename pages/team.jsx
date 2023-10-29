@@ -10,7 +10,7 @@ const Team = () => {
       {/*====== Start CTA Section  ======*/}
       <section
         className="cta-bg-section bg_cover pt-100 p-r z-1"
-        style={{ backgroundImage: "url(assets/images/bg/cta-bg-1.jpg)" }}
+        style={{ backgroundImage: "url(assets/images/bg/page-bg-1.jpg)" }}
       >
         <div className="container">
           <div className="row align-items-center">
