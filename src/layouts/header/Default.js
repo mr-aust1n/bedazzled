@@ -111,7 +111,7 @@ const Default = () => {
               </div>
               <div className="col-lg-3">
                 {/*====== menu Right Item ======*/}
-                {/* <div className="menu-right-item">
+                <div className="menu-right-item">
                   <span
                     className="search-btn"
                     data-toggle="modal"
@@ -128,7 +128,7 @@ const Default = () => {
                   >
                     <img src="assets/images/bar.png" alt="Image" />
                   </span>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
