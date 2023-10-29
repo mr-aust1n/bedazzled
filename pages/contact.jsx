@@ -80,7 +80,7 @@ const Contact = () => {
               <div className="col-lg-6">
                 {/*=== Map Box ===*/}
                 <div className="map-box wow fadeInLeft mb-50">
-                  <iframe src="https://www.google.com/maps/place/Lancashire/@53.8459353,-2.9437855,11.42z/data=!4m6!3m5!1s0x487a4d4c5226f5db:0xb5497dd10c461b65!8m2!3d53.7632254!4d-2.7044052!16zL20vMGRiZHk?entry=ttu" />
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d125417.57720389789!2d-2.990931995236153!3d53.82888847212931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x487b69fea1dbce67%3A0x40cf99eed6d34e0!2sBorough%20of%20Fylde!3m2!1d53.7669515!2d-2.9030321999999997!4m0!5e0!3m2!1sen!2suk!4v1698608417587!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
                 </div>
               </div>
               <div className="col-lg-6">
