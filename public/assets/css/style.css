@@ -57,7 +57,7 @@ h3, h4, h5, h6, .comments-area .comment .comment-wrap .comment-author-content sp
 }
 
 .sidebar-panel-wrapper .close:hover, .single-info-item.style-two .info span, .single-testimonial-item-three .testimonial-inner-content .quote-title .title p.position, .single-testimonial-item-three .testimonial-inner-content ul.ratings li i, .social-box ul.social-link li a:hover, .text-white .sub-title {
-  color: #F1D2A9;
+  color: #0048a7;
 }
 
 .sidebar-panel-wrapper .sidebar-wrapper .sidebar-information-area .sidebar-info-widget .social-item ul.social-link li a, .sidebar-panel-wrapper .sidebar-wrapper .sidebar-information-area .sidebar-info-widget .social-item h6, .sidebar-panel-wrapper .sidebar-wrapper .sidebar-information-area .sidebar-info-widget h4.title, .sidebar-panel-wrapper .close, .main-bg .single-testimonial-item-three .testimonial-inner-content .quote-title .title h6, .main-bg .single-testimonial-item-three .testimonial-inner-content > p, .main-bg .client-quote-box .text h4, .main-bg .client-quote-box .icon i, .main-bg .single-counter-item-two p, .main-bg .single-counter-item-two h2.number, .footer-about-widget .widget-content form .submit-btn, .single-info-item.style-two .info .main-btn.golden-btn:hover, .single-info-item.style-one .info .main-btn.golden-btn:hover, .contact-info-item-two h6.title, .gadden-pagination li a:hover, .sidebar-widget-area .widget-tag-cloud a:hover, .sidebar-widget-area .widget-service-nav ul li a:hover, .sidebar-widget-area .widget-post-author .author-content ul.social-link li a, .blog-details-wrapper .blog-post .entry-footer .tag-links a:hover, .product-details-wrapper .product-info ul.social-link li a:hover, .single-product-item .discount, .single-pricing-item-two:hover .pricing-body .pricing-button .main-btn, .single-pricing-item:hover .pricing-body .pricing-button p, .single-pricing-item:hover .pricing-body h2.price span.duration, .single-pricing-item:hover .pricing-body h2.price, .single-pricing-item:hover .pricing-body ul li, .single-pricing-item:hover .pricing-body .pricing-title h3.title, .single-testimonial-item-two .quote-rating-box .ratings-box h3, .team-details-wrapper .member-info .member-meta .member-contact-info ul.social-link li a:hover, .team-details-wrapper .member-info .member-meta .member-contact-info .icon, .skill-image-box .circle-logo .inner-circle h5, .skill-image-box .circle-logo .inner-circle i, .single-team-item:hover .member-img .icon-btn, .single-project-item-four .project-img .hover-content .number, .single-service-item .service-img .icon-btn i, .single-category-item:hover .icon i, .social-box ul.social-link li a, .single-counter-item:hover .icon i, .single-process-item:hover .icon, .single-process-item:hover .step, .fancy-icon-box-two:hover .text p, .fancy-icon-box-two:hover .text h5.title, .fancy-icon-box-two:hover .shape.icon-shape i, .features-thumb-item-two:hover .text .icon i, .client-avatar-box-two .avatar-thumbs ul li .icon-btn, .about-features-item.item-active .text .btn-link, .about-features-item.item-active .text h3.title, .about-features-item.item-active .text p, .hero-wrapper-three .hero-content p, .hero-wrapper-three .hero-content h1, .hero-wrapper-three .hero-content span.sub-title, .hero-wrapper-two .hero-content p, .hero-wrapper-two .hero-content h1, .hero-wrapper-two .hero-content span.sub-title, .hero-slider-two .slick-arrow, .navigation-white.header-navigation .main-menu ul > li > a, .header-three .header-navigation .nav-right-item .search-btn, .header-three .header-navigation .nav-right-item .nice-select, .header-two .header-navigation .main-menu ul > li > a, .header-two .header-navigation.sticky .main-menu ul > li .sub-menu li a, .header-navigation.breakpoint-on .nav-menu .main-menu ul li .dd-trigger, .header-navigation .main-menu ul > li .sub-menu li a, .back-to-top:hover, .back-to-top:focus, .main-btn.filled-btn.filled-white, .main-btn.filled-btn:hover, .main-btn.golden-btn:hover, .main-btn.secondary-btn, .main-btn.primary-btn, .main-btn, .text-white p, .text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6 {
@@ -73,7 +73,7 @@ h3, h4, h5, h6, .comments-area .comment .comment-wrap .comment-author-content sp
 }
 
 .sidebar-panel-wrapper .sidebar-wrapper .sidebar-information-area .sidebar-info-widget h4.title:after, .footer-gallery-widget .gallery-list li a .hover-overlay i, .footer-widget h4.widget-title:after, .single-info-item.style-three, .single-information-item .icon, .single-pricing-item:hover .pricing-body .pricing-button .main-btn, .testimonial-slider-one .slick-arrow:hover, .single-gallery-item .gallery-img .hover-overlay .icon-btn, .single-project-item-three .project-img .icon-btn, .single-project-item-two .project-img .project-overlay .icon-btn, .projects-slider-one .slick-dots li:after, .single-service-item-two:hover .text .icon-btn, .single-service-item-two:hover .icon, .single-counter-item-two .icon, .single-counter-item, .single-process-item .step, .single-features-item-two:hover, .features-thumb-item:hover .content, .hero-slider-two .slick-arrow:hover, .main-btn.golden-btn {
-  background-color: #F1D2A9;
+  background-color: #0048a7;
 }
 
 .sidebar-panel-wrapper .sidebar-wrapper, .page-title-area:after {
@@ -3420,7 +3420,7 @@ ul.check-style-one li i {
   text-align: center;
 }
 .projects-slider-one .slick-dots li.slick-active {
-  border-color: #F1D2A9;
+  border-color: #0048a7;
 }
 .projects-slider-two {
   margin-left: -15px;
@@ -6724,7 +6724,7 @@ ul.slick-dots li.slick-active {
 }
 
 .footer-experience-widget .experience-box-two {
-  border-top-color: #F1D2A9;
+  border-top-color: #0048a7;
 }
 .footer-gallery-widget .gallery-list {
   display: -webkit-box;
