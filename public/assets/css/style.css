@@ -7254,10 +7254,12 @@ ul.slick-dots li.slick-active {
   position: relative;
   padding: 100px 0;
   z-index: 1;
+  margin: 170px 0 50px 0px;
 }
 @media (max-width: 767px) {
   .testimonial-wrapper {
     padding: 50px 0;
+    margin: 0px 0 70px 0px;
   }
 }
 .testimonial-wrapper .shape {
