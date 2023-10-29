@@ -5,7 +5,7 @@ const Menu = () => {
     <nav className="main-menu">
       <ul>
         <li className="menu-item has-children">
-          <a href="#">
+          <a   href="##">
             Home
             {/* <span className="dd-trigger">
               <i className="far fa-angle-down" />
@@ -13,29 +13,29 @@ const Menu = () => {
           </a>
           {/* <ul className="sub-menu">
             <li>
-              <Link legacyBehavior href="/">
+              <Link legacyBehavior   href="#/">
                 Home 01
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="index-2">
+              <Link legacyBehavior   href="#index-2">
                 Home 02
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="index-3">
+              <Link legacyBehavior   href="#index-3">
                 Home 03
               </Link>
             </li>
           </ul> */}
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="about">
+          <Link legacyBehavior   href="##">
             About
           </Link>
         </li>
         <li className="menu-item has-children">
-          <a href="#">
+          <a   href="##">
             Services
             <span className="dd-trigger">
               <i className="far fa-angle-down" />
@@ -43,19 +43,19 @@ const Menu = () => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior href="service">
+              <Link legacyBehavior   href="##service">
               High Level Work
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="service-details">
+              <Link legacyBehavior   href="##service-details">
               Schools, Offices and Hotels
               </Link>
             </li>
           </ul>
         </li>
         <li className="menu-item has-children">
-          <a href="#">
+          <a   href="##">
             Portfolio
             <span className="dd-trigger">
               <i className="far fa-angle-down" />
@@ -63,29 +63,29 @@ const Menu = () => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior href="project-grid">
+              <Link legacyBehavior   href="#project-grid">
                 Project Grid
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="project-grid-2-column">
+              <Link legacyBehavior   href="#project-grid-2-column">
                 Project Grid Two
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="project-masonry">
+              <Link legacyBehavior   href="#project-masonry">
                 Project Masonry
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="project-details">
+              <Link legacyBehavior   href="#project-details">
                 Project Details
               </Link>
             </li>
           </ul>
         </li>
         <li className="menu-item has-children">
-          <a href="#">
+          <a   href="##">
             Blog
             <span className="dd-trigger">
               <i className="far fa-angle-down" />
@@ -93,19 +93,19 @@ const Menu = () => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior href="blog-standard">
+              <Link legacyBehavior   href="#blog-standard">
                 Blog Standard
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="blog-details">
+              <Link legacyBehavior   href="#blog-details">
                 Blog Details
               </Link>
             </li>
           </ul>
         </li>
         <li className="menu-item has-children">
-          <a href="#">
+          <a   href="##">
             Pages
             <span className="dd-trigger">
               <i className="far fa-angle-down" />
@@ -113,37 +113,37 @@ const Menu = () => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior href="team">
+              <Link legacyBehavior   href="#team">
                 Our Team
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="shop">
+              <Link legacyBehavior   href="#shop">
                 Our Shop
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="product-details">
+              <Link legacyBehavior   href="#product-details">
                 Product Details
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="testimonials">
+              <Link legacyBehavior   href="#testimonials">
                 Testimonial
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="pricing">
+              <Link legacyBehavior   href="#pricing">
                 Pricing
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="faqs">
+              <Link legacyBehavior   href="#faqs">
                 Faq
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="contact">
+              <Link legacyBehavior   href="#contact">
                 Contact
               </Link>
             </li>
