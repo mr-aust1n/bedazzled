@@ -187,7 +187,7 @@ const Footer3 = () => {
               <div className="col-lg-6">
                 {/*====== Copyright Nav ======*/}
                 <div className="copyright-nav float-lg-right">
-                  <ul>
+                  {/* <ul>
                     <li>
                       <a href="#">Setting &amp; Privacy</a>
                     </li>
@@ -197,7 +197,7 @@ const Footer3 = () => {
                     <li>
                       <a href="#">Food Menu</a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
