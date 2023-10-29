@@ -179,9 +179,9 @@ const Contact = () => {
                   </span>
                 </div>
                 <div className="info">
-                  <span>Get Consultations</span>
+                  <span>Get a free quote</span>
                   <h4 className="title">
-                    Need Any Consultations to Build Gardening ?
+                    Do you need your shop front cleaning?
                   </h4>
                   <Link legacyBehavior href="/contact">
                     <a className="main-btn golden-btn">Get a Quote</a>
@@ -201,9 +201,9 @@ const Contact = () => {
                   </span>
                 </div>
                 <div className="info">
-                  <span>Get Consultations</span>
+                  <span>Get a free quote</span>
                   <h4 className="title">
-                    Get Every Single Update Or 24/7 Support
+                    Do you need your showroom looking sparkling?
                   </h4>
                   <Link legacyBehavior href="/contact">
                     <a className="main-btn golden-btn">Support &amp; Join</a>
@@ -223,9 +223,9 @@ const Contact = () => {
                   </span>
                 </div>
                 <div className="info">
-                  <span>Need A Career ?</span>
+                  <span>Get a free quote</span>
                   <h4 className="title">
-                    Need Any Jobs Or Work With a Team Member?
+                    Do your school need cleaning?
                   </h4>
                   <Link legacyBehavior href="/contact">
                     <a className="main-btn primary-btn">Contact Us</a>

@@ -26,8 +26,7 @@ const Sidebar = ({ show, handleClose }) => {
                     </a>
                   </Link>
                   <p>
-                  For impeccable window cleaning in the North West, look no further than Bedazzled. We offer professional, reliable service tailored to meet the unique needs of schools, offices, and showrooms. Our trained and certified team utilises the latest technology and eco-friendly cleaning solutions, ensuring a sparkling finish that will make your windows the envy of the neighbourhood.<br />
-Don't miss out on experiencing the Bedazzled difference. We're committed to delivering top-notch service with unparalleled attention to detail and professionalism. Whether you require one-time service or regular maintenance, Bedazzled is the clear choice for quality window cleaning. Contact us today to get your free, no-obligation quote and elevate the appearance of your establishment.
+                  Elevate your business with Bedazzled, the North West's leading choice for pristine window cleaning. Specialising in showrooms and offices, our certified team uses cutting-edge technology and eco-friendly solutions for a radiant finish. Experience first-class service and unmatched professionalism. Contact us now for a free, no-obligation quote.
                   </p>
                   {/* <div className="social-item">
                     <h6>Follow Us</h6>
