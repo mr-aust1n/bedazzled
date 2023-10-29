@@ -16,15 +16,15 @@ const Footer3 = () => {
       </div>
       <div className="footer-wrapper text-white main-bg p-r z-1">
         <div className="shape shape-one animate-float-y">
-          <span>
+          {/* <span>
             <img src="assets/images/shape/tree.png" alt="Tree Image" />
-          </span>
+          </span> */}
         </div>
-        <div className="shape shape-two animate-float-y">
+        {/* <div className="shape shape-two animate-float-y">
           <span>
             <img src="assets/images/shape/tree2.png" alt="Tree Image" />
           </span>
-        </div>
+        </div> */}
         <div className="container">
           {/*====== Footer Widget ======*/}
           <div className="footer-widget-area pt-55 pb-40 p-r z-1">
@@ -181,7 +181,7 @@ const Footer3 = () => {
               <div className="col-lg-6">
                 {/*====== Copyright Text ======*/}
                 <div className="copyright-text">
-                  <p>Copy© 2023 Gadden. All Rights Reserved.</p>
+                  <p>Website by www.craigaust.in Copy© 2023</p>
                 </div>
               </div>
               <div className="col-lg-6">

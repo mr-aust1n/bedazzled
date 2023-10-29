@@ -77,7 +77,7 @@ const Default = () => {
                 <div className="widget-content">
                   <div className="experience-box-two">
                     <h2 className="number">
-                      <span className="count">25</span>+
+                      <span className="count">6</span>+
                     </h2>
                     <h6>Years Of Experience</h6>
                     <a href="#" className="icon-btn">
@@ -95,7 +95,7 @@ const Default = () => {
             <div className="col-lg-6">
               {/*====== Copyright Text ======*/}
               <div className="copyright-text">
-                <p>Copy© 2023 Gadden. All Rights Reserved.</p>
+                <p>Website by www.craigaust.in Copy© 2023</p>
               </div>
             </div>
             <div className="col-lg-6">
