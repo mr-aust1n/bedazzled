@@ -84,9 +84,9 @@ const Footer3 = () => {
                       <li>
                         <a href="#">Need a Quote?</a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#">Our Services</a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="#">About Company</a>
                       </li>
@@ -100,7 +100,7 @@ const Footer3 = () => {
               <div className="col-lg-3 col-md-6 col-sm-6">
                 {/*====== Footer Widget ======*/}
                 <div className="footer-widget footer-gallery-widget float-lg-right mb-40 wow fadeInUp">
-                  <h4 className="widget-title">Gallery</h4>
+                  <h4 className="widget-title">Services</h4>
                   <div className="widget-content">
                     <ul className="gallery-list">
                       <li>
