@@ -35,7 +35,7 @@ const Header3 = () => {
                   </span>
                   <span>
                     <i className="far fa-map-marker-alt" />
-                    <b className="title">Location :</b>168 Penrose Avenue, Blackpool, FY4 4JX
+                    <b className="title">Location :</b>1168 Penrose Avenue, Blackpool, FY4 4JX
                   </span>
                 </div>
               </div>
