@@ -293,7 +293,7 @@
 
 
 .header-navigation.main-bg.navigation-white.d-xl-block.d-none{
-    border-bottom: dashed red;
+    border-bottom: solid 1px;
 }
 /* Header Top Bar */ 
 
@@ -732,6 +732,7 @@
     right: 0;
     z-index: 999;
     animation: sticky 1.2s;
+    border-bottom: solid 1px;
 }
 @-webkit-keyframes sticky {
     0% {
