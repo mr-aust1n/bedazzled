@@ -16,7 +16,7 @@ const Header3 = () => {
         show={searchModal}
         handleClose={() => setSearchModal(false)}
       />
-      <header className="header-area header-three">
+      <header style={{borderBottom: "solid"}} className="header-area header-three">
         <div  className="header-top-bar-two white-bg d-none d-xl-block">
           <div className="container-fluid">
             <div className="row">
@@ -79,7 +79,7 @@ const Header3 = () => {
                 </Link>
               </div>
               {/*======= Nav Menu ======*/}
-              <div className="nav-menu">
+              <div  className="nav-menu">
                 {/* Mobile Logo */}
                 <div className="mobile-logo mb-30 d-block d-xl-none text-center">
                   <Link legacyBehavior href="/index">
