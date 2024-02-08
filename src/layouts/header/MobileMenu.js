@@ -96,7 +96,29 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                       About
                     </Link>
                   </li>
-                  <li className="menu-item has-children">
+
+                  <li className="menu-item">
+                    <Link legacyBehavior href="#">
+                      Services
+                    </Link>
+                  </li>
+
+
+                  <li className="menu-item">
+                    <Link legacyBehavior href="#">
+                      Contact
+                    </Link>
+                  </li>
+
+
+                  <li className="menu-item">
+                    <Link legacyBehavior href="#">
+                      FAQ's
+                    </Link>
+                  </li>
+
+
+                  {/* <li className="menu-item has-children">
                     <a href="#">
                       Services
                       <span
@@ -222,7 +244,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                 </ul>
               </nav>
               {/*====== Menu Button ======*/}
