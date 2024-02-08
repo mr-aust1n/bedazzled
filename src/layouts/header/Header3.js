@@ -16,8 +16,8 @@ const Header3 = () => {
         show={searchModal}
         handleClose={() => setSearchModal(false)}
       />
-      <header style={{borderBottom: "solid"}} className="header-area header-three">
-        <div  className="header-top-bar-two white-bg d-none d-xl-block">
+      <header className="header-area header-three">
+        <div className="header-top-bar-two white-bg d-none d-xl-block">
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-8">
@@ -35,7 +35,7 @@ const Header3 = () => {
                   </span>
                   <span>
                     <i className="far fa-map-marker-alt" />
-                    <b className="title">Location :</b>168 Penrose Avenue, Blackpool, FY4 4JX
+                    <b className="title">Location :</b>1168 Penrose Avenue, Blackpool, FY4 4JX
                   </span>
                 </div>
               </div>
@@ -62,11 +62,11 @@ const Header3 = () => {
           </div>
         </div>
         {/*======= Header Navigation ======*/}
-        <div style={{borderBottom: "solid"}} className="header-navigation main-bg navigation-white d-xl-block d-none">
+        <div className="header-navigation main-bg navigation-white d-xl-block d-none">
           <div className="nav-overlay" />
           <div className="container-fluid">
             {/*======= Primary Menu ======*/}
-            <div  className="primary-menu">
+            <div className="primary-menu">
               {/*======= Site Branding ======*/}
               <div className="site-branding">
                 <Link legacyBehavior href="/index">
@@ -79,7 +79,7 @@ const Header3 = () => {
                 </Link>
               </div>
               {/*======= Nav Menu ======*/}
-              <div  className="nav-menu">
+              <div className="nav-menu">
                 {/* Mobile Logo */}
                 <div className="mobile-logo mb-30 d-block d-xl-none text-center">
                   <Link legacyBehavior href="/index">
@@ -133,7 +133,7 @@ const Header3 = () => {
                 >
                   <i className="far fa-search" />
                 </div> */}
-                <div  className="menu-button d-xl-block d-none">
+                <div className="menu-button d-xl-block d-none">
                   <Link legacyBehavior href="/contact">
                     <a className="main-btn secondary-btn">Get a Quote</a>
                   </Link>

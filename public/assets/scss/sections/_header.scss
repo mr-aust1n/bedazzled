@@ -291,10 +291,6 @@
 	}
 }
 
-
-.header-navigation.main-bg.navigation-white.d-xl-block.d-none{
-    border-bottom: solid 1px;
-}
 /* Header Top Bar */ 
 
 .header-top-bar{
@@ -732,7 +728,6 @@
     right: 0;
     z-index: 999;
     animation: sticky 1.2s;
-    border-bottom: solid 1px;
 }
 @-webkit-keyframes sticky {
     0% {
@@ -750,4 +745,3 @@
       top: 0;
     }
 }
-

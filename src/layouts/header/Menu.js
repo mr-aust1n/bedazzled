@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Menu = () => {
   return (
-    <nav  className="main-menu">
+    <nav className="main-menu">
       <ul>
         <li className="menu-item has-children">
           <a   href="##">
