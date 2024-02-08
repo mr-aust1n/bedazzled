@@ -11,49 +11,29 @@ const Partners = () => {
         >
           <div className="single-partner-item">
             <div className="partner-img">
-              <a href="#">
+            <a href="https://www.blackpoolpiers.co.uk/" target="_blank">
                 <img
-                  src="assets/images/partners/partner-1.png"
-                  alt="Partner Image"
+                  src="assets/images/partners/north_pier_blackpool.png"
+                  alt="Logo of North Pier, Blackpool"
                 />
               </a>
             </div>
           </div>
           <div className="single-partner-item">
             <div className="partner-img">
-              <a href="#">
+            <a href="https://michildnurseries.co.uk/" target="_blank">
                 <img
-                  src="assets/images/partners/partner-2.png"
-                  alt="Partner Image"
+                  src="assets/images/partners/Michild_nursery.png"
+                  alt="Michild nurseries Blackpool"
                 />
               </a>
             </div>
           </div>
           <div className="single-partner-item">
             <div className="partner-img">
-              <a href="#">
+            <a href="https://www.inclusion-group.org.uk/inclusion-housing/" target="_blank">
                 <img
-                  src="assets/images/partners/partner-3.png"
-                  alt="Partner Image"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="single-partner-item">
-            <div className="partner-img">
-              <a href="#">
-                <img
-                  src="assets/images/partners/partner-4.png"
-                  alt="Partner Image"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="single-partner-item">
-            <div className="partner-img">
-              <a href="#">
-                <img
-                  src="assets/images/partners/partner-5.png"
+                  src="assets/images/partners/inclusion_housing.png"
                   alt="Partner Image"
                 />
               </a>
@@ -64,6 +44,26 @@ const Partners = () => {
               <a href="#">
                 <img
                   src="assets/images/partners/partner-4.png"
+                  alt="Partner Image"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="single-partner-item">
+            <div className="partner-img">
+            <a href="https://www.tigerestates.co.uk/" target="_blank">
+                <img
+                  src="assets/images/partners/Tiger_estates.png"
+                  alt="Tyger Estates Blackpool"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="single-partner-item">
+            <div className="partner-img">
+              <a href="https://coralisland.co.uk/" target="_blank">
+                <img
+                  src="assets/images/partners/coral_island.jpg"
                   alt="Partner Image"
                 />
               </a>

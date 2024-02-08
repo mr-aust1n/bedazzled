@@ -16,18 +16,19 @@ const Index3 = () => {
         {/*====== Hero Wrapper ======*/}
         <div className="hero-wrapper-three">
           <div className="hero-waves">
-            <img src="assets/images/hero/bg-2.png" className="waves one" alt />
-            <img src="assets/images/hero/bg.png" className="waves two" alt />
+            <img src="assets/images/hero/bg-2.png" className="waves one"  />
+            <img src="assets/images/hero/bg.png" className="waves two"  />
           </div>
           {/*====== Hero Slider ======*/}
           <Slider {...sliderProps.heroSliderTwo} className="hero-slider-two">
             {/*====== Single Slider ======*/}
             <div className="single-slider">
               <div
-                className="image-layer bg_cover"
+                className="image-layer bg_cover"   alt="Man in a cherry picker cleaning windows"
                 style={{
                   backgroundImage:
-                    "url(assets/images/hero/hero_two-slider-1.jpg)",
+                    "url(assets/images/hero/hero_cherry_picker_window_clean.jpg)" ,
+                    
                 }}
               />
               <div className="container">
@@ -72,10 +73,10 @@ const Index3 = () => {
             {/*====== Single Slider ======*/}
             <div className="single-slider">
               <div
-                className="image-layer bg_cover"
+                className="image-layer bg_cover" alt="Men hanging from the top of a high building cleaning windows"
                 style={{
                   backgroundImage:
-                    "url(assets/images/hero/hero_two-slider-2.jpg)",
+                    "url(assets/images/hero/hero_ipaf_window_cleaner.jpg)",
                 }}
               />
               <div className="container">
@@ -120,10 +121,10 @@ const Index3 = () => {
             {/*====== Single Slider ======*/}
             <div className="single-slider">
               <div
-                className="image-layer bg_cover"
+                className="image-layer bg_cover" alt="man with a hand squeege, cleaning a window"
                 style={{
                   backgroundImage:
-                    "url(assets/images/hero/hero_two-slider-3.jpg)",
+                    "url(assets/images/hero/hero_squeegee_window_clean.jpg)",
                 }}
               />
               <div className="container">
@@ -154,7 +155,7 @@ const Index3 = () => {
                             Explore More
                           </a>
                         </Link> */}
-                        <Link legacyBehavior href="#">
+                        <Link legacyBehavior href="contact">
                           <a className="main-btn filled-btn filled-white mb-10">
                             Contact Us!
                           </a>
@@ -176,7 +177,7 @@ const Index3 = () => {
             <div className="col-lg-6">
               <div className="section-title mb-55 wow fadeInLeft">
                 <span className="sub-title">
-                  <i className="flaticon-plant" />
+                  <i class="fa fa-tint" aria-hidden="true"></i>
                   Bedazzled Commercial Window Cleaning:
                 </span>
                 <h2> Your Sparkling Solution in the North West of England</h2>
@@ -204,13 +205,13 @@ const Index3 = () => {
               >
                 <div className="thumb">
                   <img
-                    src="assets/images/features/features-6.jpg"
-                    alt="Image"
+                    src="assets/images/features/street_with_dirty_windows.jpg"
+                    alt="A street full of windows that ready to be cleaned"
                   />
                 </div>
                 <div className="text">
                   <div className="icon">
-                    <i className="flaticon-landscape-1" />
+                  <i class="fa fa-home" aria-hidden="true"></i>
                   </div>
                   <h5 className="title">Managed Properties</h5>
                   <p>Whether you own a single property or manage a portfolio, we've got you covered. With tailored service packages and flexible scheduling options, we provide unique needs and budget to your requirements.</p>
@@ -224,13 +225,13 @@ const Index3 = () => {
               >
                 <div className="thumb">
                   <img
-                    src="assets/images/features/features-7.jpg"
-                    alt="Image"
+                    src="assets/images/features/cherry-picker.jpg"
+                    alt="A Cherry picker to help clean high windows"
                   />
                 </div>
                 <div className="text">
                   <div className="icon">
-                    <i className="flaticon-watering-can" />
+                  <i class="fa fa-arrow-up" aria-hidden="true"></i>
                   </div>
                   <h5 className="title">High Level Work </h5>
                   <p> IPAF trained to use both mobile boom and mobile vertical MEWP (Mobile elevated work platform). We can maintain the appearance of your property. Our services include gutter, roof and fascia cleaning. </p>
@@ -244,13 +245,13 @@ const Index3 = () => {
               >
                 <div className="thumb">
                   <img
-                    src="assets/images/features/features-8.jpg"
-                    alt="Image"
+                    src="assets/images/features/leaves_in_gutter.jpg"
+                    alt="Leaves in a gutter ready to be cleaned"
                   />
                 </div>
                 <div className="text">
                   <div className="icon">
-                    <i className="flaticon-lawnmower" />
+                  <i class="fa fa-leaf" aria-hidden="true"></i>
                   </div>
                   <h5 className="title">Fascia and Gutter Cleaning</h5>
                   <p>Maintaining your property's appearance is vital for making lasting first impressions. Trust us to elevate your property's look through comprehensive, high-quality maintenance services tailored to your needs.</p>
@@ -264,13 +265,13 @@ const Index3 = () => {
               >
                 <div className="thumb">
                   <img
-                    src="assets/images/features/features-9.jpg"
-                    alt="Image"
+                    src="assets/images/features/school_with_dirty_windows.jpg"
+                    alt="A school with dirty windows ready to be cleaned"
                   />
                 </div>
                 <div className="text">
                   <div className="icon">
-                    <i className="flaticon-spider-plant" />
+                  <i class="fa fa-building" aria-hidden="true"></i>
                   </div>
                   <h5 className="title">Schools, Offices &amp; Hotels</h5>
                   <p>Using only the very best Reach and Wash pole systems we offer window cleaning to a height of 70ft (21m). We only use purified water, so we ensure your premises are left gleaming" All our staff are DBS checked</p>
@@ -296,7 +297,7 @@ const Index3 = () => {
                 <div className="section-title">
                   <div className="section-title mb-50">
                     <span className="sub-title">
-                      <i className="flaticon-plant" />
+                      <i class="fa fa-tint" aria-hidden="true"></i>
                       About Bedazzled
                     </span>
                     <h2>Why Choose Bedazzled</h2>
@@ -353,27 +354,27 @@ const Index3 = () => {
             </div>
             <div className="shape shape-two">
               <span>
-                <img src="assets/images/testimonial/img-2.jpg" alt="image" />
+                <img src="assets/images/testimonial/water_drop1.jpg"  />
               </span>
             </div>
             <div className="shape shape-three">
               <span>
-                <img src="assets/images/testimonial/img-3.jpg" alt="image" />
+                <img src="assets/images/testimonial/water_drop2.jpg" />
               </span>
             </div>
             <div className="shape shape-four">
               <span>
                 <img
-                  src="assets/images/testimonial/tree.png"
-                  alt="Tree image"
+                  src="assets/images/testimonial/water_drop.png"
+                 
                 />
               </span>
             </div>
             <div className="shape shape-five">
               <span>
                 <img
-                  src="assets/images/testimonial/tree2.png"
-                  alt="Tree image"
+                  src="assets/images/testimonial/water_drop2.png"
+                  
                 />
               </span>
             </div>
@@ -390,7 +391,7 @@ const Index3 = () => {
                       <div className="quote-rating-box">
                         <div className="icon">
                           <img
-                            src="assets/images/testimonial/quote2.png"
+                            src="assets/images/testimonial/Quotations.png"
                             alt="quote icon"
                           />
                         </div>
@@ -423,7 +424,7 @@ const Index3 = () => {
                         <div className="author-thumb">
                           <img
                             src="assets/images/testimonial/thumb-1.jpg"
-                            alt="Author Image"
+                            alt="Facebook Recommendation"
                           />
                         </div>
                         {<div className="author-title">
@@ -437,7 +438,7 @@ const Index3 = () => {
                       <div className="quote-rating-box">
                         <div className="icon">
                           <img
-                            src="assets/images/testimonial/quote2.png"
+                            src="assets/images/testimonial/Quotations.png"
                             alt="quote icon"
                           />
                         </div>
@@ -469,7 +470,7 @@ const Index3 = () => {
                         <div className="author-thumb">
                           <img
                             src="assets/images/testimonial/thumb-1.jpg"
-                            alt="Author Image"
+                            alt="Facebook Recommendation"
                           />
                         </div>
                         <div className="author-title">
@@ -483,7 +484,7 @@ const Index3 = () => {
                       <div className="quote-rating-box">
                         <div className="icon">
                           <img
-                            src="assets/images/testimonial/quote2.png"
+                            src="assets/images/testimonial/Quotations.png"
                             alt="quote icon"
                           />
                         </div>
@@ -515,7 +516,7 @@ const Index3 = () => {
                         <div className="author-thumb">
                           <img
                             src="assets/images/testimonial/thumb-1.jpg"
-                            alt="Author Image"
+                            alt="Facebook Recommendation"
                           />
                         </div>
                         <div className="author-title">
@@ -533,160 +534,6 @@ const Index3 = () => {
       </section>
       {/*====== End Testimonial Section  ======*/}
 
-      {/*====== Start Blog Section  ======*/}
-      {/* {<section className="blog-section pt-100 pb-60">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-7 col-lg-12">
-              <div className="section-title text-center mb-50 wow fadeInDown">
-                <span className="sub-title">
-                  <i className="flaticon-plant" />
-                  News &amp; Blog
-                </span>
-                <h2>Read Latest News &amp; Blog</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-4 col-md-6 col-sm-12">
-             
-              <div
-                className="single-blog-post-two mb-40 wow wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div className="entry-content">
-                  <div className="post-meta">
-                    <span className="date">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>25 December 2022</a>
-                      </Link>
-                    </span>
-                    <span className="comment">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>5 Comments</a>
-                      </Link>
-                    </span>
-                  </div>
-                  <h4 className="entry-title">
-                    <Link legacyBehavior href="/blog-details">
-                      <a>Progressively and Enhanced Accessible Filterable</a>
-                    </Link>
-                  </h4>
-                  <div className="author">
-                    <img
-                      src="assets/images/blog/author-thumb-4.jpg"
-                      alt="Author Image"
-                    />
-                    <h6>
-                      <span>By</span>
-                      <Link legacyBehavior href="/blog-details">
-                        <a>Michael</a>
-                      </Link>
-                    </h6>
-                  </div>
-                </div>
-                <div className="post-thumbnail">
-                  <img
-                    src="assets/images/blog/blog-4.jpg"
-                    alt="Post Thumbnail"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-12">
-             
-              <div
-                className="single-blog-post-two mb-40 wow fadeInDown"
-                data-wow-delay=".25s"
-              >
-                <div className="entry-content">
-                  <div className="post-meta">
-                    <span className="date">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>25 December 2022</a>
-                      </Link>
-                    </span>
-                    <span className="comment">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>5 Comments</a>
-                      </Link>
-                    </span>
-                  </div>
-                  <h4 className="entry-title">
-                    <Link legacyBehavior href="/blog-details">
-                      <a>High Contrast Mod Forceedy Colors Mode Custom</a>
-                    </Link>
-                  </h4>
-                  <div className="author">
-                    <img
-                      src="assets/images/blog/author-thumb-5.jpg"
-                      alt="Author Image"
-                    />
-                    <h6>
-                      <span>By</span>
-                      <Link legacyBehavior href="/blog-details">
-                        <a>Michael</a>
-                      </Link>
-                    </h6>
-                  </div>
-                </div>
-                <div className="post-thumbnail">
-                  <img
-                    src="assets/images/blog/blog-5.jpg"
-                    alt="Post Thumbnail"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-4 col-md-6 col-sm-12">
-             
-              <div
-                className="single-blog-post-two mb-40 wow fadeInUp"
-                data-wow-delay=".3s"
-              >
-                <div className="entry-content">
-                  <div className="post-meta">
-                    <span className="date">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>25 December 2022</a>
-                      </Link>
-                    </span>
-                    <span className="comment">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>5 Comments</a>
-                      </Link>
-                    </span>
-                  </div>
-                  <h4 className="entry-title">
-                    <Link legacyBehavior href="/blog-details">
-                      <a>Enough Requirements For Accessible Components</a>
-                    </Link>
-                  </h4>
-                  <div className="author">
-                    <img
-                      src="assets/images/blog/author-thumb-6.jpg"
-                      alt="Author Image"
-                    />
-                    <h6>
-                      <span>By</span>
-                      <Link legacyBehavior href="/blog-details">
-                        <a>Michael</a>
-                      </Link>
-                    </h6>
-                  </div>
-                </div>
-                <div className="post-thumbnail">
-                  <img
-                    src="assets/images/blog/blog-6.jpg"
-                    alt="Post Thumbnail"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> } */}
-      {/*====== End Blog Section  ======*/}
 
   {/*====== Customers Section  ======*/}
       {<section>

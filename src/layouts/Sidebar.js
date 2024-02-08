@@ -142,7 +142,7 @@ const Sidebar = ({ show, handleClose }) => {
                     />
                     <div className="hover-overlay">
                       <a
-                        href="/Services"
+                        href="service"
                         className="img-popup icon-btn"
                       >
                         <i className="far fa-tint" />
@@ -160,7 +160,7 @@ const Sidebar = ({ show, handleClose }) => {
                     />
                     <div className="hover-overlay">
                       <a
-                        href="/Services"
+                        href="service"
                         className="img-popup icon-btn"
                       >
                         <i className="far fa-tint" />
@@ -178,7 +178,7 @@ const Sidebar = ({ show, handleClose }) => {
                     />
                     <div className="hover-overlay">
                       <a
-                        href="/Services"
+                        href="service"
                         className="img-popup icon-btn"
                       >
                         <i className="far fa-tint" />
@@ -196,7 +196,7 @@ const Sidebar = ({ show, handleClose }) => {
                     />
                     <div className="hover-overlay">
                       <a
-                        href="/Services"
+                        href="service"
                         className="img-popup icon-btn"
                       >
                         <i className="far fa-tint" />
@@ -214,7 +214,7 @@ const Sidebar = ({ show, handleClose }) => {
                     />
                     <div className="hover-overlay">
                       <a
-                        href="/Services"
+                        href="service"
                         className="img-popup icon-btn"
                       >
                         <i className="far fa-tint" />
@@ -232,7 +232,7 @@ const Sidebar = ({ show, handleClose }) => {
                     />
                     <div className="hover-overlay">
                       <a
-                        href="/Services"
+                        href="service"
                         className="img-popup icon-btn"
                       >
                         <i className="far fa-tint" />
