@@ -137,15 +137,15 @@ const Sidebar = ({ show, handleClose }) => {
                 <div className="single-gallery-item">
                   <div className="gallery-img">
                     <img
-                      src="assets/images/gallery/sgl-1.jpg"
+                      src="assets/images/gallery/high-level-cleans.jpg"
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
                       <a
-                        href="assets/images/gallery/sgl-1.jpg"
+                        href="/Services"
                         className="img-popup icon-btn"
                       >
-                        <i className="far fa-plus" />
+                        <i className="far fa-tint" />
                       </a>
                     </div>
                   </div>
@@ -155,15 +155,15 @@ const Sidebar = ({ show, handleClose }) => {
                 <div className="single-gallery-item">
                   <div className="gallery-img">
                     <img
-                      src="assets/images/gallery/sgl-2.jpg"
+                      src="assets/images/gallery/Ipaf-high-cleans.jpg"
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
                       <a
-                        href="assets/images/gallery/sgl-2.jpg"
+                        href="/Services"
                         className="img-popup icon-btn"
                       >
-                        <i className="far fa-plus" />
+                        <i className="far fa-tint" />
                       </a>
                     </div>
                   </div>
@@ -173,15 +173,15 @@ const Sidebar = ({ show, handleClose }) => {
                 <div className="single-gallery-item">
                   <div className="gallery-img">
                     <img
-                      src="assets/images/gallery/sgl-3.jpg"
+                      src="assets/images/gallery/squeegee-cleaning.jpg"
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
                       <a
-                        href="assets/images/gallery/sgl-3.jpg"
+                        href="/Services"
                         className="img-popup icon-btn"
                       >
-                        <i className="far fa-plus" />
+                        <i className="far fa-tint" />
                       </a>
                     </div>
                   </div>
@@ -191,15 +191,15 @@ const Sidebar = ({ show, handleClose }) => {
                 <div className="single-gallery-item">
                   <div className="gallery-img">
                     <img
-                      src="assets/images/gallery/sgl-4.jpg"
+                      src="assets/images/gallery/squeegee-window-cleaner.jpg"
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
                       <a
-                        href="assets/images/gallery/sgl-4.jpg"
+                        href="/Services"
                         className="img-popup icon-btn"
                       >
-                        <i className="far fa-plus" />
+                        <i className="far fa-tint" />
                       </a>
                     </div>
                   </div>
@@ -209,15 +209,15 @@ const Sidebar = ({ show, handleClose }) => {
                 <div className="single-gallery-item">
                   <div className="gallery-img">
                     <img
-                      src="assets/images/gallery/sgl-5.jpg"
+                      src="assets/images/gallery/outside-window-cleaning.jpg"
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
                       <a
-                        href="assets/images/gallery/sgl-6.jpg"
+                        href="/Services"
                         className="img-popup icon-btn"
                       >
-                        <i className="far fa-plus" />
+                        <i className="far fa-tint" />
                       </a>
                     </div>
                   </div>
@@ -227,15 +227,15 @@ const Sidebar = ({ show, handleClose }) => {
                 <div className="single-gallery-item">
                   <div className="gallery-img">
                     <img
-                      src="assets/images/gallery/sgl-6.jpg"
+                      src="assets/images/gallery/window-being-cleaned.jpg"
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
                       <a
-                        href="assets/images/gallery/sgl-6.jpg"
+                        href="/Services"
                         className="img-popup icon-btn"
                       >
-                        <i className="far fa-plus" />
+                        <i className="far fa-tint" />
                       </a>
                     </div>
                   </div>
