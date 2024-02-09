@@ -45,7 +45,7 @@ const Faqs = () => {
   ];
   const [active, setActive] = useState("collapse0");
   return (
-    <Layout>
+    <Layout header={3}  footer={3}>
       <PageBanner pageName={"Faqs"} />
       <section className="faq-section pt-95">
         <div className="container">

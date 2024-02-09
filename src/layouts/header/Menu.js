@@ -5,7 +5,7 @@ const Menu = () => {
     <nav className="main-menu">
       <ul>
         <li className="menu-item has-children">
-          <a   href="##">
+          <a   href="/index">
             Home
             {/* <span className="dd-trigger">
               <i className="far fa-angle-down" />
@@ -30,23 +30,23 @@ const Menu = () => {
           </ul> */}
         </li>
         <li className="menu-item">
-          <Link legacyBehavior   href="##">
+          <Link legacyBehavior   href="/about">
             About
           </Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior   href="##">
+          <Link legacyBehavior   href="/service">
             Services
           </Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior   href="##">
+          <Link legacyBehavior   href="/contact">
             Contact
           </Link>
         </li>
 
         <li className="menu-item">
-          <Link legacyBehavior   href="##">
+          <Link legacyBehavior   href="/faq">
             FAQ's
           </Link>
         </li>

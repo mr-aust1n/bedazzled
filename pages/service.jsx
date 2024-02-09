@@ -4,7 +4,7 @@ import Layout from "@/src/layouts/Layout";
 import Link from "next/link";
 const Service = () => {
   return (
-    <Layout>
+    <Layout header={3}  footer={3}>
       <PageBanner pageName={"Service"} />
       {/*====== Start Features Section ======*/}
       <section className="features-section pt-95">

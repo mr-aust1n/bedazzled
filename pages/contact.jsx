@@ -4,7 +4,7 @@ import Layout from "@/src/layouts/Layout";
 import Link from "next/link";
 const Contact = () => {
   return (
-    <Layout>
+    <Layout header={3}  footer={3}>
       <PageBanner pageName={"Contact Us"} />
 
       {/*====== Start Contact Info section ======*/}
@@ -35,9 +35,7 @@ const Contact = () => {
                     <h6>
                       <a href="mailto::bedazzledwcs@gmail.com">bedazzledwcs@gmail.com</a>
                     </h6>
-                    <h6>
-                      <a href="mailto:infogarden.net">infogarden.net</a>
-                    </h6>
+                    
                   </div>
                 </div>
               </div>
@@ -68,7 +66,7 @@ const Contact = () => {
               {/*====== Section-title ======*/}
               <div className="section-title wow fadeInRight mb-50">
                 <span className="sub-title">
-                  <i className="flaticon-plant" />
+                  <i className="fa fa-tint" />
                   Contact Us
                 </span>
                 <h2>Ready to Work With Us?</h2>
@@ -80,13 +78,13 @@ const Contact = () => {
               <div className="col-lg-6">
                 {/*=== Map Box ===*/}
                 <div className="map-box wow fadeInLeft mb-50">
-                  <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d150575.19014331404!2d-2.886459351247067!3d53.86531832373216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1707474716973!5m2!1sen!2suk" />
                 </div>
               </div>
               <div className="col-lg-6">
                 {/*====== Contact Form Wrapper ======*/}
                 <div className="contact-form-wrapper mb-50 wow fadeInRight">
-                  <form
+                  <form action="https://formsubmit.co/craigaustin@me.com" method="POST"
                     onSubmit={(e) => e.preventDefault()}
                     className="contact-form"
                   >

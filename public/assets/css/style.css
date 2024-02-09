@@ -1835,8 +1835,8 @@ button {
 }
 .page-title-area .gd-breadcrumb span.separator {
   position: relative;
-  width: 21px;
-  height: 21px;
+  /* width: 21px; */
+  /* height: 21px; */
   border-radius: 50%;
   border: 1px solid #FFFFFF;
   vertical-align: middle;
