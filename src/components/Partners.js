@@ -11,38 +11,7 @@ const Partners = () => {
         >
           <div className="single-partner-item">
             <div className="partner-img">
-            <a href="https://www.blackpoolpiers.co.uk/" target="_blank">
-                <img
-                  src="assets/images/partners/north_pier_blackpool.png"
-                  alt="Logo of North Pier, Blackpool"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="single-partner-item">
-            <div className="partner-img">
-            <a href="https://michildnurseries.co.uk/" target="_blank">
-                <img
-                  src="assets/images/partners/Michild_nursery.png"
-                  alt="Michild nurseries Blackpool"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="single-partner-item">
-            <div className="partner-img">
-            <a href="https://www.inclusion-group.org.uk/inclusion-housing/" target="_blank">
-                <img
-                  src="assets/images/partners/inclusion_housing.png"
-                  alt="Partner Image"
-                />
-              </a>
-            </div>
-          </div>
-          <div className="single-partner-item">
-            <div className="partner-img">
-            <a href="https://fcat.org.uk/" target="_blank">
-              
+              <a href="https://fcat.org.uk/" target="_blank">
                 <img
                   src="assets/images/partners/FCAT_blackpool.png"
                   alt="Partner Image"
@@ -52,7 +21,40 @@ const Partners = () => {
           </div>
           <div className="single-partner-item">
             <div className="partner-img">
-            <a href="https://www.tigerestates.co.uk/" target="_blank">
+              <a href="https://www.blackpoolpiers.co.uk/" target="_blank">
+                <img
+                  src="assets/images/partners/north_pier_blackpool.png"
+                  alt="Logo of North Pier, Blackpool"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="single-partner-item">
+            <div className="partner-img">
+              <a
+                href="https://www.inclusion-group.org.uk/inclusion-housing/"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/partners/inclusion_housing.png"
+                  alt="Partner Image"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="single-partner-item">
+            <div className="partner-img">
+              <a href="https://michildnurseries.co.uk/" target="_blank">
+                <img
+                  src="assets/images/partners/Michild_nursery.png"
+                  alt="Michild nurseries Blackpool"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="single-partner-item">
+            <div className="partner-img">
+              <a href="https://www.tigerestates.co.uk/" target="_blank">
                 <img
                   src="assets/images/partners/Tiger_estates.png"
                   alt="Tyger Estates Blackpool"
