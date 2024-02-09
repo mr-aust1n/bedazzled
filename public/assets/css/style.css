@@ -4763,7 +4763,7 @@ ul.slick-dots li.slick-active {
   border-bottom: 1px solid transparent;
 }
 .accordion-card .accordion-header h6.accordion-title:after {
-  content: "\f061";
+  content: "\f063";
   font-family: "Font Awesome 5 Pro";
   font-weight: 400;
   font-size: 18px;

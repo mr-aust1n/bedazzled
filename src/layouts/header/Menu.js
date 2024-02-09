@@ -46,7 +46,7 @@ const Menu = () => {
         </li>
 
         <li className="menu-item">
-          <Link legacyBehavior   href="/faq">
+          <Link legacyBehavior   href="/faqs">
             FAQ's
           </Link>
         </li>
