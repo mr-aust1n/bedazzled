@@ -41,9 +41,10 @@ const Partners = () => {
           </div>
           <div className="single-partner-item">
             <div className="partner-img">
-              <a href="#">
+            <a href="https://fcat.org.uk/" target="_blank">
+              
                 <img
-                  src="assets/images/partners/partner-4.png"
+                  src="assets/images/partners/FCAT_blackpool.png"
                   alt="Partner Image"
                 />
               </a>
