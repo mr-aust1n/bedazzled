@@ -24,7 +24,7 @@ const Index3 = () => {
             {/*====== Single Slider ======*/}
             <div className="single-slider">
               <div
-                className="image-layer bg_cover"   alt="Man in a cherry picker cleaning windows"
+                className="image-layer bg_cover" fetchpriority="high"  alt="Man in a cherry picker cleaning windows" 
                 style={{
                   backgroundImage:
                     "url(assets/images/hero/hero_cherry_picker_window_clean.jpg)" ,
@@ -73,7 +73,7 @@ const Index3 = () => {
             {/*====== Single Slider ======*/}
             <div className="single-slider">
               <div
-                className="image-layer bg_cover" alt="Men hanging from the top of a high building cleaning windows"
+                className="image-layer bg_cover" fetchpriority="high" alt="Men hanging from the top of a high building cleaning windows"
                 style={{
                   backgroundImage:
                     "url(assets/images/hero/hero_ipaf_window_cleaner.jpg)",
@@ -121,7 +121,7 @@ const Index3 = () => {
             {/*====== Single Slider ======*/}
             <div className="single-slider">
               <div
-                className="image-layer bg_cover" alt="man with a hand squeege, cleaning a window"
+                className="image-layer bg_cover" fetchpriority="high" alt="man with a hand squeege, cleaning a window"
                 style={{
                   backgroundImage:
                     "url(assets/images/hero/hero_squeegee_window_clean.jpg)",
@@ -204,7 +204,7 @@ const Index3 = () => {
                 data-wow-delay=".2s"
               >
                 <div className="thumb">
-                  <img
+                  <img fetchpriority="low"
                     src="assets/images/features/street_with_dirty_windows.jpg"
                     alt="A street full of windows that ready to be cleaned"
                   />
@@ -225,6 +225,7 @@ const Index3 = () => {
               >
                 <div className="thumb">
                   <img
+                  fetchpriority="low"
                     src="assets/images/features/cherry-picker.jpg"
                     alt="A Cherry picker to help clean high windows"
                   />
@@ -245,6 +246,7 @@ const Index3 = () => {
               >
                 <div className="thumb">
                   <img
+                  fetchpriority="low"
                     src="assets/images/features/leaves_in_gutter.jpg"
                     alt="Leaves in a gutter ready to be cleaned"
                   />
@@ -287,7 +289,7 @@ const Index3 = () => {
         {/*====== About BG ======*/}
         <div
           className="about-bg bg_cover wow fadeInLeft"
-          style={{ backgroundImage: "url(assets/images/bg/about-bg-1.jpg)" }}
+          fetchpriority="low" style={{backgroundImage: "url(assets/images/bg/Cherry_picker_high_clean.jpg)" }} alt="Man in a cherry picker doing a high clean"
         />
         <div className="container">
           <div className="row align-items-center justify-content-end">
@@ -354,17 +356,17 @@ const Index3 = () => {
             </div>
             <div className="shape shape-two">
               <span>
-                <img src="assets/images/testimonial/water_drop1.jpg"  />
+                <img fetchpriority="low" src="assets/images/testimonial/water_drop1.jpg"  />
               </span>
             </div>
             <div className="shape shape-three">
               <span>
-                <img src="assets/images/testimonial/water_drop2.jpg" />
+                <img fetchpriority="low" src="assets/images/testimonial/water_drop2.jpg" />
               </span>
             </div>
             <div className="shape shape-four">
               <span>
-                <img
+                <img fetchpriority="low"
                   src="assets/images/testimonial/water_drop.png"
                  
                 />
@@ -372,7 +374,7 @@ const Index3 = () => {
             </div>
             <div className="shape shape-five">
               <span>
-                <img
+                <img fetchpriority="low"
                   src="assets/images/testimonial/water_drop2.png"
                   
                 />
@@ -390,7 +392,7 @@ const Index3 = () => {
                     <div className="single-testimonial-item-two">
                       <div className="quote-rating-box">
                         <div className="icon">
-                          <img
+                          <img fetchpriority="low"
                             src="assets/images/testimonial/Quotations.png"
                             alt="quote icon"
                           />
@@ -422,7 +424,7 @@ const Index3 = () => {
                       </p>
                       <div className="author-thumb-title">
                         <div className="author-thumb">
-                          <img
+                          <img fetchpriority="low"
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Facebook Recommendation"
                           />
@@ -437,7 +439,7 @@ const Index3 = () => {
                     <div className="single-testimonial-item-two mb-60">
                       <div className="quote-rating-box">
                         <div className="icon">
-                          <img
+                          <img fetchpriority="low"
                             src="assets/images/testimonial/Quotations.png"
                             alt="quote icon"
                           />
@@ -468,7 +470,7 @@ const Index3 = () => {
                       </p>
                       <div className="author-thumb-title">
                         <div className="author-thumb">
-                          <img
+                          <img fetchpriority="low"
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Facebook Recommendation"
                           />
@@ -483,7 +485,7 @@ const Index3 = () => {
                     <div className="single-testimonial-item-two mb-60">
                       <div className="quote-rating-box">
                         <div className="icon">
-                          <img
+                          <img fetchpriority="low"
                             src="assets/images/testimonial/Quotations.png"
                             alt="quote icon"
                           />
@@ -514,7 +516,7 @@ const Index3 = () => {
                       </p>
                       <div className="author-thumb-title">
                         <div className="author-thumb">
-                          <img
+                          <img fetchpriority="low"
                             src="assets/images/testimonial/thumb-1.jpg"
                             alt="Facebook Recommendation"
                           />
