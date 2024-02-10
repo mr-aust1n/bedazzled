@@ -53,19 +53,19 @@ const About = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               {/*====== About Image Item ======*/}
               <div className="about-img-item mb-30 wow fadeInUp">
-                <img src="assets/images/about/about-3.jpg" alt="About Image" />
+                <img src="assets/images/about/about_bedazzled_1.png" alt="About Image" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               {/*====== About Image Item ======*/}
               <div className="about-img-item mb-30 wow fadeInDown">
-                <img src="assets/images/about/about-4.jpg" alt="About Image" />
+                <img src="assets/images/about/about_bedazzled_2.png" alt="About Image" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               {/*====== About Image Item ======*/}
               <div className="about-img-item mb-30 wow fadeInUp">
-                <img src="assets/images/about/about-5.jpg" alt="About Image" />
+                <img src="assets/images/about/about_bedazzled_3.png" alt="About Image" />
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const About = () => {
                         className="hover-bg bg_cover"
                         style={{
                           backgroundImage:
-                            "url(assets/images/about/hover-bg.jpg)",
+                            "url(assets/images/about/about_bedazzled_blur.png)",
                         }}
                       />
                       <div className="icon">
@@ -103,7 +103,7 @@ const About = () => {
                         className="hover-bg bg_cover"
                         style={{
                           backgroundImage:
-                            "url(assets/images/about/hover-bg.jpg)",
+                            "url(assets/images/about/about_bedazzled_blur.png)",
                         }}
                       />
                       <div className="icon">
@@ -130,7 +130,7 @@ const About = () => {
                         className="hover-bg bg_cover"
                         style={{
                           backgroundImage:
-                            "url(assets/images/about/hover-bg.jpg)",
+                            "url(assets/images/about/about_bedazzled_blur.png)",
                         }}
                       />
                       <div className="icon">
@@ -141,12 +141,7 @@ const About = () => {
                         <p>
                         As our company grows, we're employing more skilled staff, while continuously elevating our standards and using the latest cleaning technologies.
                         </p>
-                        <Link legacyBehavior href="/about">
-                          <a className="btn-link">
-                            Read More
-                            <i className="fas fa-arrow-right" />
-                          </a>
-                        </Link>
+                       
                       </div>
                     </div>
                   </div>
@@ -252,7 +247,7 @@ const About = () => {
                 Experience unparalleled window cleaning with our streak-free finishes, where we consistently go above and beyond to ensure your utmost satisfaction.
                 </p>
                 <Link legacyBehavior href="/team">
-                  <a className="main-btn golden-btn">Find Specialist</a>
+                  <a style={{color:'#fff'}} className="main-btn golden-btn">Find Specialist</a>
                 </Link>
               </div>
             </div>
@@ -324,7 +319,7 @@ const About = () => {
                 <div className="author-thumb-title">
                   <div className="author-thumb">
                     <img
-                      src="assets/images/testimonial/thumb-1.jpg"
+                      src="assets/images/testimonial/facebook_testimonial.jpg"
                       alt="Author Image"
                     />
                   </div>
@@ -374,7 +369,7 @@ const About = () => {
                 <div className="author-thumb-title">
                   <div className="author-thumb">
                     <img
-                      src="assets/images/testimonial/thumb-2.jpg"
+                      src="assets/images/testimonial/facebook_testimonial.jpg"
                       alt="Author Image"
                     />
                   </div>
@@ -424,7 +419,7 @@ const About = () => {
                 <div className="author-thumb-title">
                   <div className="author-thumb">
                     <img
-                      src="assets/images/testimonial/thumb-3.jpg"
+                      src="assets/images/testimonial/facebook_testimonial.jpg"
                       alt="Author Image"
                     />
                   </div>
@@ -474,7 +469,7 @@ const About = () => {
                 <div className="author-thumb-title">
                   <div className="author-thumb">
                     <img
-                      src="assets/images/testimonial/thumb-1.jpg"
+                      src="assets/images/testimonial/facebook_testimonial.jpg"
                       alt="Author Image"
                     />
                   </div>
