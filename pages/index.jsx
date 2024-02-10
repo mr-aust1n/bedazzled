@@ -544,7 +544,7 @@ const Index3 = () => {
             <div className="col-xl-7 col-lg-12">
               <div className="section-title text-center mb-50 wow fadeInDown">
              
-                <h2>Some Of Our Customers</h2>
+                <h2>Some of our customers</h2>
               </div>
             </div>
           </div>

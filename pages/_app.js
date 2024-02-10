@@ -18,7 +18,7 @@ const App = ({ Component, pageProps }) => {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="description"
-          content="Landscaping, Gardening, Florists, Groundskeeping"
+          content="North west window cleaning by beDAZzled"
         />
         <meta
           name="viewport"

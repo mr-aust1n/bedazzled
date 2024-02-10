@@ -15,33 +15,35 @@ const About = () => {
               {/*====== Section-title ======*/}
               <div className="section-title mb-50 wow fadeInLeft">
                 <span className="sub-title">
-                  <i className="flaticon-plant" />
-                  About Gardening
+                  <i className="fa fa-tint" />
+                  About BeDAZzled
                 </span>
-                <h2>We Care Your Garden &amp; Landscaping</h2>
+                <h2>Spotless views, every time.</h2>
               </div>
             </div>
             <div className="col-lg-6">
               {/*====== About Content Box ======*/}
               <div className="about-content-box mb-50 wow fadeInRight">
                 <p className="mb-30">
-                  Sed ut perspiciatis unde omnis isnatu volunteer accusantium
-                  doloremque laudantium totam rem apeira eaque ipsa quae ab
-                  eillo inventore veritatis et quasi architecto beatae vitae
+                Bedazzled, a family-run business, offers top-tier window, fascia, soffit and roof cleaning services across the North West. Utilizing advanced filtered technology and experienced in both traditional and water-fed techniques, we guarantee a streak-free finish at competitive prices, with free quotes available.
                 </p>
                 <ul className="check-style-one mb-40">
                   <li>
                     <i className="far fa-check" />
-                    We’re Experience Gardening
+                    40+ years in customer services
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Awards Winning &amp; Professional Team Member
+                    IPAF Certified
+                  </li>
+                  <li>
+                    <i className="far fa-check" />
+                    DBS Cleared
                   </li>
                 </ul>
                 <div className="about-button">
-                  <Link legacyBehavior href="/about">
-                    <a className="main-btn secondary-btn">Learn More</a>
+                  <Link legacyBehavior href="/contact">
+                    <a className="main-btn secondary-btn">Book Your Sparkle Today</a>
                   </Link>
                 </div>
               </div>
@@ -83,20 +85,14 @@ const About = () => {
                         }}
                       />
                       <div className="icon">
-                        <i className="flaticon-target" />
+                      <i class="fa fa-rocket" aria-hidden="true"></i>
                       </div>
                       <div className="text">
                         <h3 className="title">Our Mission</h3>
                         <p>
-                          Sed persiciatis unde omnis esnatu volunteer
-                          accusantium doloreue laudan totam
+                         Our mission is to deliver unparalleled window cleaning services, ensuring customer satisfaction with streak-free finishes.
                         </p>
-                        <Link legacyBehavior href="/about">
-                          <a className="btn-link">
-                            Read More
-                            <i className="fas fa-arrow-right" />
-                          </a>
-                        </Link>
+                        
                       </div>
                     </div>
                   </div>
@@ -111,17 +107,16 @@ const About = () => {
                         }}
                       />
                       <div className="icon">
-                        <i className="flaticon-vision" />
+                        <i className="fa fa-eye" />
                       </div>
                       <div className="text">
                         <h3 className="title">Our Vision</h3>
                         <p>
-                          Sed persiciatis unde omnis esnatu volunteer
-                          accusantium doloreue laudan totam
+                        Ensuring every client's delight with pristine, streak-free windows and personalised service at competitive rates.
                         </p>
-                        <Link legacyBehavior href="/about">
+                        <Link legacyBehavior href="#testimonials">
                           <a className="btn-link">
-                            Read More
+                            See our Feedback
                             <i className="fas fa-arrow-right" />
                           </a>
                         </Link>
@@ -139,13 +134,12 @@ const About = () => {
                         }}
                       />
                       <div className="icon">
-                        <i className="flaticon-management" />
+                      <i class="fa fa-building" aria-hidden="true"></i>
                       </div>
                       <div className="text">
-                        <h3 className="title">Plan &amp; Goals</h3>
+                        <h3 className="title">Our Goal</h3>
                         <p>
-                          Sed persiciatis unde omnis esnatu volunteer
-                          accusantium doloreue laudan totam
+                        As our company grows, we're employing more skilled staff, while continuously elevating our standards and using the latest cleaning technologies.
                         </p>
                         <Link legacyBehavior href="/about">
                           <a className="btn-link">
@@ -163,74 +157,19 @@ const About = () => {
         </div>
       </section>
       {/*====== End About Section ======*/}
-      {/*====== Start Features Section ======*/}
-      <section className="features-section p-r z-1 pb-100">
-        <div className="features-wrapper">
-          <div
-            className="features-bg bg_cover"
-            style={{
-              backgroundImage: "url(assets/images/bg/features-bg-1.jpg)",
-            }}
-          />
-          <div className="features-bgc-content-box main-bg text-white wow fadeInRight">
-            <div className="features-content-box">
-              {/*====== Section-title ======*/}
-              <div className="section-title mb-50 wow fadeInUp">
-                <span className="sub-title">
-                  <i className="flaticon-plant" />
-                  Modern Gardening
-                </span>
-                <h2>We Offers Landscape &amp; Tree Plantations</h2>
-              </div>
-              <p className="mb-40">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae abillo inventore veritatis quasi architecto beatae vitae
-                dicta sunt explicabo emo enim ipsam voluptatem quia voluptas{" "}
-              </p>
-              <div className="single-features-item mb-30 wow fadeInDown">
-                <div className="icon">
-                  <i className="flaticon-pruning-shears" />
-                  <span className="shape-circle" />
-                </div>
-                <div className="text">
-                  <h5 className="title">Modern Gardening &amp; Expert Team</h5>
-                  <p>
-                    Quis autem velum reprehenderit voluptate velit essecy
-                    molestiaey consequatur vel dolorem eum
-                  </p>
-                </div>
-              </div>
-              <div className="single-features-item mb-30 wow fadeInUp">
-                <div className="icon">
-                  <i className="flaticon-gardening-1" />
-                  <span className="shape-circle" />
-                </div>
-                <div className="text">
-                  <h5 className="title">Tree Plantations &amp; Landscape</h5>
-                  <p>
-                    On the other hand, we denounce with righteous indignation
-                    dislike beguiled and demoralized
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End Features Section ======*/}
+    
       {/*====== Start Team Section ======*/}
-      <section className="team-section pt-95">
+      <section className="team-section">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-12">
               {/*====== Section-title ======*/}
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">
-                  <i className="flaticon-plant" />
-                  Team Member
+                  <i className="fa fa-tint" />
+                  Team Members
                 </span>
-                <h2>Meet Our Expert Gardener</h2>
+                <h2>Meet the BeDAZzled Experts</h2>
               </div>
             </div>
           </div>
@@ -240,16 +179,16 @@ const About = () => {
                 <div className="member-img">
                   <img src="assets/images/team/team-1.jpg" alt="Team Image" />
                   <div className="icon-btn">
-                    <i className="far fa-plus" />
+                    <i className="fa fa-user" />
                   </div>
                 </div>
                 <div className="member-info text-center">
                   <h3 className="title">
-                    <Link legacyBehavior href="/single-team">
-                      Benjamin S. Hughes
+                    <Link legacyBehavior href="#">
+                      Daz - M
                     </Link>
                   </h3>
-                  <p>Senior Gardener</p>
+                  <p>Owner &amp; Senior Cleaner</p>
                 </div>
               </div>
             </div>
@@ -258,16 +197,16 @@ const About = () => {
                 <div className="member-img">
                   <img src="assets/images/team/team-2.jpg" alt="Team Image" />
                   <div className="icon-btn">
-                    <i className="far fa-plus" />
+                    <i className="fa fa-user" />
                   </div>
                 </div>
                 <div className="member-info text-center">
                   <h3 className="title">
                     <Link legacyBehavior href="/single-team">
-                      Michael K. Greenwalds
+                      Liam - R
                     </Link>
                   </h3>
-                  <p>Senior Gardener</p>
+                  <p>Senior Cleaner</p>
                 </div>
               </div>
             </div>
@@ -276,16 +215,16 @@ const About = () => {
                 <div className="member-img">
                   <img src="assets/images/team/team-3.jpg" alt="Team Image" />
                   <div className="icon-btn">
-                    <i className="far fa-plus" />
+                    <i className="fa fa-user" />
                   </div>
                 </div>
                 <div className="member-info text-center">
                   <h3 className="title">
                     <Link legacyBehavior href="/single-team">
-                      Joshua M. Miranda
+                      Reegan - M
                     </Link>
                   </h3>
-                  <p>Junior Gardener</p>
+                  <p>Junior Cleaner</p>
                 </div>
               </div>
             </div>
@@ -296,8 +235,7 @@ const About = () => {
       {/*====== Start CTA Section  ======*/}
       <section
         className="cta-bg-section bg_cover pt-100 p-r z-1"
-        style={{ backgroundImage: "url(assets/images/bg/cta-bg-1.jpg)" }}
-      >
+        style={{ backgroundImage: "url(assets/images/bg/bedazzled_vans_with_logo.jpg)" }}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
@@ -305,14 +243,13 @@ const About = () => {
               <div className="cta-content-box text-white mb-50 wow fadeInLeft">
                 <div className="section-title mb-20">
                   <span className="sub-title">
-                    <i className="flaticon-plant" />
-                    Need a Expert
+                    <i className="fa fa-tint" />
+                    Need a Expert?
                   </span>
-                  <h2>Looking For a Garden Specialist</h2>
+                  <h2 style={{color:'#0048a7'}}>Looking For a window cleaner that will go above and beyond?</h2>
                 </div>
-                <p className="mb-30">
-                  Sed ut perspiciatis unde omnis isnatu volunteer accusantium
-                  doloremque laudantium
+                <p style={{color:'#0048a7'}} className="mb-30">
+                Experience unparalleled window cleaning with our streak-free finishes, where we consistently go above and beyond to ensure your utmost satisfaction.
                 </p>
                 <Link legacyBehavior href="/team">
                   <a className="main-btn golden-btn">Find Specialist</a>
@@ -331,15 +268,15 @@ const About = () => {
       {/*====== End CTA Section  ======*/}
       {/*====== Start Testimonial Section  ======*/}
       <section className="testimonial-section pt-100 pb-100">
-        <div className="container">
+        <div className="container" id="testimonials">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-12">
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">
-                  <i className="flaticon-plant" />
+                  <i className="fa fa-tint" />
                   Testimonials
                 </span>
-                <h2>Global Clients Feedback</h2>
+                <h2>Clients Feedback</h2>
               </div>
             </div>
           </div>
@@ -355,7 +292,7 @@ const About = () => {
                   <div className="icon">
                     <img
                       src="assets/images/testimonial/quote.png"
-                      alt="quote icon"
+                      alt="speech marks"
                     />
                   </div>
                   <div className="ratings-box">
