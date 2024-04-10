@@ -2,6 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/contact": "pages/contact.js",
-  "/service": "pages/service.js"
+  "/ipaf-cleans": "pages/ipaf-cleans.js",
+  "/managed-properties": "pages/managed-properties.js",
+  "/commercial-cleaning": "pages/commercial-cleaning.js",
+  "/gutters-fascias": "pages/gutters-fascias.js"
 }

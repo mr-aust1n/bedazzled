@@ -22,10 +22,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/service": [
+    "/commercial-cleaning": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/service.js"
+      "static/chunks/pages/commercial-cleaning.js"
+    ],
+    "/gutters-fascias": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/gutters-fascias.js"
+    ],
+    "/ipaf-cleans": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/ipaf-cleans.js"
+    ],
+    "/managed-properties": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/managed-properties.js"
     ]
   },
   "ampFirstPages": []

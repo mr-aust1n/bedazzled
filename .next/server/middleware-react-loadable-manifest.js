@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"service.jsx -> @/src/components/isotope/ProjectGridIsotope\":{\"id\":\"service.jsx -> @/src/components/isotope/ProjectGridIsotope\",\"files\":[\"static/chunks/src_components_isotope_ProjectGridIsotope_js.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{}"

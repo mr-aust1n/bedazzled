@@ -82,16 +82,16 @@ const Footer3 = () => {
                   <div className="widget-content">
                     <ul className="footer-nav">
                       <li>
-                        <a href="#">Need a Quote?</a>
-                      </li>
-                      {/* <li>
-                        <a href="#">Our Services</a>
-                      </li> */}
-                      <li>
-                        <a href="#">About Company</a>
+                        <a href="contact">Need a Quote?</a>
                       </li>
                       <li>
-                        <a href="#">Meet Our Team</a>
+                        <a href="services">Our Services</a>
+                      </li>
+                      <li>
+                        <a href="about">About Company</a>
+                      </li>
+                      <li>
+                        <a href="about">Meet Our Team</a>
                       </li>
                     </ul>
                   </div>
@@ -104,7 +104,7 @@ const Footer3 = () => {
                   <div className="widget-content">
                     <ul className="gallery-list">
                       <li>
-                        <a href="#">
+                        <a href="/managed-properties">
                           <img
                             src="assets/images/gallery/thumb-widget-1.jpg"
                             alt="Image"
@@ -115,7 +115,7 @@ const Footer3 = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/gutters-fascias">
                           <img
                             src="assets/images/gallery/thumb-widget-2.jpg"
                             alt="Image"
@@ -126,7 +126,7 @@ const Footer3 = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/ipaf-cleans">
                           <img
                             src="assets/images/gallery/thumb-widget-3.jpg"
                             alt="Image"
@@ -137,7 +137,7 @@ const Footer3 = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/commercial-cleaning">
                           <img
                             src="assets/images/gallery/thumb-widget-4.jpg"
                             alt="Image"
@@ -148,7 +148,7 @@ const Footer3 = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/about">
                           <img
                             src="assets/images/gallery/thumb-widget-5.jpg"
                             alt="Image"
@@ -159,7 +159,7 @@ const Footer3 = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="/contact">
                           <img
                             src="assets/images/gallery/thumb-widget-6.jpg"
                             alt="Image"
@@ -181,7 +181,7 @@ const Footer3 = () => {
               <div className="col-lg-6">
                 {/*====== Copyright Text ======*/}
                 <div className="copyright-text">
-                  <p>Website by www.craigaust.in Copy© 2023</p>
+                  <p>Website by www.craigaust.in Copy© 2024</p>
                 </div>
               </div>
               <div className="col-lg-6">
