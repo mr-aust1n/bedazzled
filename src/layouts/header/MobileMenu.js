@@ -64,7 +64,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
               <nav className="main-menu">
                 <ul>
                   <li className="menu-item">
-                    <a href="#">
+                    <a href="index">
                       Home
                       <span onClick={() => active("home")}></span>
                     </a>
@@ -87,7 +87,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </ul> */}
                   </li>
                   <li className="menu-item">
-                    <Link legacyBehavior href="#">
+                    <Link legacyBehavior href="/about">
                       About
                     </Link>
                   </li>
@@ -135,13 +135,13 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                   </li>
 
                   <li className="menu-item">
-                    <Link legacyBehavior href="#">
+                    <Link legacyBehavior href="/contact">
                       Contact
                     </Link>
                   </li>
 
                   <li className="menu-item">
-                    <Link legacyBehavior href="#">
+                    <Link legacyBehavior href="/faqs">
                       FAQ's
                     </Link>
                   </li>
