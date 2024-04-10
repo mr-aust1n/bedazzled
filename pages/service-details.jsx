@@ -13,7 +13,7 @@ const ServiceDetails = () => {
             <div className="col-xl-8 col-lg-7">
               {/*====== Service Details Wrapper ======*/}
               <div className="service-info-wrapper pr-lg-40 wow fadeInDown">
-                <h2 className="title">Yard Cleaning</h2>
+                <h2 className="title">Yard1 Cleaning</h2>
                 <p>
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium totam rem aperiam, eaque

@@ -11,7 +11,7 @@
     font: 600 18px $heading-font;
     @extend %primary-color;
     cursor: pointer;
-    margin-inline-end: 43px;
+    margin-inline-end: 33px;
     margin-bottom: 10px;
     padding-bottom: 20px;
     @media #{$xm} {
@@ -271,7 +271,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(11, 61, 44, 0.85);
+      background-color: rgba(171, 223, 255, 0.4);
       @include border-radius(20px);
       display: flex;
       align-items: flex-end;
@@ -431,7 +431,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(11, 61, 44, 0.75);
+      background-color: rgba(171, 223, 255, 0.4);
       @extend %flex-center;
       visibility: hidden;
       opacity: 0;

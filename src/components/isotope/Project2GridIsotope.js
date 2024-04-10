@@ -43,10 +43,10 @@ const Project2GridIsotope = () => {
             {/*====== Section Title ======*/}
             <div className="section-title mb-40">
               <span className="sub-title">
-                <i className="flaticon-plant" />
-                Photo Gallery
+                <i className="fa fa-tint" />
+                Bedazzled
               </span>
-              <h2>Popular Photo Gallery Inside Our Garden</h2>
+              <h2>Services</h2>
             </div>
           </div>
         </div>

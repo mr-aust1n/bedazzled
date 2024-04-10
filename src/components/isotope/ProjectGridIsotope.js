@@ -43,10 +43,10 @@ const ProjectGridIsotope = () => {
             {/*====== Section Title ======*/}
             <div className="section-title mb-40">
               <span className="sub-title">
-                <i className="flaticon-plant" />
-                Photo Gallery
+                <i className="fa fa-tint" />
+                Bedazzled Services
               </span>
-              <h2>Popular Photo Gallery Inside Our Garden</h2>
+              <h2>Our Services</h2>
             </div>
           </div>
         </div>
@@ -61,46 +61,48 @@ const ProjectGridIsotope = () => {
                 Show All
               </li>
               <li
-                onClick={handleFilterKeyChange("cat-1")}
-                className={activeBtn("cat-1")}
+                onClick={handleFilterKeyChange("cat-mp")}
+                className={activeBtn("cat-mp")}
               >
-                Garden
+                Managed Properties
+              </li>
+              {/* <li
+                onClick={handleFilterKeyChange("cat-mp")}
+                className={activeBtn("cat-mp")}
+              ></li> */}
+
+              <li
+                onClick={handleFilterKeyChange("cat-ipaf")}
+                className={activeBtn("cat-ipaf")}
+              >
+                IPAF High Level Work
               </li>
               <li
-                onClick={handleFilterKeyChange("cat-2")}
-                className={activeBtn("cat-2")}
+                onClick={handleFilterKeyChange("cat-gut")}
+                className={activeBtn("cat-gut")}
               >
-                Landscape
+                Fascia &amp; Gutters
               </li>
               <li
-                onClick={handleFilterKeyChange("cat-3")}
-                className={activeBtn("cat-3")}
+                onClick={handleFilterKeyChange("cat-soh")}
+                className={activeBtn("cat-soh")}
               >
-                Transport
-              </li>
-              <li
-                onClick={handleFilterKeyChange("cat-4")}
-                className={activeBtn("cat-4")}
-              >
-                Team
-              </li>
-              <li
-                onClick={handleFilterKeyChange("cat-5")}
-                className={activeBtn("cat-5")}
-              >
-                Plants
+                Schools, Offices and Hotels
               </li>
             </ul>
           </div>
         </div>
         <div className="row gallery-active">
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-1 cat-4">
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-all cat-mp">
             {/*====== Gallery Item ======*/}
             <div className="single-project-item-three mb-30 wow fadeInDown">
               <div className="project-img">
-                <img src="assets/images/gallery/gl-8.jpg" alt="Gallery Image" />
+                <img
+                  src="assets/images/gallery/managed_property01.png"
+                  alt="Gallery Image"
+                />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/managed-properties">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -108,12 +110,12 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
+                        <Link legacyBehavior href="/managed-properties">
+                          <a>Managed Properties</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
+                      <Link legacyBehavior href="/managed-properties">
+                        <a>Preston</a>
                       </Link>
                     </div>
                   </div>
@@ -121,13 +123,16 @@ const ProjectGridIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-2">
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-all cat-ipaf">
             {/*====== Gallery Item ======*/}
             <div className="single-project-item-three mb-30 wow fadeInUp">
               <div className="project-img">
-                <img src="assets/images/gallery/gl-9.jpg" alt="Gallery Image" />
+                <img
+                  src="assets/images/gallery/IPAF_01.png"
+                  alt="Gallery Image"
+                />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/ipaf-cleans">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -136,11 +141,11 @@ const ProjectGridIsotope = () => {
                     <div className="text">
                       <h3 className="title">
                         <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
+                          <a>IPAF High Cleans</a>
                         </Link>
                       </h3>
                       <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
+                        <a>Fleetwood</a>
                       </Link>
                     </div>
                   </div>
@@ -148,16 +153,16 @@ const ProjectGridIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-3 cat-5">
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-gut cat-all">
             {/*====== Gallery Item ======*/}
             <div className="single-project-item-three mb-30 wow fadeInDown">
               <div className="project-img">
                 <img
-                  src="assets/images/gallery/gl-10.jpg"
+                  src="assets/images/gallery/gutter_clean01.png"
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="gutters-fascias">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -165,12 +170,12 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
+                        <Link legacyBehavior href="gutters-fascias">
+                          <a>Gutters and Fascias</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
+                      <Link legacyBehavior href="gutters-fascias">
+                        <a>Lytham</a>
                       </Link>
                     </div>
                   </div>
@@ -178,46 +183,16 @@ const ProjectGridIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-4 cat-1">
-            {/*====== Gallery Item ======*/}
-            <div className="single-project-item-three mb-30 wow fadeInLeft">
-              <div className="project-img">
-                <img
-                  src="assets/images/gallery/gl-11.jpg"
-                  alt="Gallery Image"
-                />
-                <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
-                    <a className="icon-btn">
-                      <i className="fas fa-arrow-right" />
-                    </a>
-                  </Link>
-                  <div className="hover-content text-white">
-                    <div className="text">
-                      <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Carings</a>
-                        </Link>
-                      </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-5 cat-2">
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-all cat-ipaf">
             {/*====== Gallery Item ======*/}
             <div className="single-project-item-three mb-30 wow fadeInDown">
               <div className="project-img">
                 <img
-                  src="assets/images/gallery/gl-12.jpg"
+                  src="assets/images/gallery/IPAF_02.png"
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/ipaf-cleans">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -225,12 +200,12 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
+                        <Link legacyBehavior href="/ipaf-cleans-cleans">
+                          <a>IPAF High Cleans</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
+                      <Link legacyBehavior href="/ipaf-cleans">
+                        <a>St Anne's</a>
                       </Link>
                     </div>
                   </div>
@@ -238,16 +213,46 @@ const ProjectGridIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-4 cat-3">
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-gut cat-all">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInDown">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery/gutter_clean02.png"
+                  alt="Gallery Image"
+                />
+                <div className="hover-overlay">
+                  <Link legacyBehavior href="gutters-fascias">
+                    <a className="icon-btn">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                  <div className="hover-content text-white">
+                    <div className="text">
+                      <h3 className="title">
+                        <Link legacyBehavior href="gutters-fascias">
+                          <a>Fascias  &amp; Gutters</a>
+                        </Link>
+                      </h3>
+                      <Link legacyBehavior href="gutters-fascias">
+                        <a>Little Marton</a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-all cat-soh">
             {/*====== Gallery Item ======*/}
             <div className="single-project-item-three mb-30 wow fadeInRight">
               <div className="project-img">
                 <img
-                  src="assets/images/gallery/gl-13.jpg"
+                  src="assets/images/gallery/School_window_clean.png"
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/commercial-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -255,12 +260,12 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
+                        <Link legacyBehavior href="/commercial-cleaning">
+                          <a>Schools, Offices &amp; Hotels</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
+                      <Link legacyBehavior href="/commercial-cleaning">
+                        <a>Bispham</a>
                       </Link>
                     </div>
                   </div>
@@ -268,16 +273,16 @@ const ProjectGridIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-2 cat-3">
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-all cat-soh">
             {/*====== Gallery Item ======*/}
             <div className="single-project-item-three mb-30 wow fadeInUp">
               <div className="project-img">
                 <img
-                  src="assets/images/gallery/gl-14.jpg"
+                  src="assets/images/gallery/Office_window_clean.png"
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/commercial-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -285,12 +290,12 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
+                        <Link legacyBehavior href="/commercial-cleaning">
+                          <a>Offices, Hotels &amp; Schools</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
+                      <Link legacyBehavior href="/commercial-cleaning">
+                        <a>Blackpool</a>
                       </Link>
                     </div>
                   </div>
@@ -298,16 +303,16 @@ const ProjectGridIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-5">
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-all cat-mp">
             {/*====== Gallery Item ======*/}
             <div className="single-project-item-three mb-30 wow fadeInDown">
               <div className="project-img">
                 <img
-                  src="assets/images/gallery/gl-15.jpg"
+                  src="assets/images/gallery/managed_property02.png"
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/managed-properties">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -315,12 +320,12 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
+                        <Link legacyBehavior href="/managed-properties">
+                          <a>Managed Properties</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
+                      <Link legacyBehavior href="/managed-properties">
+                        <a>Lytham St Annes</a>
                       </Link>
                     </div>
                   </div>
@@ -328,16 +333,16 @@ const ProjectGridIsotope = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 item cat-1">
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-gut cat-all">
             {/*====== Gallery Item ======*/}
-            <div className="single-project-item-three mb-30 wow fadeInUp">
+            <div className="single-project-item-three mb-30 wow fadeInDown">
               <div className="project-img">
                 <img
-                  src="assets/images/gallery/gl-16.jpg"
+                  src="assets/images/gallery/gutter_clean03.png"
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="gutters-fascias">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -345,12 +350,102 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
-                          <a>Garden Caring</a>
+                        <Link legacyBehavior href="gutters-fascias">
+                          <a>Gutters &amp; Fascias</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/project-details">
-                        <a>Water The Plants</a>
+                      <Link legacyBehavior href="gutters-fascias">
+                        <a>Mythop</a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-all cat-ipaf">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInDown">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery/IPAF_03.png"
+                  alt="Gallery Image"
+                />
+                <div className="hover-overlay">
+                  <Link legacyBehavior href="/ipaf-cleans">
+                    <a className="icon-btn">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                  <div className="hover-content text-white">
+                    <div className="text">
+                      <h3 className="title">
+                        <Link legacyBehavior href="/ipaf-cleans">
+                          <a>IPAF High Cleans</a>
+                        </Link>
+                      </h3>
+                      <Link legacyBehavior href="/ipaf-cleans">
+                        <a>Blackpool</a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-all cat-soh">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInDown">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery/Hotel_window_clean.png"
+                  alt="Gallery Image"
+                />
+                <div className="hover-overlay">
+                  <Link legacyBehavior href="/commercial-cleaning">
+                    <a className="icon-btn">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                  <div className="hover-content text-white">
+                    <div className="text">
+                      <h3 className="title">
+                        <Link legacyBehavior href="/commercial-cleaning">
+                          <a>Hotels, Offices &amp; Schools</a>
+                        </Link>
+                      </h3>
+                      <Link legacyBehavior href="/commercial-cleaning">
+                        <a>Blackpool, Seafront</a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-6 item cat-all cat-mp">
+            {/*====== Gallery Item ======*/}
+            <div className="single-project-item-three mb-30 wow fadeInUp">
+              <div className="project-img">
+                <img
+                  src="assets/images/gallery/managed_property03.png"
+                  alt="Gallery Image"
+                />
+                <div className="hover-overlay">
+                  <Link legacyBehavior href="/managed-properties">
+                    <a className="icon-btn">
+                      <i className="fas fa-arrow-right" />
+                    </a>
+                  </Link>
+                  <div className="hover-content text-white">
+                    <div className="text">
+                      <h3 className="title">
+                        <Link legacyBehavior href="/managed-properties">
+                          <a>Managed Properties</a>
+                        </Link>
+                      </h3>
+                      <Link legacyBehavior href="/managed-properties">
+                        <a>Highcross Park </a>
                       </Link>
                     </div>
                   </div>
