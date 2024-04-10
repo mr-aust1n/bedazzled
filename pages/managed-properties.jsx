@@ -3,65 +3,31 @@ import Partners from "@/src/components/Partners";
 import Layout from "@/src/layouts/Layout";
 const ProjectDetails = () => {
   return (
-    <Layout>
-      <PageBanner pageName={"Project Details"} />
+    <Layout header={3} footer={3}>
+      <PageBanner pageName={"Managed Properties"} />
       {/*====== Start Project-Details section ======*/}
       <section className="project-details-section pt-95">
         <div className="container">
           <div className="project-details-wrapper pb-60">
-            <div className="row">
-              <div className="col-lg-7">
-                <h3 className="title">Managed Properties</h3>
-              </div>
-              <p>
-                On the other hand, we denounce with righteous indignation and
-                dislike men who are so beguiled and demoralized by the charms of
-                pleasure of the moment, so blinded by desire, that they cannot
-                foresee the pain and trouble that are bound to ensue; and equal
-                blame belongs to those who fail in their duty through weakness
-                of will, which is the same as saying through shrinking from toil
-                and pain. These cases are perfectly simple and easy to
-                distinguish. In a free hour, when our power of choice is
-                untrammelled and when nothing prevents our being able to do what
-                we like best, every pleasure
-              </p>
-            </div>
-            <div className="row">
-              <div className="col-md-6">
-                <div className="block-image wow fadeInDown">
-                  <img
-                    src="assets/images/gallery/project-single-1.jpg"
-                    alt="Project Image"
-                  />
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="block-image wow fadeInUp">
-                  <img
-                    src="assets/images/gallery/project-single-2.jpg"
-                    alt="Project Image"
-                  />
-                </div>
-              </div>
-            </div>
-            <h3>Project Summery</h3>
+            <h3 className="title">Managed Property</h3>
             <p>
-              On the other hand, we denounce with righteous indignation and
-              dislike men who are so beguiled and demoralized by the charms of
-              pleasure of the moment, so blinded by desire, that they cannot
-              foresee the pain and trouble that are bound to ensue; and equal
-              blame belongs to those who fail in their duty through weakness of
-              will, which is the same as saying through shrinking from toil and
-              pain. These cases are perfectly simple and easy to distinguish. In
-              a free hour, when our power of choice is untrammelled and when
-              nothing prevents our being able to do what we like best, every
-              pleasure
+              In Blackpool and the north west, Bedazzled window cleaning
+              services transform managed properties into standout gems. Perfect
+              for single properties or portfolios, we will elevate your
+              building’s facade beyond mere cleanliness to a dazzling shine,
+              enhancing curb appeal and property value. Our eco-friendly
+              solutions and advanced techniques ensure a sparkling, impressive
+              finish every time. Regular maintenance with our service not only
+              beautifies but also preserves your windows, saving on future
+              costs. Elevate your Blackpool property's image and longevity with
+              our exceptional window cleaning service—where every pane doesn’t
+              just shine; it Bedazzles.
             </p>
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="block-image wow fadeInDown">
                   <img
-                    src="assets/images/gallery/project-single-3.jpg"
+                    src="assets/images/gallery/managed_property01.png"
                     alt="Project Image"
                   />
                 </div>
@@ -69,7 +35,7 @@ const ProjectDetails = () => {
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="block-image wow fadeInUp">
                   <img
-                    src="assets/images/gallery/project-single-4.jpg"
+                    src="assets/images/gallery/managed_property02.png"
                     alt="Project Image"
                   />
                 </div>
@@ -77,21 +43,23 @@ const ProjectDetails = () => {
               <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="block-image wow fadeInDown">
                   <img
-                    src="assets/images/gallery/project-single-5.jpg"
+                    src="assets/images/gallery/managed_property03.png"
                     alt="Project Image"
                   />
                 </div>
               </div>
             </div>
-            <h3>Final Results</h3>
+            <h3>Don't delay and get a quote today!</h3>
             <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate non
-              provident, similique sunt in culpa qui officia deserunt mollitia
-              animi, id est laborum et dolorum fuga. Et harum quidem rerum
-              facilis est et expedita distinctio. Nam libero tempore, cum soluta
-              nobis est eligendi optio cumque nihil impedit quo minus
+              Don't let your Blackpool property fade into the background. With
+              our bedazzled commercial window cleaning service, we promise more
+              than just clarity; we deliver a sparkle that sets you apart.
+              Specializing in managed properties, we offer eco-friendly,
+              efficient solutions tailored to your needs. Our service not only
+              enhances the appearance of your building but also protects its
+              value. Time is of the essence—don't delay. Get a quote today and
+              transform your property into a dazzling standout that commands
+              attention.
             </p>
           </div>
           {/*====== Post Navigation ======*/}
@@ -100,16 +68,18 @@ const ProjectDetails = () => {
               <div className="col-md-6">
                 <div className="navigation-item prev-post mb-40">
                   <div className="thumb">
-                    <img
-                      src="assets/images/service/prev.jpg"
-                      alt="thumb image"
-                    />
+                    <a href="/ipaf-cleans">
+                      <img
+                        src="/assets/images/gallery/thumb-widget-3.jpg"
+                        alt="thumb image"
+                      />
+                    </a>
                   </div>
                   <div className="text">
                     <h3 className="title">
-                      <a href="#">Garden Makeup</a>
+                      <a href="/ipaf-cleans">IPAF High Cleans</a>
                     </h3>
-                    <a href="#" className="btn-link">
+                    <a href="/ipaf-cleans" className="btn-link">
                       Read More
                       <i className="far fa-arrow-right" />
                     </a>
@@ -119,16 +89,18 @@ const ProjectDetails = () => {
               <div className="col-md-6">
                 <div className="navigation-item next-post mb-40">
                   <div className="thumb">
-                    <img
-                      src="assets/images/service/next.jpg"
-                      alt="thumb image"
-                    />
+                    <a href="/gutters-fascias">
+                      <img
+                        src="/assets/images/gallery/thumb-widget-2.jpg"
+                        alt="thumb image"
+                      />
+                    </a>
                   </div>
                   <div className="text">
                     <h3 className="title">
-                      <a href="#">Lawn Mowing</a>
+                      <a href="/gutters-fascias">Fascia &amp; Gutters</a>
                     </h3>
-                    <a href="#" className="btn-link">
+                    <a href="/gutters-fascias" className="btn-link">
                       Read More
                       <i className="far fa-arrow-right" />
                     </a>

@@ -140,11 +140,11 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/project-details">
+                        <Link legacyBehavior href="/ipaf-cleans">
                           <a>IPAF High Cleans</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/project-details">
+                      <Link legacyBehavior href="/ipaf-cleans">
                         <a>Fleetwood</a>
                       </Link>
                     </div>

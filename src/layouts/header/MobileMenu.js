@@ -63,15 +63,10 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
               {/*====== main Menu ======*/}
               <nav className="main-menu">
                 <ul>
-                  
                   <li className="menu-item">
                     <a href="#">
                       Home
-                      <span
-                        
-                        onClick={() => active("home")}
-                      >                        
-                      </span>
+                      <span onClick={() => active("home")}></span>
                     </a>
                     {/* <ul className="sub-menu" style={activeSubMenu("home")}>
                       <li>
@@ -97,12 +92,35 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </Link>
                   </li>
 
-                  <li className="menu-item">
+                  {/* <li className="menu-item">
                     <Link legacyBehavior href="#">
                       Services
                     </Link>
-                  </li>
+                  </li> */}
 
+                  <li className="menu-item has-children">
+                    <a href="#">
+                      Services
+                      <span
+                        className="dd-trigger"
+                        onClick={() => active("Service")}
+                      >
+                        <i className="far fa-angle-down" />
+                      </span>
+                    </a>
+                    <ul className="sub-menu" style={activeSubMenu("Service")}>
+                      <li>
+                        <Link legacyBehavior href="service">
+                          Our Portfolio
+                        </Link>
+                      </li>
+                      <li>
+                        <Link legacyBehavior href="service-details">
+                          Our Services
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
 
                   <li className="menu-item">
                     <Link legacyBehavior href="#">
@@ -110,13 +128,11 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </Link>
                   </li>
 
-
                   <li className="menu-item">
                     <Link legacyBehavior href="#">
                       FAQ's
                     </Link>
                   </li>
-
 
                   {/* <li className="menu-item has-children">
                     <a href="#">
