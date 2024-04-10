@@ -101,11 +101,14 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                   <li className="menu-item has-children">
                     <a href="#">
                       Services
-                      <span className="dd-trigger">
+                      <span
+                        className="dd-trigger"
+                        onClick={() => active("Service")}
+                      >
                         <i className="far fa-angle-down" />
                       </span>
                     </a>
-                    <ul className="sub-menu">
+                    <ul className="sub-menu" style={activeSubMenu("Service")}>
                       <li>
                         <Link legacyBehavior href="/service">
                           Services Portfolio
@@ -133,7 +136,6 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                       </li>
                     </ul>
                   </li>
-
                   <li className="menu-item">
                     <Link legacyBehavior href="/contact">
                       Contact
@@ -146,30 +148,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </Link>
                   </li>
 
-                  {/* <li className="menu-item has-children">
-                    <a href="#">
-                      Services
-                      <span
-                        className="dd-trigger"
-                        onClick={() => active("Service")}
-                      >
-                        <i className="far fa-angle-down" />
-                      </span>
-                    </a>
-                    <ul className="sub-menu" style={activeSubMenu("Service")}>
-                      <li>
-                        <Link legacyBehavior href="#">
-                          Our Service
-                        </Link>
-                      </li>
-                      <li>
-                        <Link legacyBehavior href="#">
-                          Service Details
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="menu-item has-children">
+                  {/*<li className="menu-item has-children">
                     <a href="#">
                       Portfolio
                       <span
