@@ -171,7 +171,7 @@ const ProjectGridIsotope = () => {
                     <div className="text">
                       <h3 className="title">
                         <Link legacyBehavior href="gutters-fascias">
-                          <a>Gutters and Fascias</a>
+                          <a>Gutters &amp; Fascias</a>
                         </Link>
                       </h3>
                       <Link legacyBehavior href="gutters-fascias">

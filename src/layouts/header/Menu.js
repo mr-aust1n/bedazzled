@@ -5,7 +5,7 @@ const Menu = () => {
     <nav className="main-menu">
       <ul>
         <li className="menu-item has-children">
-          <a   href="/index">
+          <a href="/index">
             Home
             {/* <span className="dd-trigger">
               <i className="far fa-angle-down" />
@@ -30,28 +30,18 @@ const Menu = () => {
           </ul> */}
         </li>
         <li className="menu-item">
-          <Link legacyBehavior   href="/about">
+          <Link legacyBehavior href="/about">
             About
           </Link>
         </li>
-        <li className="menu-item">
-          <Link legacyBehavior   href="/service">
+        {/* <li className="menu-item">
+          <Link legacyBehavior href="/service">
             Services
           </Link>
-        </li>
-        <li className="menu-item">
-          <Link legacyBehavior   href="/contact">
-            Contact
-          </Link>
-        </li>
+        </li> */}
 
-        <li className="menu-item">
-          <Link legacyBehavior   href="/faqs">
-            FAQ's
-          </Link>
-        </li>
-        {/* <li className="menu-item has-children">
-          <a   href="##">
+        <li className="menu-item has-children">
+          <a href="/service">
             Services
             <span className="dd-trigger">
               <i className="far fa-angle-down" />
@@ -59,17 +49,45 @@ const Menu = () => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior   href="##service">
-              Services
+              <Link legacyBehavior href="/service">
+                Services Portfolio
               </Link>
             </li>
             <li>
-              <Link legacyBehavior   href="##service-details">
-              Service Areas
+              <Link legacyBehavior href="/managed-properties">
+                Managed Properties
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="/ipaf-cleans">
+                IPAF High Cleans
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="/gutters-fascias">
+                Gutters &amp; Fascias
+              </Link>
+            </li>
+            <li>
+              <Link legacyBehavior href="/commercial-cleaning">
+                Commercial
               </Link>
             </li>
           </ul>
-        </li> */}
+        </li>
+
+        <li className="menu-item">
+          <Link legacyBehavior href="/contact">
+            Contact
+          </Link>
+        </li>
+
+        <li className="menu-item">
+          <Link legacyBehavior href="/faqs">
+            FAQ's
+          </Link>
+        </li>
+
         {/* <li className="menu-item has-children">
           <a   href="##">
             Portfolio

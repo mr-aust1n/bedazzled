@@ -101,22 +101,34 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                   <li className="menu-item has-children">
                     <a href="#">
                       Services
-                      <span
-                        className="dd-trigger"
-                        onClick={() => active("Service")}
-                      >
+                      <span className="dd-trigger">
                         <i className="far fa-angle-down" />
                       </span>
                     </a>
-                    <ul className="sub-menu" style={activeSubMenu("Service")}>
+                    <ul className="sub-menu">
                       <li>
-                        <Link legacyBehavior href="service">
-                          Our Portfolio
+                        <Link legacyBehavior href="/service">
+                          Services Portfolio
                         </Link>
                       </li>
                       <li>
-                        <Link legacyBehavior href="service-details">
-                          Our Services
+                        <Link legacyBehavior href="/managed-properties">
+                          Managed Properties
+                        </Link>
+                      </li>
+                      <li>
+                        <Link legacyBehavior href="/ipaf-cleans">
+                          IPAF High Cleans
+                        </Link>
+                      </li>
+                      <li>
+                        <Link legacyBehavior href="/gutters-fascias">
+                          Gutters &amp; Fascias
+                        </Link>
+                      </li>
+                      <li>
+                        <Link legacyBehavior href="/commercial-cleaning">
+                          Commercial
                         </Link>
                       </li>
                     </ul>
