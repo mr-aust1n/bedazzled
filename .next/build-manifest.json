@@ -22,6 +22,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/managed-properties": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/managed-properties.js"
+    ],
     "/service": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

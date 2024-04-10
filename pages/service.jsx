@@ -12,7 +12,7 @@ const ProjectGridIsotope = dynamic(
 const ProjectGrid = () => {
   return (
     <Layout header={3} footer={3}>
-      <PageBanner pageName={"Project Grid"} />
+      <PageBanner pageName={"Services"} />
       {/*====== Start Gallery section ======*/}
       <ProjectGridIsotope />
       {/*====== End Gallery section ======*/}

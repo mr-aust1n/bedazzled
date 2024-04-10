@@ -2,6 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/managed-properties": "pages/managed-properties.js",
   "/service": "pages/service.js",
-  "/serviceBackup": "pages/serviceBackup.js"
+  "/project-details": "pages/project-details.js"
 }
