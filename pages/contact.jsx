@@ -4,7 +4,7 @@ import Layout from "@/src/layouts/Layout";
 import Link from "next/link";
 const Contact = () => {
   return (
-    <Layout header={3}  footer={3}>
+    <Layout header={3} footer={3}>
       <PageBanner pageName={"Contact Us"} />
 
       {/*====== Start Contact Info section ======*/}
@@ -16,7 +16,10 @@ const Contact = () => {
                 {/*====== Contact Info Item ======*/}
                 <div className="contact-info-item text-center">
                   <div className="icon">
-                    <img src="assets/images/icon/icons8-map-pin.gif" alt="icon" />
+                    <img
+                      src="assets/images/icon/icons8-map-pin.gif"
+                      alt="icon"
+                    />
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
@@ -33,9 +36,10 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Email Address</span>
                     <h6>
-                      <a href="mailto::bedazzledwcs@gmail.com">bedazzledwcs@gmail.com</a>
+                      <a href="mailto::bedazzledwcs@gmail.com">
+                        bedazzledwcs@gmail.com
+                      </a>
                     </h6>
-                    
                   </div>
                 </div>
               </div>
@@ -43,7 +47,10 @@ const Contact = () => {
                 {/*====== Contact Info Item ======*/}
                 <div className="contact-info-item text-center">
                   <div className="icon">
-                    <img src="assets/images/icon/icons8-phone-ringing.gif" alt="icon" />
+                    <img
+                      src="assets/images/icon/icons8-phone-ringing.gif"
+                      alt="icon"
+                    />
                   </div>
                   <div className="info">
                     <span className="title">Phone No</span>
@@ -84,7 +91,9 @@ const Contact = () => {
               <div className="col-lg-6">
                 {/*====== Contact Form Wrapper ======*/}
                 <div className="contact-form-wrapper mb-50 wow fadeInRight">
-                  <form action="https://formsubmit.co/craigaustin@me.com" method="POST"
+                  <form
+                    action="https://formsubmit.co/craigaustin@me.com"
+                    method="POST"
                     onSubmit={(e) => e.preventDefault()}
                     className="contact-form"
                   >
@@ -161,7 +170,7 @@ const Contact = () => {
         </div>
       </section>
       {/*====== End Contact section ======*/}
-  
+
       {/*====== Start Partners Section ======*/}
       <Partners />
     </Layout>
