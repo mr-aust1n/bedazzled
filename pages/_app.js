@@ -12,7 +12,7 @@ const App = ({ Component, pageProps }) => {
     }, 1000);
   }, []);
 
-  // Updated Schema Markup (Structured Data)
+  // Updated Schema Markup (Structured Data) without pricing
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -110,7 +110,6 @@ const App = ({ Component, pageProps }) => {
             closes: "18:00",
           },
         ],
-        priceRange: "££",
         serviceType: "Window Cleaning",
         areaServed: [
           "Lancashire",
@@ -133,16 +132,12 @@ const App = ({ Component, pageProps }) => {
           {
             "@type": "Offer",
             name: "Commercial Window Cleaning",
-            price: "Contact for pricing",
-            priceCurrency: "GBP",
             availability: "https://schema.org/InStock",
             url: "https://bedazzledwcs.co.uk/services/commercial-window-cleaning",
           },
           {
             "@type": "Offer",
             name: "Residential Window Cleaning",
-            price: "Contact for pricing",
-            priceCurrency: "GBP",
             availability: "https://schema.org/InStock",
             url: "https://bedazzledwcs.co.uk/services/residential-window-cleaning",
           },
