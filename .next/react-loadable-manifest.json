@@ -1,1 +1,37 @@
-{}
+{
+  "pages/index-2.jsx -> @/src/components/Counter": {
+    "id": 1593,
+    "files": [
+      "static/chunks/123.2285eb03846b3200.js",
+      "static/chunks/974.e3ae8347f5a40c39.js"
+    ]
+  },
+  "pages/index-3.jsx -> @/src/components/Counter": {
+    "id": 1593,
+    "files": [
+      "static/chunks/123.2285eb03846b3200.js",
+      "static/chunks/974.e3ae8347f5a40c39.js"
+    ]
+  },
+  "pages/index.jsx -> @/src/components/Counter": {
+    "id": 1593,
+    "files": [
+      "static/chunks/123.2285eb03846b3200.js",
+      "static/chunks/974.e3ae8347f5a40c39.js"
+    ]
+  },
+  "pages/project-grid-2-column.jsx -> @/src/components/isotope/Project2GridIsotope": {
+    "id": 9953,
+    "files": [
+      "static/chunks/334.cf0d47a541698fff.js",
+      "static/chunks/953.473dd63d402261c7.js"
+    ]
+  },
+  "pages/service.jsx -> @/src/components/isotope/ProjectGridIsotope": {
+    "id": 3657,
+    "files": [
+      "static/chunks/334.cf0d47a541698fff.js",
+      "static/chunks/38.767b8586a428b34e.js"
+    ]
+  }
+}
