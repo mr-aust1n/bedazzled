@@ -12,7 +12,7 @@ const App = ({ Component, pageProps }) => {
     }, 1000);
   }, []);
 
-  // Schema Markup (Structured Data)
+  // Updated Schema Markup (Structured Data)
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -111,7 +111,7 @@ const App = ({ Component, pageProps }) => {
           },
         ],
         priceRange: "££",
-        servesCuisine: "Window Cleaning",
+        serviceType: "Window Cleaning",
         areaServed: [
           "Lancashire",
           "Blackpool",
@@ -128,6 +128,24 @@ const App = ({ Component, pageProps }) => {
           "West Lancashire",
           "Wyre",
           "Ribble Valley",
+        ],
+        makesOffer: [
+          {
+            "@type": "Offer",
+            name: "Commercial Window Cleaning",
+            price: "Contact for pricing",
+            priceCurrency: "GBP",
+            availability: "https://schema.org/InStock",
+            url: "https://bedazzledwcs.co.uk/services/commercial-window-cleaning",
+          },
+          {
+            "@type": "Offer",
+            name: "Residential Window Cleaning",
+            price: "Contact for pricing",
+            priceCurrency: "GBP",
+            availability: "https://schema.org/InStock",
+            url: "https://bedazzledwcs.co.uk/services/residential-window-cleaning",
+          },
         ],
         sameAs: [
           "https://www.facebook.com/bedazzledwcs",
