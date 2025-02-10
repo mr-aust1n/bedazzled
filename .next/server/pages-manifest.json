@@ -1,1 +1,6 @@
-{"/_error":"pages/_error.js","/_app":"pages/_app.js","/_document":"pages/_document.js","/api/hello":"pages/api/hello.js","/about":"pages/about.html","/blog-details":"pages/blog-details.html","/blog-standard":"pages/blog-standard.html","/contact":"pages/contact.html","/commercial-cleaning":"pages/commercial-cleaning.html","/faqs":"pages/faqs.html","/gutters-fascias":"pages/gutters-fascias.html","/":"pages/index.html","/index-3":"pages/index-3.html","/index-2":"pages/index-2.html","/ipaf-cleans":"pages/ipaf-cleans.html","/managed-properties":"pages/managed-properties.html","/pricing":"pages/pricing.html","/product-details":"pages/product-details.html","/project-grid-2-column":"pages/project-grid-2-column.html","/project-details":"pages/project-details.html","/project-masonry":"pages/project-masonry.html","/service":"pages/service.html","/service-details":"pages/service-details.html","/serviceBackup":"pages/serviceBackup.html","/shop":"pages/shop.html","/single-team":"pages/single-team.html","/team":"pages/team.html","/testimonials":"pages/testimonials.html","/404":"pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js"
+}
