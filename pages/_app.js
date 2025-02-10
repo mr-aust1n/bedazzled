@@ -12,7 +12,7 @@ const App = ({ Component, pageProps }) => {
     }, 1000);
   }, []);
 
-  // Updated Schema Markup (Structured Data) - Properly Converted to JSON String
+  // Updated Schema Markup (Structured Data) for Commercial Window Cleaning Only
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -160,12 +160,10 @@ const App = ({ Component, pageProps }) => {
         />
         {/*====== Title ======*/}
         <title>BeDAZzled Commercial Window Cleaning - North West - UK</title>
-        {/*====== JSON-LD Schema Markup (Fixed) ======*/}
+        {/*====== JSON-LD Schema Markup ======*/}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(structuredData, null, 2),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </Head>
       {loading && <Preloader />}
