@@ -159,7 +159,7 @@ const Contact = () => {
                     </div>
                     <div className="form_group">
                       <button className="main-btn primary-btn">
-                        Send Message Now
+                        Send Messages
                       </button>
                     </div>
                   </form>
