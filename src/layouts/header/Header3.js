@@ -26,7 +26,9 @@ const Header3 = () => {
                   <span>
                     <i className="far fa-envelope" />
                     <b className="title">Email :</b>
-                    <a href="mailto:sbedazzledwcs@gmail.com">bedazzledwcs@gmail.com</a>
+                    <a href="mailto:sbedazzledwcs@gmail.com">
+                      bedazzledwcs@gmail.com
+                    </a>
                   </span>
                   <span>
                     <i className="far fa-phone-plus" />
@@ -35,7 +37,8 @@ const Header3 = () => {
                   </span>
                   <span>
                     <i className="far fa-map-marker-alt" />
-                    <b className="title">Location :</b>1168 Penrose Avenue, Blackpool, FY4 4JX
+                    <b className="title">Location :</b>168 Penrose Avenue,
+                    Blackpool, FY4 4JX
                   </span>
                 </div>
               </div>
@@ -44,13 +47,30 @@ const Header3 = () => {
                 <div className="top-right float-lg-right">
                   <ul className="social-link">
                     <li>
-                      <a href="https://www.facebook.com/bedazzledwcs/?locale=en_GB" target="_blank">Facebook</a>
+                      <a
+                        href="https://www.facebook.com/bedazzledwcs/?locale=en_GB"
+                        target="_blank"
+                      >
+                        Facebook
+                      </a>
                     </li>
-                    {<li>
-                      <a href="https://www.tiktok.com/@bedazzledwcs" target="_blank">TikTok</a>
-                    </li> }
+                    {
+                      <li>
+                        <a
+                          href="https://www.tiktok.com/@bedazzledwcs"
+                          target="_blank"
+                        >
+                          TikTok
+                        </a>
+                      </li>
+                    }
                     <li>
-                      <a href="https://www.instagram.com/bedazzledwcs/" target="_blank">Instagram</a>
+                      <a
+                        href="https://www.instagram.com/bedazzledwcs/"
+                        target="_blank"
+                      >
+                        Instagram
+                      </a>
                     </li>
                     {/* <li>
                       <a href="#">YouTube</a>

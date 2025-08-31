@@ -23,7 +23,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
-                    <h6>168 Pentrose Street, Blackpool</h6>
+                    <h6>168 Penrose Avenue, Blackpool, FY4 4JX</h6>
                   </div>
                 </div>
               </div>
