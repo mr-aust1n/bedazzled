@@ -18,7 +18,7 @@ const App = ({ Component, pageProps }) => {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="description"
-          content="Landscaping, Gardening, Florists, Groundskeeping"
+          content="Professional commercial window cleaning across Blackpool and the North West. Retail, hospitality, offices, and multi-site contracts. Reliable teams, safe systems of work, spotless results."
         />
         <meta
           name="viewport"
