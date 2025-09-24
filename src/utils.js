@@ -1,43 +1,45 @@
 // Sticky nav
 export const stickyNav = () => {
-  window.addEventListener("scroll", () => {
-    let offset = window.scrollY;
-    const sticky = document.querySelectorAll(".header-navigation");
-    for (let i = 0; i < sticky.length; i++) {
-      const stick = sticky[i];
-      if (stick) {
-        if (offset > 10) {
-          stick.classList.add("sticky");
-        } else {
-          stick.classList.remove("sticky");
-        }
-      }
-    }
-  });
+  if (typeof window === "undefined") return;
+  const onScroll = () => {
+    const offset = window.scrollY;
+    document.querySelectorAll(".header-navigation").forEach((el) => {
+      if (!el) return;
+      if (offset > 10) el.classList.add("sticky");
+      else el.classList.remove("sticky");
+    });
+  };
+  window.addEventListener("scroll", onScroll, { passive: true });
+  return () => window.removeEventListener("scroll", onScroll);
 };
 
-// Sticky nav
+// Scroll-to-top visibility
 export const scrollTopActive = () => {
-  window.addEventListener("scroll", () => {
-    let offset = window.scrollY;
-    const sticky = document.querySelectorAll(".scroll-top");
-    for (let i = 0; i < sticky.length; i++) {
-      const stick = sticky[i];
-      if (stick) {
-        if (offset > 10) {
-          stick.classList.add("active-scroll-top");
-        } else {
-          stick.classList.remove("active-scroll-top");
-        }
-      }
-    }
-  });
+  if (typeof window === "undefined") return;
+  const onScroll = () => {
+    const offset = window.scrollY;
+    document.querySelectorAll(".scroll-top").forEach((el) => {
+      if (!el) return;
+      if (offset > 10) el.classList.add("active-scroll-top");
+      else el.classList.remove("active-scroll-top");
+    });
+  };
+  window.addEventListener("scroll", onScroll, { passive: true });
+  return () => window.removeEventListener("scroll", onScroll);
 };
 
-// animation
-export const animation = () => {
-  if (typeof window !== "undefined") {
-    window.WOW = require("wowjs");
+// WOW.js animation (client-only, robust to different export shapes)
+let wowInited = false;
+export const animation = async () => {
+  if (typeof window === "undefined" || wowInited) return;
+  try {
+    const mod = await import("wowjs");
+    const WOWCtor = mod.WOW || mod.default?.WOW || mod.default || mod;
+    if (typeof WOWCtor === "function") {
+      new WOWCtor({ live: false }).init();
+      wowInited = true;
+    }
+  } catch {
+    // ignore if wowjs is unavailable
   }
-  new WOW.WOW().init();
 };

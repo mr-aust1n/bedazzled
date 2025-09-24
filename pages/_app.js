@@ -2,6 +2,8 @@ import Preloader from "@/src/layouts/Preloader";
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
 import "/styles/globals.css";
+import "animate.css/animate.min.css";
+
 const App = ({ Component, pageProps }) => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
