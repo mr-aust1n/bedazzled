@@ -6,7 +6,7 @@ import Link from "next/link";
 import Slider from "react-slick";
 const About = () => {
   return (
-    <Layout header={3}  footer={3}>
+    <Layout header={3} footer={3}>
       <PageBanner pageName={"About"} />
       <section className="about-section pt-95 pb-100">
         <div className="container">
@@ -25,7 +25,12 @@ const About = () => {
               {/*====== About Content Box ======*/}
               <div className="about-content-box mb-50 wow fadeInRight">
                 <p className="mb-30">
-                Bedazzled, a family-run business, offers top-tier window, fascia, soffit and roof cleaning services across the North West. Utilizing advanced filtered technology and experienced in both traditional and water-fed techniques, we guarantee a streak-free finish at competitive prices, with free quotes available.
+                  Bedazzled, a family-run business, offers top-tier window,
+                  fascia, soffit and roof cleaning services across the North
+                  West. Utilizing advanced filtered technology and experienced
+                  in both traditional and water-fed techniques, we guarantee a
+                  streak-free finish at competitive prices, with free quotes
+                  available.
                 </p>
                 <ul className="check-style-one mb-40">
                   <li>
@@ -43,7 +48,9 @@ const About = () => {
                 </ul>
                 <div className="about-button">
                   <Link legacyBehavior href="/contact">
-                    <a className="main-btn secondary-btn">Book Your Sparkle Today</a>
+                    <a className="main-btn secondary-btn">
+                      Book Your Sparkle Today
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -53,19 +60,28 @@ const About = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               {/*====== About Image Item ======*/}
               <div className="about-img-item mb-30 wow fadeInUp">
-                <img src="assets/images/about/about_bedazzled_1.png" alt="About Image" />
+                <img
+                  src="assets/images/about/about_bedazzled_1.png"
+                  alt="About Image"
+                />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               {/*====== About Image Item ======*/}
               <div className="about-img-item mb-30 wow fadeInDown">
-                <img src="assets/images/about/about_bedazzled_2.png" alt="About Image" />
+                <img
+                  src="assets/images/about/about_bedazzled_2.png"
+                  alt="About Image"
+                />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6">
               {/*====== About Image Item ======*/}
               <div className="about-img-item mb-30 wow fadeInUp">
-                <img src="assets/images/about/about_bedazzled_3.png" alt="About Image" />
+                <img
+                  src="assets/images/about/about_bedazzled_3.png"
+                  alt="About Image"
+                />
               </div>
             </div>
           </div>
@@ -85,14 +101,15 @@ const About = () => {
                         }}
                       />
                       <div className="icon">
-                      <i class="fa fa-rocket" aria-hidden="true"></i>
+                        <i class="fa fa-rocket" aria-hidden="true"></i>
                       </div>
                       <div className="text">
                         <h3 className="title">Our Mission</h3>
                         <p>
-                         Our mission is to deliver unparalleled window cleaning services, ensuring customer satisfaction with streak-free finishes.
+                          Our mission is to deliver unparalleled window cleaning
+                          services, ensuring customer satisfaction with
+                          streak-free finishes.
                         </p>
-                        
                       </div>
                     </div>
                   </div>
@@ -112,7 +129,9 @@ const About = () => {
                       <div className="text">
                         <h3 className="title">Our Vision</h3>
                         <p>
-                        Ensuring every client's delight with pristine, streak-free windows and personalised service at competitive rates.
+                          Ensuring every client's delight with pristine,
+                          streak-free windows and personalised service at
+                          competitive rates.
                         </p>
                         <Link legacyBehavior href="#testimonials">
                           <a className="btn-link">
@@ -134,14 +153,15 @@ const About = () => {
                         }}
                       />
                       <div className="icon">
-                      <i class="fa fa-building" aria-hidden="true"></i>
+                        <i class="fa fa-building" aria-hidden="true"></i>
                       </div>
                       <div className="text">
                         <h3 className="title">Our Goal</h3>
                         <p>
-                        As our company grows, we're employing more skilled staff, while continuously elevating our standards and using the latest cleaning technologies.
+                          As our company grows, we're employing more skilled
+                          staff, while continuously elevating our standards and
+                          using the latest cleaning technologies.
                         </p>
-                       
                       </div>
                     </div>
                   </div>
@@ -152,7 +172,7 @@ const About = () => {
         </div>
       </section>
       {/*====== End About Section ======*/}
-    
+
       {/*====== Start Team Section ======*/}
       <section className="team-section">
         <div className="container">
@@ -230,7 +250,10 @@ const About = () => {
       {/*====== Start CTA Section  ======*/}
       <section
         className="cta-bg-section bg_cover pt-100 p-r z-1"
-        style={{ backgroundImage: "url(assets/images/bg/bedazzled_vans_with_logo.jpg)" }}>
+        style={{
+          backgroundImage: "url(assets/images/bg/bedazzled_vans_with_logo.jpg)",
+        }}
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5">
@@ -241,13 +264,19 @@ const About = () => {
                     <i className="fa fa-tint" />
                     Need a Expert?
                   </span>
-                  <h2 style={{color:'#0048a7'}}>Looking For a window cleaner that will go above and beyond?</h2>
+                  <h2 style={{ color: "#0048a7" }}>
+                    Looking For a window cleaner that will go above and beyond?
+                  </h2>
                 </div>
-                <p style={{color:'#0048a7'}} className="mb-30">
-                Experience unparalleled window cleaning with our streak-free finishes, where we consistently go above and beyond to ensure your utmost satisfaction.
+                <p style={{ color: "#0048a7" }} className="mb-30">
+                  Experience unparalleled window cleaning with our streak-free
+                  finishes, where we consistently go above and beyond to ensure
+                  your utmost satisfaction.
                 </p>
                 <Link legacyBehavior href="/team">
-                  <a style={{color:'#fff'}} className="main-btn golden-btn">Find Specialist</a>
+                  <a style={{ color: "#fff" }} className="main-btn golden-btn">
+                    Find Specialist
+                  </a>
                 </Link>
               </div>
             </div>
