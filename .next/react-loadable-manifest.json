@@ -1,14 +1,21 @@
 {
   "pages/index.jsx -> @/src/components/Counter": {
-    "id": "pages/index.jsx -> @/src/components/Counter",
+    "id": 9453,
     "files": [
-      "static/chunks/_pages-dir-browser_src_components_Counter_js.js"
+      "static/chunks/453.5ec73907dc862d37.js"
+    ]
+  },
+  "pages/service.jsx -> @/src/components/isotope/ProjectGridIsotope": {
+    "id": 7519,
+    "files": [
+      "static/chunks/650.d87f7d2002f297a9.js",
+      "static/chunks/519.47aaf2c6b3610fb4.js"
     ]
   },
   "src/utils.js -> wowjs": {
-    "id": "src/utils.js -> wowjs",
+    "id": 4969,
     "files": [
-      "static/chunks/_pages-dir-browser_node_modules_wowjs_dist_wow_js.js"
+      "static/chunks/969.f8e72ce4fea286f5.js"
     ]
   }
 }

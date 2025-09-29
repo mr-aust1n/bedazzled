@@ -1,9 +1,14 @@
-# *
+# Allow all crawlers
 User-agent: *
 Allow: /
 
-# Host
-Host: https://www.bedazzledwcs.co.uk
+# Block internal Next.js/system routes
+Disallow: /_next/
+Disallow: /api/
+Disallow: /server-sitemap.xml
 
-# Sitemaps
+# Explicit host
+Host: www.bedazzledwcs.co.uk
+
+# Sitemap
 Sitemap: https://www.bedazzledwcs.co.uk/sitemap.xml

@@ -2,7 +2,17 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/about": "pages/about.js",
-  "/commercial-cleaning": "pages/commercial-cleaning.js"
+  "/about": "pages/about.html",
+  "/faqs": "pages/faqs.html",
+  "/gutters-fascias": "pages/gutters-fascias.html",
+  "/": "pages/index.html",
+  "/api/hello": "pages/api/hello.js",
+  "/commercial-cleaning": "pages/commercial-cleaning.html",
+  "/contact": "pages/contact.html",
+  "/service": "pages/service.html",
+  "/managed-properties": "pages/managed-properties.html",
+  "/ipaf-cleans": "pages/ipaf-cleans.html",
+  "/team": "pages/team.html",
+  "/pricing": "pages/pricing.html",
+  "/404": "pages/404.html"
 }
