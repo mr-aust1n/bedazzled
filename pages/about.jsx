@@ -320,7 +320,7 @@ const About = () => {
                     />
                   </div>
                   <div className="ratings-box">
-                    <h6>Quality Services</h6>
+                    <h6>Friends Recommendation</h6>
                     <ul className="ratings">
                       <li>
                         <i className="fas fa-star" />
@@ -341,9 +341,11 @@ const About = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam eaque
-                  quae abillo inventore veritatis et quasi architecto
+                  My friends recommended Daz to us who had done their windows
+                  for quite a while now and he couldn’t have been more helpful.
+                  His communication was excellent and as promised, attended
+                  yesterday and did a thorough job. Would definitely recommend.
+                  Many thanks{" "}
                 </p>
                 <div className="author-thumb-title">
                   <div className="author-thumb">
@@ -353,8 +355,8 @@ const About = () => {
                     />
                   </div>
                   <div className="author-title">
-                    <h6 className="title">Douglas D. Hall</h6>
-                    <p className="position">CEO &amp; Founder</p>
+                    <h6 className="title">Tracey</h6>
+                    <p className="position">Facebook Review</p>
                   </div>
                 </div>
               </div>
@@ -370,7 +372,7 @@ const About = () => {
                     />
                   </div>
                   <div className="ratings-box">
-                    <h6>Quality Services</h6>
+                    <h6>Just like the ghost busters</h6>
                     <ul className="ratings">
                       <li>
                         <i className="fas fa-star" />
@@ -391,9 +393,9 @@ const About = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam eaque
-                  quae abillo inventore veritatis et quasi architecto
+                  who ya gonna call Daz matthews & the team from bedazzled
+                  Always reliable amazing attention to detail Would I recommend
+                  yes 👍🏽 cheers daz
                 </p>
                 <div className="author-thumb-title">
                   <div className="author-thumb">
@@ -403,8 +405,8 @@ const About = () => {
                     />
                   </div>
                   <div className="author-title">
-                    <h6 className="title">Douglas D. Hall</h6>
-                    <p className="position">CEO &amp; Founder</p>
+                    <h6 className="title">Craig</h6>
+                    <p className="position">Facebook Review</p>
                   </div>
                 </div>
               </div>
@@ -420,7 +422,7 @@ const About = () => {
                     />
                   </div>
                   <div className="ratings-box">
-                    <h6>Quality Services</h6>
+                    <h6>Thank you</h6>
                     <ul className="ratings">
                       <li>
                         <i className="fas fa-star" />
@@ -441,9 +443,9 @@ const About = () => {
                   </div>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam eaque
-                  quae abillo inventore veritatis et quasi architecto
+                  The fab recommendation Amanda, brilliant first clean of my
+                  windows, no hesitation in asking for a regular four week
+                  clean. Really impressed.
                 </p>
                 <div className="author-thumb-title">
                   <div className="author-thumb">
@@ -453,8 +455,8 @@ const About = () => {
                     />
                   </div>
                   <div className="author-title">
-                    <h6 className="title">Brian L. Swinton</h6>
-                    <p className="position">Web Designer</p>
+                    <h6 className="title">Sarah</h6>
+                    <p className="position">Facebook Review</p>
                   </div>
                 </div>
               </div>
