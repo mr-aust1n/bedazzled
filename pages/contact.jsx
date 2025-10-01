@@ -2,6 +2,8 @@ import PageBanner from "@/src/components/PageBanner";
 import Partners from "@/src/components/Partners";
 import Layout from "@/src/layouts/Layout";
 import Link from "next/link";
+import * as gtag from "@/lib/gtag";
+
 const Contact = () => {
   return (
     <Layout header={3} footer={3}>
@@ -36,7 +38,16 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Email Address</span>
                     <h6>
-                      <a href="mailto::bedazzledwcs@gmail.com">
+                      <a
+                        href="mailto:bedazzledwcs@gmail.com"
+                        onClick={() =>
+                          gtag.event({
+                            action: "contact",
+                            params: { method: "email", location: "footer" },
+                          })
+                        }
+                      >
+                        {" "}
                         bedazzledwcs@gmail.com
                       </a>
                     </h6>
@@ -55,7 +66,17 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Phone No</span>
                     <h6>
-                      <a href="tel:07773780671">07773780671</a>
+                      <a
+                        href="tel:07773780671"
+                        onClick={() =>
+                          gtag.event({
+                            action: "contact", // GA4 recommended
+                            params: { method: "phone", location: "header" },
+                          })
+                        }
+                      >
+                        07773780671
+                      </a>
                     </h6>
                   </div>
                 </div>
