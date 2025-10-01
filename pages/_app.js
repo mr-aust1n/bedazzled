@@ -1,11 +1,31 @@
 import Preloader from "@/src/layouts/Preloader";
 import Head from "next/head";
+import Script from "next/script";
 import { Fragment, useEffect, useState } from "react";
+import { useRouter } from "next/router";
+import * as gtag from "../lib/gtag";
+
 import "/styles/globals.css";
 import "animate.css/animate.min.css";
 
 const App = ({ Component, pageProps }) => {
   const [loading, setLoading] = useState(true);
+  const router = useRouter();
+
+  // Handle client-side route changes for GA
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      // Skip tracking on /reviews if needed
+      if (url === "/reviews") return;
+      gtag.pageview(url);
+    };
+
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -26,59 +46,61 @@ const App = ({ Component, pageProps }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        {/*====== Title ======*/}
         <title>BeDAZzled Commercial Window Cleaning - North West - UK</title>
-        {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
           href="assets/images/favicon.ico"
           type="image/png"
         />
-        {/*====== Google Fonts ======*/}
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
-        {/*====== Flaticon css ======*/}
         <link
           rel="stylesheet"
           href="assets/fonts/flaticon/flaticon_gadden.css"
         />
-        {/*====== FontAwesome css ======*/}
         <link
           rel="stylesheet"
           href="assets/fonts/fontawesome/css/all.min.css"
         />
-        {/*====== Bootstrap css ======*/}
         <link
           rel="stylesheet"
           href="assets/vendor/bootstrap/css/bootstrap.min.css"
         />
-        {/*====== magnific-popup css ======*/}
         <link
           rel="stylesheet"
           href="assets/vendor/magnific-popup/dist/magnific-popup.css"
         />
-        {/*====== Slick-popup css ======*/}
         <link rel="stylesheet" href="assets/vendor/slick/slick.css" />
-        {/* <link rel="stylesheet" href="assets/vendor/slick/slick-theme.css" /> */}
-        {/*====== Jquery UI css ======*/}
         <link
           rel="stylesheet"
           href="assets/vendor/jquery-ui/jquery-ui.min.css"
         />
-        {/*====== Nice Select css ======*/}
         <link
           rel="stylesheet"
           href="assets/vendor/nice-select/css/nice-select.css"
         />
-        {/*====== Animate css ======*/}
         <link rel="stylesheet" href="assets/vendor/animate.css" />
-        {/*====== Default css ======*/}
         <link rel="stylesheet" href="assets/css/default.css" />
-        {/*====== Style css ======*/}
         <link rel="stylesheet" href="assets/css/style.css" />
       </Head>
+
+      {/* Google Analytics Script */}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          // Default config: disable auto pageview, we track manually
+          gtag('config', '${gtag.GA_TRACKING_ID}', { send_page_view: false });
+        `}
+      </Script>
+
       {loading && <Preloader />}
       {!loading && <Component {...pageProps} />}
     </Fragment>
