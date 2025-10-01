@@ -2,6 +2,7 @@
 module.exports = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.bedazzledwcs.co.uk",
   generateRobotsTxt: true,
+  generateIndexSitemap: false,
   sitemapSize: 45000,
   changefreq: "weekly",
   priority: 0.7,
