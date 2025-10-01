@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/contact": "pages/contact.js",
   "/reviews": "pages/reviews.js",
-  "/commercial-cleaning": "pages/commercial-cleaning.js"
+  "/contact": "pages/contact.js",
+  "/commercial-cleaning": "pages/commercial-cleaning.js",
+  "/": "pages/index.js"
 }
