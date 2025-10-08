@@ -81,12 +81,24 @@ const App = ({ Component, pageProps }) => {
           rel="stylesheet"
           href="assets/vendor/nice-select/css/nice-select.css"
         />
+
         <link rel="stylesheet" href="assets/vendor/animate.css" />
         <link rel="stylesheet" href="assets/css/default.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
       </Head>
 
       {/* Google Analytics Script */}
+
+      {/* Microsoft Clarity */}
+      <Script id="microsoft-clarity" strategy="afterInteractive">
+        {`
+          (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "tn3zd74i0j");
+        `}
+      </Script>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
         strategy="afterInteractive"
