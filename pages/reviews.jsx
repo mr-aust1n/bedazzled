@@ -159,7 +159,7 @@ export default function Reviews() {
                   <div className="mt-10">
                     <Link legacyBehavior href="/">
                       <a className="btn-link">
-                        Go back now <i className="fas fa-arrow-right" />
+                        Go back now! <i className="fas fa-arrow-right" />
                       </a>
                     </Link>
                   </div>
