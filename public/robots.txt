@@ -1,0 +1,12 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /_next/
+Disallow: /api/
+Disallow: /server-sitemap.xml
+
+# Host
+Host: https://www.bedazzledwcs.co.uk
+
+# Sitemaps
+Sitemap: https://www.bedazzledwcs.co.uk/sitemap.xml

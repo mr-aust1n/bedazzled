@@ -5,7 +5,7 @@ import { Fragment, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
 
-import "/styles/globals.css";
+import "../styles/globals.css";
 import "animate.css/animate.min.css";
 
 const App = ({ Component, pageProps }) => {
