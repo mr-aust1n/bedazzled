@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"pages/index.jsx -> @/src/components/Counter\":{\"id\":\"pages/index.jsx -> @/src/components/Counter\",\"files\":[\"static/chunks/_pages-dir-browser_src_components_Counter_js.js\"]},\"src/utils.js -> wowjs\":{\"id\":\"src/utils.js -> wowjs\",\"files\":[\"static/chunks/_pages-dir-browser_node_modules_wowjs_dist_wow_js.js\"]}}"
