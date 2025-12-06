@@ -1,7 +1,4 @@
 {
-  "engines": {
-    "node": ">=20 <23"
-  },
   "name": "gadden-react",
   "version": "0.1.0",
   "private": true,
