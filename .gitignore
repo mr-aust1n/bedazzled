@@ -3,10 +3,10 @@ node_modules/
 .next/
 
 # Ignore Next.js source files (not needed for static export)
-pages/
-src/
-styles/
-next.config.js
+# pages/
+# src/
+# styles/
+# next.config.js
 
 # Allow the static export folder to be included in the repository
 !out/
