@@ -32,8 +32,50 @@ export default function Reviews() {
   return (
     <Layout header={3} footer={3}>
       <Head>
-        <meta name="robots" content="noindex, nofollow" />
-        <title>Leave a Review | Bedazzled Window Cleaning</title>
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Read real customer reviews for BeDazzled, commercial window cleaners serving Blackpool, Preston, Lytham St Annes and Lancashire. See why businesses trust us for reliable and professional window cleaning."
+        />
+
+        {/* Page Title */}
+        <title>
+          Customer Reviews | BeDazzled Commercial Window Cleaning Blackpool
+        </title>
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="BeDazzled Reviews | Trusted Commercial Window Cleaners in Blackpool"
+        />
+        <meta
+          property="og:description"
+          content="See real testimonials from businesses and customers across Blackpool and Lancashire who trust BeDazzled for professional commercial window cleaning."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/testimonial/facebook_testimonial.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bedazzledwcs.co.uk/reviews"
+        />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="BeDazzled Customer Reviews | Commercial Window Cleaning"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover what our customers say about BeDazzled window cleaning across Blackpool and Lancashire."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/testimonial/facebook_testimonial.jpg"
+        />
       </Head>
 
       <PageBanner pageName={"Reviews"} />

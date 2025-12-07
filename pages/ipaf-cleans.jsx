@@ -4,6 +4,54 @@ import Layout from "@/src/layouts/Layout";
 const ProjectDetails = () => {
   return (
     <Layout header={3} footer={3}>
+      <Head>
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="IPAF certified high-level cleaning for commercial buildings across Blackpool, Preston, Lytham St Annes and Lancashire. Safe, professional and compliant window and exterior cleans for offices, hotels and large properties."
+        />
+
+        {/* Page Title */}
+        <title>
+          IPAF High Level Cleaning | Commercial Window Cleaning Specialists in
+          Blackpool and Lancashire | BeDazzled
+        </title>
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="IPAF High Level Cleaning | BeDazzled Commercial Services"
+        />
+        <meta
+          property="og:description"
+          content="Professional IPAF certified high-level cleaning for commercial buildings across Blackpool, Preston, Lytham St Annes and Lancashire. Safe, compliant and specialist cleaning for tall structures."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/gallery/IPAF_01.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bedazzledwcs.co.uk/ipaf-cleans"
+        />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="IPAF High Level Cleaning | BeDazzled Blackpool"
+        />
+        <meta
+          name="twitter:description"
+          content="IPAF certified commercial high-level cleaning across Blackpool and Lancashire. Safe, professional and specialist window cleaning at height."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/gallery/IPAF_01.png"
+        />
+      </Head>
+
       <PageBanner pageName={"High Level Cleans"} />
       {/*====== Start Project-Details section ======*/}
       <section className="project-details-section pt-95">

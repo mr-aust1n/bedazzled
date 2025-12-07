@@ -4,6 +4,54 @@ import Layout from "@/src/layouts/Layout";
 const ProjectDetails = () => {
   return (
     <Layout header={3} footer={3}>
+      <Head>
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Professional fascia and gutter cleaning for commercial buildings across Blackpool, Preston, Lytham St Annes, Poulton le Fylde and Lancashire. Prevent water damage, improve appearance and protect your property with BeDazzled."
+        />
+
+        {/* Page Title */}
+        <title>
+          Fascia and Gutter Cleaning | Commercial Properties in Blackpool and
+          Lancashire | BeDazzled
+        </title>
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Commercial Fascia and Gutter Cleaning in Blackpool and Lancashire"
+        />
+        <meta
+          property="og:description"
+          content="BeDazzled provides expert fascia and gutter cleaning for commercial properties across Blackpool, Preston and Lancashire. Protect your building from water damage and maintain a professional appearance."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/gallery/gutter_clean01.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bedazzledwcs.co.uk/gutters-fascias"
+        />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Commercial Fascia and Gutter Cleaning | BeDazzled Blackpool"
+        />
+        <meta
+          name="twitter:description"
+          content="Commercial fascia and gutter cleaning across Blackpool and Lancashire. Improve appearance, prevent water damage and maintain your property with BeDazzled."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/gallery/gutter_clean01.png"
+        />
+      </Head>
+
       <PageBanner pageName={"Fascia & Gutters"} />
       {/*====== Start Project-Details section ======*/}
       <section className="project-details-section pt-95">
