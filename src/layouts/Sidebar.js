@@ -26,7 +26,13 @@ const Sidebar = ({ show, handleClose }) => {
                     </a>
                   </Link>
                   <p>
-                  Elevate your business with Bedazzled, the North West's leading choice for pristine window cleaning. Specialising in showrooms and offices, our certified team uses cutting-edge technology and eco-friendly solutions for a radiant finish. Experience first-class service and unmatched professionalism. Contact us now for a free, no-obligation quote.
+                    Elevate your business with Bedazzled, the North West's
+                    leading choice for pristine window cleaning. Specialising in
+                    showrooms and offices, our certified team uses cutting-edge
+                    technology and eco-friendly solutions for a radiant finish.
+                    Experience first-class service and unmatched
+                    professionalism. Contact us now for a free, no-obligation
+                    quote.
                   </p>
                   {/* <div className="social-item">
                     <h6>Follow Us</h6>
@@ -71,7 +77,9 @@ const Sidebar = ({ show, handleClose }) => {
                       Email Us:
                     </h6>
                     <p>
-                      <a href="mailto:sbedazzledwcs@gmail.com">bedazzledwcs@gmail.com</a>
+                      <a href="mailto:bedazzledwcs@gmail.com">
+                        bedazzledwcs@gmail.com
+                      </a>
                     </p>
                   </div>
                   <div className="contact-info-item-two">
@@ -87,12 +95,14 @@ const Sidebar = ({ show, handleClose }) => {
               </div>
               <div className="col-lg-4 sidebar-widget">
                 <div className="sidebar-info-widget">
-
-                <div className="social-item">
+                  <div className="social-item">
                     <h6>Follow Us</h6>
                     <ul className="social-link">
                       <li>
-                        <a href="https://www.facebook.com/bedazzledwcs/?locale=en_GB" target="_blank">
+                        <a
+                          href="https://www.facebook.com/bedazzledwcs/"
+                          target="_blank"
+                        >
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
@@ -101,13 +111,21 @@ const Sidebar = ({ show, handleClose }) => {
                           <i className="fab fa-twitter" />
                         </a>
                       </li> */}
-                      {<li>
-                        <a href="https://www.tiktok.com/@bedazzledwcs"target="_blank">
-                          <i className="fab fa-tiktok" />
-                        </a>
-                      </li>}
+                      {
+                        <li>
+                          <a
+                            href="https://www.tiktok.com/@bedazzledwcs"
+                            target="_blank"
+                          >
+                            <i className="fab fa-tiktok" />
+                          </a>
+                        </li>
+                      }
                       <li>
-                        <a href="https://www.instagram.com/bedazzledwcs/" target="_blank">
+                        <a
+                          href="https://www.instagram.com/bedazzledwcs/"
+                          target="_blank"
+                        >
                           <i className="fab fa-instagram" />
                         </a>
                       </li>
@@ -141,10 +159,7 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a
-                        href="service"
-                        className="img-popup icon-btn"
-                      >
+                      <a href="service" className="img-popup icon-btn">
                         <i className="far fa-tint" />
                       </a>
                     </div>
@@ -159,10 +174,7 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a
-                        href="service"
-                        className="img-popup icon-btn"
-                      >
+                      <a href="service" className="img-popup icon-btn">
                         <i className="far fa-tint" />
                       </a>
                     </div>
@@ -177,10 +189,7 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a
-                        href="service"
-                        className="img-popup icon-btn"
-                      >
+                      <a href="service" className="img-popup icon-btn">
                         <i className="far fa-tint" />
                       </a>
                     </div>
@@ -195,10 +204,7 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a
-                        href="service"
-                        className="img-popup icon-btn"
-                      >
+                      <a href="service" className="img-popup icon-btn">
                         <i className="far fa-tint" />
                       </a>
                     </div>
@@ -213,10 +219,7 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a
-                        href="service"
-                        className="img-popup icon-btn"
-                      >
+                      <a href="service" className="img-popup icon-btn">
                         <i className="far fa-tint" />
                       </a>
                     </div>
@@ -231,10 +234,7 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a
-                        href="service"
-                        className="img-popup icon-btn"
-                      >
+                      <a href="service" className="img-popup icon-btn">
                         <i className="far fa-tint" />
                       </a>
                     </div>

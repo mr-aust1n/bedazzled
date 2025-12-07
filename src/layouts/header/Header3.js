@@ -26,7 +26,7 @@ const Header3 = () => {
                   <span>
                     <i className="far fa-envelope" />
                     <b className="title">Email :</b>
-                    <a href="mailto:sbedazzledwcs@gmail.com">
+                    <a href="mailto:bedazzledwcs@gmail.com">
                       bedazzledwcs@gmail.com
                     </a>
                   </span>
@@ -48,7 +48,7 @@ const Header3 = () => {
                   <ul className="social-link">
                     <li>
                       <a
-                        href="https://www.facebook.com/bedazzledwcs/?locale=en_GB"
+                        href="https://www.facebook.com/bedazzledwcs/"
                         target="_blank"
                       >
                         Facebook

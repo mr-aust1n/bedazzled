@@ -85,7 +85,7 @@ const Footer3 = () => {
                         <a href="contact">Need a Quote?</a>
                       </li>
                       <li>
-                        <a href="services">Our Services</a>
+                        <a href="service">Our Services</a>
                       </li>
                       <li>
                         <a href="about">About Company</a>

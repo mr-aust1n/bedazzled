@@ -2,12 +2,10 @@
 module.exports = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.bedazzledwcs.co.uk",
   generateRobotsTxt: true,
-  generateIndexSitemap: false,
   sitemapSize: 45000,
   changefreq: "weekly",
   priority: 0.7,
 
-  // Exclude only system/demo routes
   exclude: [
     "/api/*",
     "/_next/*",
@@ -18,7 +16,6 @@ module.exports = {
     "/serviceBackup",
   ],
 
-  // Custom priorities per route
   transform: async (config, path) => {
     const priorityMap = {
       "/": 1.0,
@@ -31,6 +28,7 @@ module.exports = {
       "/contact": 0.7,
       "/faqs": 0.6,
       "/team": 0.6,
+      "/reviews": 0.6,
     };
 
     return {
@@ -41,27 +39,25 @@ module.exports = {
     };
   },
 
-  // Force inclusion of your required pages
   additionalPaths: async (config) => {
     const base = config.siteUrl;
     const urls = [
       "/",
-      "about",
-      "service",
-      "managed-properties",
-      "ipaf-cleans",
-      "gutters-fascias",
-      "commercial-cleaning",
-      "contact",
-      "faqs",
-      "team",
+      "/about",
+      "/service",
+      "/managed-properties",
+      "/ipaf-cleans",
+      "/gutters-fascias",
+      "/commercial-cleaning",
+      "/contact",
+      "/faqs",
+      "/reviews",
     ];
+
     return urls.map((p) => ({
-      loc: `${base}/${p}`.replace(/\/+$/, "/"),
+      loc: `${base}${p}`,
       changefreq: "weekly",
-      priority: ["/", "service", "commercial-cleaning"].some(
-        (k) => `/${p}` === `/${k}`
-      )
+      priority: ["/", "/service", "/commercial-cleaning"].includes(p)
         ? 0.9
         : 0.7,
       lastmod: new Date().toISOString(),
@@ -73,10 +69,9 @@ module.exports = {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/_next/", "/api/", "/server-sitemap.xml"], // block system routes
+        disallow: ["/_next/", "/api/", "/server-sitemap.xml"],
       },
     ],
-    additionalSitemaps: ["https://www.bedazzledwcs.co.uk/sitemap.xml"],
     host: "https://www.bedazzledwcs.co.uk",
   },
 };

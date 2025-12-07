@@ -23,9 +23,7 @@ const Default = () => {
               <div className="col-lg-6">
                 {/*====== Top Left ======*/}
                 <div className="top-left">
-                  <span>
-                    Welcome to Bedazzled Comerical Window Cleaning
-                  </span>
+                  <span>Welcome to Bedazzled Comerical Window Cleaning</span>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -33,17 +31,26 @@ const Default = () => {
                 <div className="top-right float-lg-right">
                   <ul className="social-link">
                     <li>
-                      <a href="https://www.facebook.com/bedazzledwcs/?locale=en_GB" target="_blank" >
+                      <a
+                        href="https://www.facebook.com/bedazzledwcs/"
+                        target="_blank"
+                      >
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
                     <li>
-                    <a href="https://www.tiktok.com/@bedazzledwcs" target="_blank" >
+                      <a
+                        href="https://www.tiktok.com/@bedazzledwcs"
+                        target="_blank"
+                      >
                         <i className="fab fa-tiktok" />
                       </a>
                     </li>
                     <li>
-                    <a href="https://www.instagram.com/bedazzledwcs/" target="_blank" >
+                      <a
+                        href="https://www.instagram.com/bedazzledwcs/"
+                        target="_blank"
+                      >
                         <i className="fab fa-instagram" />
                       </a>
                     </li>
@@ -86,7 +93,7 @@ const Default = () => {
                           <span>Email Us</span>
                           <h5>
                             <a href="mailto:bedazzledwcs@gmail.com">
-                            bedazzledwcs@gmail.com
+                              bedazzledwcs@gmail.com
                             </a>
                           </h5>
                         </div>
@@ -168,7 +175,7 @@ const Default = () => {
                     </a>
                   </Link>
                 </div>
-               
+
                 {/*====== main Menu ======*/}
                 <Menu />
                 {/*====== Menu Button ======*/}
@@ -179,7 +186,7 @@ const Default = () => {
                 </div>
               </div>
               {/*====== Nav Right Item ======*/}
-              <div className="nav-right-item">              
+              <div className="nav-right-item">
                 <div className="menu-button d-xl-block d-none">
                   <Link legacyBehavior href="/contact">
                     <a className="main-btn primary-btn">Get a Quote</a>
