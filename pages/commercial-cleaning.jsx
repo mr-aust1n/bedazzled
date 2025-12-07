@@ -4,6 +4,54 @@ import Layout from "@/src/layouts/Layout";
 const ProjectDetails = () => {
   return (
     <Layout header={3} footer={3}>
+      <Head>
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Professional commercial window cleaning for offices, schools, hotels and commercial buildings across Blackpool, Preston, Lytham St Annes, Poulton le Fylde and Lancashire. Reliable, safe and high quality service."
+        />
+
+        {/* Page Title */}
+        <title>
+          Commercial Window Cleaning | Offices, Schools and Hotels in Blackpool
+          and Lancashire
+        </title>
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Commercial Window Cleaning Across Blackpool and Lancashire"
+        />
+        <meta
+          property="og:description"
+          content="Expert commercial window cleaning for offices, schools, hotels and business properties. Serving Blackpool, Preston, Lytham St Annes, Poulton le Fylde and Lancashire with safe, reliable and high quality results."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/gallery/Office_window_clean.png"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bedazzledwcs.co.uk/commercial-cleaning"
+        />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Commercial Window Cleaning Across Blackpool and Lancashire"
+        />
+        <meta
+          name="twitter:description"
+          content="Commercial window cleaning specialists for offices, hotels, schools and business properties across Blackpool and Lancashire."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/gallery/Office_window_clean.png"
+        />
+      </Head>
+
       <PageBanner pageName={"Commercial Properties"} />
       {/*====== Start Project-Details section ======*/}
       <section className="project-details-section pt-95">

@@ -17,6 +17,7 @@ const ProjectGrid = () => {
           "Services - Commercial Window Cleaning Across Blackpool and Lancashire for Offices, Shops and Commercial Sites"
         }
       />
+
       {/*====== Start Gallery section ======*/}
       <ProjectGridIsotope />
       {/*====== End Gallery section ======*/}

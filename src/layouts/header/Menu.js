@@ -34,11 +34,6 @@ const Menu = () => {
             About
           </Link>
         </li>
-        {/* <li className="menu-item">
-          <Link legacyBehavior href="/service">
-            Services
-          </Link>
-        </li> */}
 
         <li className="menu-item has-children">
           <a href="/service">

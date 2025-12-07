@@ -1,6 +1,9 @@
 import Link from "next/link";
 
-const PageBanner = ({ pageName, pageTitle }) => {
+const PageBanner = ({ pageName }) => {
+  // Get only the first word of the page name
+  const firstWord = pageName.split(" ")[0];
+
   return (
     <section
       className="page-title-area text-white bg_cover"
@@ -9,15 +12,20 @@ const PageBanner = ({ pageName, pageTitle }) => {
       <div className="container">
         {/*======  Page-title-Inner ======*/}
         <div className="page-title-inner text-center">
+          {/* Full page title (H1) */}
           <h1 className="page-title">{pageName}</h1>
+
           <div className="gd-breadcrumb">
             <span className="breadcrumb-entry">
               <Link legacyBehavior href="/">
                 Home
               </Link>
             </span>
+
             <span className="separator" />
-            <span className="breadcrumb-entry active">{pageName}</span>
+
+            {/* Only the first word shows in breadcrumb */}
+            <span className="breadcrumb-entry active">{firstWord}</span>
           </div>
         </div>
       </div>
