@@ -7,6 +7,54 @@ import * as gtag from "@/lib/gtag";
 const Contact = () => {
   return (
     <Layout header={3} footer={3}>
+      <Head>
+        {/* Meta Description */}
+        <meta
+          name="description"
+          content="Contact BeDazzled for commercial window cleaning across Blackpool, Preston, Lytham St Annes, Poulton le Fylde and Lancashire. Get quotes, arrange visits and speak with our expert team today."
+        />
+
+        {/* Page Title */}
+        <title>
+          Contact BeDazzled | Commercial Window Cleaning in Blackpool and
+          Lancashire
+        </title>
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Contact BeDazzled | Commercial Window Cleaning Specialists"
+        />
+        <meta
+          property="og:description"
+          content="Get in touch with BeDazzled for professional commercial window cleaning services across Blackpool and Lancashire. Request a quote or speak with our team today."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/bg/page-bg-1.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://www.bedazzledwcs.co.uk/contact"
+        />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Contact BeDazzled | Commercial Window Cleaning Experts"
+        />
+        <meta
+          name="twitter:description"
+          content="Contact BeDazzled for high quality commercial window cleaning across Blackpool and Lancashire."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/bg/page-bg-1.jpg"
+        />
+      </Head>
+
       <PageBanner pageName={"Contact Us"} />
 
       {/*====== Start Contact Info section ======*/}
