@@ -3,6 +3,7 @@ import Partners from "@/src/components/Partners";
 import Layout from "@/src/layouts/Layout";
 import Link from "next/link";
 import * as gtag from "@/lib/gtag";
+import Head from "next/head";
 
 const Contact = () => {
   return (

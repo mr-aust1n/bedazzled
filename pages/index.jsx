@@ -8,6 +8,7 @@ import Layout from "@/src/layouts/Layout";
 import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
 import Slider from "react-slick";
+import Head from "next/head";
 const Index3 = () => {
   return (
     <Layout header={3} footer={3}>

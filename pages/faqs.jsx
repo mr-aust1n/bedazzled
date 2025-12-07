@@ -2,7 +2,7 @@ import GaddenAccordion from "@/src/components/GaddenAccordion";
 import PageBanner from "@/src/components/PageBanner";
 import Partners from "@/src/components/Partners";
 import Layout from "@/src/layouts/Layout";
-import Link from "next/link";
+import Head from "next/head";
 import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 

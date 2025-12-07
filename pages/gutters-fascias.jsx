@@ -1,6 +1,7 @@
 import PageBanner from "@/src/components/PageBanner";
 import Partners from "@/src/components/Partners";
 import Layout from "@/src/layouts/Layout";
+import Head from "next/head";
 const ProjectDetails = () => {
   return (
     <Layout header={3} footer={3}>
