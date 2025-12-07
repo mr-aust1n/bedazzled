@@ -53,7 +53,9 @@ const ProjectDetails = () => {
         />
       </Head>
 
-      <PageBanner pageName={"Managed Properties"} />
+      <PageBanner
+        pageName={"Professional Window Cleaning for Managed Property"}
+      />
       {/*====== Start Project-Details section ======*/}
       <section className="project-details-section pt-95">
         <div className="container">

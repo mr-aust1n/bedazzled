@@ -53,7 +53,9 @@ const ProjectDetails = () => {
         />
       </Head>
 
-      <PageBanner pageName={"Fascia & Gutters"} />
+      <PageBanner
+        pageName={"Fascias and Gutter Cleaning Across Blackpool and Lancashire"}
+      />
       {/*====== Start Project-Details section ======*/}
       <section className="project-details-section pt-95">
         <div className="container">

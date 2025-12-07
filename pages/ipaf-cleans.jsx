@@ -54,7 +54,9 @@ const ProjectDetails = () => {
         />
       </Head>
 
-      <PageBanner pageName={"High Level Cleans"} />
+      <PageBanner
+        pageName={"IPAF High Level Cleaning for Commercial Buildings"}
+      />
       {/*====== Start Project-Details section ======*/}
       <section className="project-details-section pt-95">
         <div className="container">
