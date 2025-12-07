@@ -40,22 +40,57 @@ const App = ({ Component, pageProps }) => {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="description"
-          content="Professional commercial window cleaning across Blackpool and the North West. Retail, hospitality, offices, and multi-site contracts. Reliable teams, safe systems of work, spotless results."
+          content="Commercial window cleaning in Blackpool, Preston, Lytham St Annes, Poulton le Fylde, and Kirkham. Reliable teams, safe systems, and spotless results."
         />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>BeDAZzled Commercial Window Cleaning - North West - UK</title>
+
+        {/*====== Page Title ======*/}
+        <title>
+          BeDazzled Commercial Window Cleaners | Blackpool and Lancashire
+        </title>
+
+        {/*====== Open Graph Tags (Facebook, Instagram, LinkedIn) ======*/}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="BeDazzled Commercial Window Cleaners | Blackpool and Lancashire"
+        />
+        <meta
+          property="og:description"
+          content="Commercial window cleaning in Blackpool, Preston, Lytham St Annes, Poulton le Fylde, and Kirkham. Reliable teams, safe systems, and spotless results."
+        />
+        <meta property="og:image" content="/assets/images/gallery/cta-1.jpg" />
+        <meta property="og:url" content="https://www.bedazzledwcs.co.uk" />
+
+        {/*====== Twitter Card ======*/}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="BeDazzled Commercial Window Cleaners | Blackpool and Lancashire"
+        />
+        <meta
+          name="twitter:description"
+          content="Commercial window cleaning in Blackpool, Preston, Lytham St Annes, Poulton le Fylde, and Kirkham. Reliable teams, safe systems, and spotless results."
+        />
+        <meta name="twitter:image" content="/assets/images/gallery/cta-1.jpg" />
+
+        {/*====== Favicon ======*/}
         <link
           rel="shortcut icon"
           href="assets/images/favicon.ico"
           type="image/png"
         />
+
+        {/*====== Fonts ======*/}
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
+
+        {/*====== Vendor CSS ======*/}
         <link
           rel="stylesheet"
           href="assets/fonts/flaticon/flaticon_gadden.css"

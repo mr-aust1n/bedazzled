@@ -181,7 +181,9 @@ const Footer3 = () => {
               <div className="col-lg-6">
                 {/*====== Copyright Text ======*/}
                 <div className="copyright-text">
-                  <p>Website by www.craigaust.in Copy© 2024</p>
+                  <p>
+                    Website by <a> www.craigaust.in</a> Copy© 2026
+                  </p>
                 </div>
               </div>
               <div className="col-lg-6">
