@@ -78,8 +78,6 @@ export default function Reviews() {
         />
       </Head>
 
-      <PageBanner pageName={"Reviews"} />
-
       <section className="pt-95 pb-80">
         <div className="container">
           {/* Heading */}
@@ -101,44 +99,6 @@ export default function Reviews() {
 
           {/* Review Cards */}
           <div className="row justify-content-center">
-            {/* FACEBOOK */}
-            <div className="col-lg-5 col-md-6 mb-30">
-              <div className="about-features-item text-center p-4">
-                <div
-                  className="hover-bg bg_cover"
-                  style={{
-                    backgroundImage:
-                      "url(/assets/images/about/about_bedazzled_blur.png)",
-                  }}
-                ></div>
-
-                <div className="icon">
-                  <i className="fab fa-facebook-square" aria-hidden="true" />
-                </div>
-
-                <div className="text">
-                  <h3 className="title">Review us on Facebook</h3>
-                  <p>Tap below to open our Facebook reviews page.</p>
-                  <a
-                    className="main-btn secondary-btn mt-10"
-                    href="https://www.facebook.com/bedazzledwcs/reviews"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Leave a review for Bedazzled on Facebook"
-                    onClick={() =>
-                      window.gtag &&
-                      gtag("event", "click_outbound", {
-                        destination: "Facebook_reviews",
-                        location: "reviews_page",
-                      })
-                    }
-                  >
-                    Open Facebook Reviews
-                  </a>
-                </div>
-              </div>
-            </div>
-
             {/* GOOGLE */}
             <div className="col-lg-5 col-md-6 mb-30">
               <div className="about-features-item text-center p-4">
@@ -172,6 +132,43 @@ export default function Reviews() {
                     }
                   >
                     Open Google Reviews
+                  </a>
+                </div>
+              </div>
+            </div>
+            ;{/* FACEBOOK */}
+            <div className="col-lg-5 col-md-6 mb-30">
+              <div className="about-features-item text-center p-4">
+                <div
+                  className="hover-bg bg_cover"
+                  style={{
+                    backgroundImage:
+                      "url(/assets/images/about/about_bedazzled_blur.png)",
+                  }}
+                ></div>
+
+                <div className="icon">
+                  <i className="fab fa-facebook-square" aria-hidden="true" />
+                </div>
+
+                <div className="text">
+                  <h3 className="title">Review us on Facebook</h3>
+                  <p>Tap below to open our Facebook reviews page.</p>
+                  <a
+                    className="main-btn secondary-btn mt-10"
+                    href="https://www.facebook.com/bedazzledwcs/reviews"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Leave a review for Bedazzled on Facebook"
+                    onClick={() =>
+                      window.gtag &&
+                      gtag("event", "click_outbound", {
+                        destination: "Facebook_reviews",
+                        location: "reviews_page",
+                      })
+                    }
+                  >
+                    Open Facebook Reviews
                   </a>
                 </div>
               </div>
