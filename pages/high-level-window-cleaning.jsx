@@ -35,7 +35,7 @@ const ProjectDetails = () => {
         />
         <meta
           property="og:url"
-          content="https://www.bedazzledwcs.co.uk/ipaf-cleans"
+          content="https://www.bedazzledwcs.co.uk/high-level-window-cleaning"
         />
 
         {/* Twitter */}
@@ -129,7 +129,7 @@ const ProjectDetails = () => {
               <div className="col-md-6">
                 <div className="navigation-item prev-post mb-40">
                   <div className="thumb">
-                    <a href="/commercial-cleaning">
+                    <a href="/commercial-window-cleaning">
                       <img
                         src="/assets/images/gallery/thumb-widget-4.jpg"
                         alt="thumb image"
@@ -138,11 +138,11 @@ const ProjectDetails = () => {
                   </div>
                   <div className="text">
                     <h3 className="title">
-                      <a href="/commercial-cleaning">
+                      <a href="/commercial-window-cleaning">
                         Schools, Offices &amp; Hotels
                       </a>
                     </h3>
-                    <a href="/commercial-cleaning" className="btn-link">
+                    <a href="/commercial-window-cleaning" className="btn-link">
                       Read More
                       <i className="far fa-arrow-right" />
                     </a>
@@ -152,7 +152,7 @@ const ProjectDetails = () => {
               <div className="col-md-6">
                 <div className="navigation-item next-post mb-40">
                   <div className="thumb">
-                    <a href="/gutters-fascias">
+                    <a href="/gutter-and-fascia-cleaning">
                       <img
                         src="/assets/images/gallery/thumb-widget-2.jpg"
                         alt="thumb image"
@@ -161,9 +161,11 @@ const ProjectDetails = () => {
                   </div>
                   <div className="text">
                     <h3 className="title">
-                      <a href="/gutters-fascias">Fascia &amp; Gutters</a>
+                      <a href="/gutter-and-fascia-cleaning">
+                        Fascia &amp; Gutters
+                      </a>
                     </h3>
-                    <a href="/gutters-fascias" className="btn-link">
+                    <a href="/gutter-and-fascia-cleaning" className="btn-link">
                       Read More
                       <i className="far fa-arrow-right" />
                     </a>

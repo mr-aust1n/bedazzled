@@ -42,7 +42,7 @@ const ProjectGrid = () => {
         />
         <meta
           property="og:url"
-          content="https://www.bedazzledwcs.co.uk/services"
+          content="https://www.bedazzledwcs.co.uk/commercial-cleaning-services"
         />
 
         {/* Twitter */}

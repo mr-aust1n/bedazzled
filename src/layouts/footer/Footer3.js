@@ -104,7 +104,7 @@ const Footer3 = () => {
                   <div className="widget-content">
                     <ul className="gallery-list">
                       <li>
-                        <a href="/managed-properties">
+                        <a href="/managed-property-cleaning">
                           <img
                             src="assets/images/gallery/thumb-widget-1.jpg"
                             alt="Image"
@@ -115,7 +115,7 @@ const Footer3 = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/gutters-fascias">
+                        <a href="/gutter-and-fascia-cleaning">
                           <img
                             src="assets/images/gallery/thumb-widget-2.jpg"
                             alt="Image"
@@ -126,7 +126,7 @@ const Footer3 = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/ipaf-cleans">
+                        <a href="/high-level-window-cleaning">
                           <img
                             src="assets/images/gallery/thumb-widget-3.jpg"
                             alt="Image"
@@ -137,7 +137,7 @@ const Footer3 = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/commercial-cleaning">
+                        <a href="/commercial-window-cleaning">
                           <img
                             src="assets/images/gallery/thumb-widget-4.jpg"
                             alt="Image"

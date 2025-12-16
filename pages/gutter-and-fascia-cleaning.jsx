@@ -34,7 +34,7 @@ const ProjectDetails = () => {
         />
         <meta
           property="og:url"
-          content="https://www.bedazzledwcs.co.uk/gutters-fascias"
+          content="https://www.bedazzledwcs.co.uk/gutter-and-fascia-cleaning"
         />
 
         {/* Twitter */}
@@ -122,7 +122,7 @@ const ProjectDetails = () => {
               <div className="col-md-6">
                 <div className="navigation-item prev-post mb-40">
                   <div className="thumb">
-                    <a href="/ipaf-cleans">
+                    <a href="/high-level-window-cleaning">
                       <img
                         src="/assets/images/gallery/thumb-widget-3.jpg"
                         alt="thumb image"
@@ -131,9 +131,9 @@ const ProjectDetails = () => {
                   </div>
                   <div className="text">
                     <h3 className="title">
-                      <a href="/ipaf-cleans">IPAF High Cleans</a>
+                      <a href="/high-level-window-cleaning">IPAF High Cleans</a>
                     </h3>
-                    <a href="/ipaf-cleans" className="btn-link">
+                    <a href="/high-level-window-cleaning" className="btn-link">
                       Read More
                       <i className="far fa-arrow-right" />
                     </a>
@@ -143,7 +143,7 @@ const ProjectDetails = () => {
               <div className="col-md-6">
                 <div className="navigation-item next-post mb-40">
                   <div className="thumb">
-                    <a href="/managed-properties">
+                    <a href="/managed-property-cleaning">
                       <img
                         src="/assets/images/gallery/thumb-widget-1.jpg"
                         alt="thumb image"
@@ -152,9 +152,11 @@ const ProjectDetails = () => {
                   </div>
                   <div className="text">
                     <h3 className="title">
-                      <a href="/managed-properties">Managed Properties</a>
+                      <a href="/managed-property-cleaning">
+                        Managed Properties
+                      </a>
                     </h3>
-                    <a href="/managed-properties" className="btn-link">
+                    <a href="/managed-property-cleaning" className="btn-link">
                       Read More
                       <i className="far fa-arrow-right" />
                     </a>

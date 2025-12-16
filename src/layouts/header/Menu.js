@@ -36,7 +36,7 @@ const Menu = () => {
         </li>
 
         <li className="menu-item has-children">
-          <a href="/service">
+          <a href="/commercial-cleaning-services">
             Services
             <span className="dd-trigger">
               <i className="far fa-angle-down" />
@@ -44,27 +44,27 @@ const Menu = () => {
           </a>
           <ul className="sub-menu">
             <li>
-              <Link legacyBehavior href="/service">
+              <Link legacyBehavior href="/commercial-cleaning-services">
                 Services Portfolio
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="/managed-properties">
+              <Link legacyBehavior href="/managed-property-cleaning">
                 Managed Properties
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="/ipaf-cleans">
+              <Link legacyBehavior href="/high-level-window-cleaning">
                 IPAF High Cleans
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="/gutters-fascias">
+              <Link legacyBehavior href="/gutter-and-fascia-cleaning">
                 Gutters &amp; Fascias
               </Link>
             </li>
             <li>
-              <Link legacyBehavior href="/commercial-cleaning">
+              <Link legacyBehavior href="/commercial-window-cleaning">
                 Commercial
               </Link>
             </li>

@@ -102,7 +102,7 @@ const ProjectGridIsotope = () => {
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/managed-properties">
+                  <Link legacyBehavior href="/managed-property-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -110,11 +110,11 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/managed-properties">
+                        <Link legacyBehavior href="/managed-property-cleaning">
                           <a>Managed Properties</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/managed-properties">
+                      <Link legacyBehavior href="/managed-property-cleaning">
                         <a>Preston</a>
                       </Link>
                     </div>
@@ -132,7 +132,7 @@ const ProjectGridIsotope = () => {
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/ipaf-cleans">
+                  <Link legacyBehavior href="/high-level-window-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -140,11 +140,11 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/ipaf-cleans">
+                        <Link legacyBehavior href="/high-level-window-cleaning">
                           <a>IPAF High Cleans</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/ipaf-cleans">
+                      <Link legacyBehavior href="/high-level-window-cleaning">
                         <a>Fleetwood</a>
                       </Link>
                     </div>
@@ -192,7 +192,7 @@ const ProjectGridIsotope = () => {
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/ipaf-cleans">
+                  <Link legacyBehavior href="/high-level-window-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -200,11 +200,14 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/ipaf-cleans-cleans">
+                        <Link
+                          legacyBehavior
+                          href="/high-level-window-cleaning-cleans"
+                        >
                           <a>IPAF High Cleans</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/ipaf-cleans">
+                      <Link legacyBehavior href="/high-level-window-cleaning">
                         <a>St Anne's</a>
                       </Link>
                     </div>
@@ -252,7 +255,7 @@ const ProjectGridIsotope = () => {
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/commercial-cleaning">
+                  <Link legacyBehavior href="/commercial-window-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -260,11 +263,11 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/commercial-cleaning">
+                        <Link legacyBehavior href="/commercial-window-cleaning">
                           <a>Schools, Offices &amp; Hotels</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/commercial-cleaning">
+                      <Link legacyBehavior href="/commercial-window-cleaning">
                         <a>Bispham</a>
                       </Link>
                     </div>
@@ -282,7 +285,7 @@ const ProjectGridIsotope = () => {
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/commercial-cleaning">
+                  <Link legacyBehavior href="/commercial-window-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -290,11 +293,11 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/commercial-cleaning">
+                        <Link legacyBehavior href="/commercial-window-cleaning">
                           <a>Offices, Hotels &amp; Schools</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/commercial-cleaning">
+                      <Link legacyBehavior href="/commercial-window-cleaning">
                         <a>Blackpool</a>
                       </Link>
                     </div>
@@ -312,7 +315,7 @@ const ProjectGridIsotope = () => {
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/managed-properties">
+                  <Link legacyBehavior href="/managed-property-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -320,11 +323,11 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/managed-properties">
+                        <Link legacyBehavior href="/managed-property-cleaning">
                           <a>Managed Properties</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/managed-properties">
+                      <Link legacyBehavior href="/managed-property-cleaning">
                         <a>Lytham St Annes</a>
                       </Link>
                     </div>
@@ -372,7 +375,7 @@ const ProjectGridIsotope = () => {
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/ipaf-cleans">
+                  <Link legacyBehavior href="/high-level-window-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -380,11 +383,11 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/ipaf-cleans">
+                        <Link legacyBehavior href="/high-level-window-cleaning">
                           <a>IPAF High Cleans</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/ipaf-cleans">
+                      <Link legacyBehavior href="/high-level-window-cleaning">
                         <a>Blackpool</a>
                       </Link>
                     </div>
@@ -402,7 +405,7 @@ const ProjectGridIsotope = () => {
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/commercial-cleaning">
+                  <Link legacyBehavior href="/commercial-window-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -410,11 +413,11 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/commercial-cleaning">
+                        <Link legacyBehavior href="/commercial-window-cleaning">
                           <a>Hotels, Offices &amp; Schools</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/commercial-cleaning">
+                      <Link legacyBehavior href="/commercial-window-cleaning">
                         <a>Blackpool, Seafront</a>
                       </Link>
                     </div>
@@ -432,7 +435,7 @@ const ProjectGridIsotope = () => {
                   alt="Gallery Image"
                 />
                 <div className="hover-overlay">
-                  <Link legacyBehavior href="/managed-properties">
+                  <Link legacyBehavior href="/managed-property-cleaning">
                     <a className="icon-btn">
                       <i className="fas fa-arrow-right" />
                     </a>
@@ -440,11 +443,11 @@ const ProjectGridIsotope = () => {
                   <div className="hover-content text-white">
                     <div className="text">
                       <h3 className="title">
-                        <Link legacyBehavior href="/managed-properties">
+                        <Link legacyBehavior href="/managed-property-cleaning">
                           <a>Managed Properties</a>
                         </Link>
                       </h3>
-                      <Link legacyBehavior href="/managed-properties">
+                      <Link legacyBehavior href="/managed-property-cleaning">
                         <a>Highcross Park </a>
                       </Link>
                     </div>

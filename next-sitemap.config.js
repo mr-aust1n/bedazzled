@@ -10,25 +10,30 @@ module.exports = {
     "/api/*",
     "/_next/*",
     "/server-sitemap.xml",
-    "/service-details",
-    "/project-grid-2-column",
-    "/project-details",
-    "/serviceBackup",
+    "/project-*",
+    "/*backup*",
   ],
 
   transform: async (config, path) => {
     const priorityMap = {
       "/": 1.0,
-      "/about": 0.8,
-      "/service": 0.9,
-      "/managed-properties": 0.8,
-      "/ipaf-cleans": 0.8,
-      "/gutters-fascias": 0.8,
-      "/commercial-cleaning": 0.9,
+
+      "/commercial-window-cleaning": 0.95,
+      "/commercial-window-cleaning-blackpool": 0.95,
+      "/commercial-window-cleaning-lancashire": 0.9,
+
+      "/high-level-window-cleaning": 0.85,
+      "/high-level-window-cleaning-blackpool": 0.85,
+
+      "/gutter-and-fascia-cleaning": 0.85,
+      "/gutter-cleaning-blackpool": 0.85,
+
+      "/managed-property-cleaning": 0.85,
+
+      "/about": 0.7,
       "/contact": 0.7,
-      "/faqs": 0.6,
-      "/team": 0.6,
       "/reviews": 0.6,
+      "/faqs": 0.6,
     };
 
     return {
@@ -41,25 +46,35 @@ module.exports = {
 
   additionalPaths: async (config) => {
     const base = config.siteUrl;
+
     const urls = [
       "/",
       "/about",
-      "/service",
-      "/managed-properties",
-      "/ipaf-cleans",
-      "/gutters-fascias",
-      "/commercial-cleaning",
       "/contact",
       "/faqs",
       "/reviews",
+
+      "/commercial-window-cleaning",
+      "/high-level-window-cleaning",
+      "/gutter-and-fascia-cleaning",
+      "/managed-property-cleaning",
+
+      "/commercial-window-cleaning-blackpool",
+      "/commercial-window-cleaning-lancashire",
+      "/high-level-window-cleaning-blackpool",
+      "/gutter-cleaning-blackpool",
     ];
 
     return urls.map((p) => ({
       loc: `${base}${p}`,
       changefreq: "weekly",
-      priority: ["/", "/service", "/commercial-cleaning"].includes(p)
-        ? 0.9
-        : 0.7,
+      priority: [
+        "/",
+        "/commercial-window-cleaning",
+        "/commercial-window-cleaning-blackpool",
+      ].includes(p)
+        ? 0.95
+        : 0.8,
       lastmod: new Date().toISOString(),
     }));
   },
