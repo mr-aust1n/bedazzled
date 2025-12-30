@@ -225,6 +225,56 @@ const Contact = () => {
       {/*====== End Contact section ======*/}
 
       {/*====== Start Partners Section ======*/}
+
+      {/*====== SEO Text Section ======*/}
+      <section className="contact-section pt-0 pb-50">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-10">
+              <div className="section-title mb-25">
+                <h3>Commercial Cleaning Quotes in Blackpool and Lancashire</h3>
+              </div>
+
+              <p>
+                If you need a reliable team for commercial exterior cleaning,
+                we’re here to help. BeDAZzled supports businesses across
+                Blackpool and the wider Lancashire area with scheduled and one
+                off cleans for offices, schools, hotels, retail units and
+                managed buildings. Tell us what you need, the building type,
+                access details, and how often you’d like cleaning, and we will
+                come back with a clear quote and a practical plan.
+              </p>
+
+              <p>
+                Looking for something specific? View{" "}
+                <Link href="/commercial-window-cleaning">
+                  commercial window cleaning
+                </Link>
+                ,{" "}
+                <Link href="/high-level-window-cleaning">
+                  IPAF high level cleaning
+                </Link>{" "}
+                for difficult access sites,{" "}
+                <Link href="/gutter-and-fascia-cleaning">
+                  gutter and fascia cleaning
+                </Link>{" "}
+                to help prevent blockages and water damage, or{" "}
+                <Link href="/managed-property-cleaning">
+                  managed property cleaning
+                </Link>{" "}
+                for apartment blocks, rental portfolios and HMOs.
+              </p>
+
+              <p className="mb-0">
+                Prefer a quick chat? Call us and we can advise on the safest
+                approach for your site, expected timings, and the best schedule
+                to keep your property looking professional year round.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Partners />
     </Layout>
   );
