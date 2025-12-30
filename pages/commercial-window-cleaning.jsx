@@ -6,7 +6,7 @@ const ProjectDetails = () => {
   return (
     <Layout header={3} footer={3}>
       <Head>
-        <title>Commercial Window Cleaning Blackpool | BeDAZzled</title>
+        <title>Commercial Window Cleaners Serving Blackpool & Lancashire</title>
 
         <meta
           name="description"
@@ -21,7 +21,7 @@ const ProjectDetails = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Commercial Window Cleaning Blackpool | BeDAZzled"
+          content="Commercial Window Cleaners Serving Blackpool & Lancashire"
         />
         <meta
           property="og:description"
