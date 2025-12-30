@@ -80,9 +80,14 @@ const Index3 = () => {
                       <h1 data-animation="fadeInDown" data-delay=".5s">
                         Commercial Window Cleaner | Blackpool
                       </h1>
-                      {/* <p data-animation="fadeInUp" data-delay=".6s">
-                        Blackpool
-                      </p> */}
+                      <p data-animation="fadeInUp" data-delay=".6s">
+                        BeDAZzled delivers professional commercial window
+                        cleaning and exterior cleaning across Blackpool, the
+                        Fylde Coast and Lancashire. From managed properties and
+                        offices to high-level IPAF work, gutters, fascias and
+                        conservatories, we keep your premises looking sharp,
+                        safe and well maintained.
+                      </p>
                       <div
                         className="hero-button mb-30"
                         data-animation="fadeInDown"
