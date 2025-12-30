@@ -217,7 +217,7 @@ const Index3 = () => {
             <div className="col-lg-6">
               <div className="section-title mb-55 wow fadeInLeft">
                 <span className="sub-title">
-                  <i class="fa fa-tint"></i>
+                  <i className="fa fa-tint"></i>
                   Bedazzled Commercial Window Cleaning:
                 </span>
                 <h2> Your Sparkling Solution in the North West of England</h2>
@@ -255,7 +255,7 @@ const Index3 = () => {
                 </div>
                 <div className="text">
                   <div className="icon">
-                    <i class="fa fa-home"></i>
+                    <i className="fa fa-home"></i>
                   </div>
                   <h5 className="title">Managed Properties</h5>
                   <p>
@@ -281,7 +281,7 @@ const Index3 = () => {
                 </div>
                 <div className="text">
                   <div className="icon">
-                    <i class="fa fa-arrow-up"></i>
+                    <i className="fa fa-arrow-up"></i>
                   </div>
                   <h5 className="title">High Level Work </h5>
                   <p>
@@ -308,7 +308,7 @@ const Index3 = () => {
                 </div>
                 <div className="text">
                   <div className="icon">
-                    <i class="fa fa-leaf"></i>
+                    <i className="fa fa-leaf"></i>
                   </div>
                   <h5 className="title">Fascia and Gutter Cleaning</h5>
                   <p>
@@ -333,7 +333,7 @@ const Index3 = () => {
                 </div>
                 <div className="text">
                   <div className="icon">
-                    <i class="fa fa-building"></i>
+                    <i className="fa fa-building"></i>
                   </div>
                   <h5 className="title">Schools, Offices &amp; Hotels</h5>
                   <p>
@@ -369,7 +369,7 @@ const Index3 = () => {
                 <div className="section-title">
                   <div className="section-title mb-50">
                     <span className="sub-title">
-                      <i class="fa fa-tint"></i>
+                      <i className="fa fa-tint"></i>
                       About Bedazzled
                     </span>
                     <h2>Why Choose Bedazzled</h2>

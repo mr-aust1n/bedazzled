@@ -9,27 +9,23 @@ const About = () => {
   return (
     <Layout header={3} footer={3}>
       <Head>
-        {/* Meta Description */}
+        <title>About BeDAZzled | Commercial Cleaning Experts Blackpool</title>
+
         <meta
           name="description"
-          content="Learn about BeDazzled, a commercial window cleaning company based in Blackpool and serving Preston, Lytham St Annes, Poulton le Fylde and Kirkham. Professional, reliable and trusted by businesses across Lancashire."
+          content="Learn about BeDAZzled, a trusted commercial window cleaning company based in Blackpool, serving businesses across Lancashire with reliable, professional service."
         />
 
-        {/* Page Title */}
-        <title>
-          About BeDazzled | Commercial Window Cleaning Experts in Blackpool and
-          Lancashire
-        </title>
+        <link rel="canonical" href="https://www.bedazzledwcs.co.uk/about" />
 
-        {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="About BeDazzled | Commercial Window Cleaning Specialists"
+          content="About BeDAZzled | Commercial Cleaning Experts Blackpool"
         />
         <meta
           property="og:description"
-          content="BeDazzled provides commercial window cleaning across Blackpool, Preston, Lytham St Annes, Poulton le Fylde and Kirkham. Trusted by offices, retail and multi site businesses across Lancashire."
+          content="Trusted commercial window cleaning specialists based in Blackpool, serving offices, schools and managed properties across Lancashire."
         />
         <meta
           property="og:image"
@@ -40,20 +36,7 @@ const About = () => {
           content="https://www.bedazzledwcs.co.uk/about"
         />
 
-        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="About BeDazzled | Commercial Window Cleaning Experts"
-        />
-        <meta
-          name="twitter:description"
-          content="Learn about BeDazzled, trusted commercial window cleaners serving Blackpool, Preston, Lytham St Annes, Poulton le Fylde and Kirkham."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.bedazzledwcs.co.uk/assets/images/about/about_bedazzled_1.png"
-        />
       </Head>
 
       <PageBanner pageName={"About BeDAZzled Commercial Window Cleaning."} />
