@@ -158,6 +158,41 @@ export default function Reviews() {
               </div>
             </div>
           </div>
+          {/*====== SEO Text Section ======*/}
+          <section className="pt-0 pb-60">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-10">
+                  <div className="section-title mb-25">
+                    <h3>Leave a Review for BeDAZzled Window Cleaning</h3>
+                  </div>
+
+                  <p>
+                    This page allows customers to leave a genuine review for
+                    BeDAZzled Commercial Window Cleaning on Google or Facebook.
+                    Reviews help local businesses stand out and help other
+                    customers choose a reliable and professional window cleaning
+                    company in Blackpool and Lancashire.
+                  </p>
+
+                  <p>
+                    If we have recently carried out commercial window cleaning,
+                    managed property cleaning, IPAF high level window cleaning,
+                    or gutter and fascia cleaning for your premises, your
+                    feedback is greatly appreciated. Honest reviews help us
+                    improve our service and support other businesses looking for
+                    dependable commercial cleaners.
+                  </p>
+
+                  <p className="mb-0">
+                    Simply choose Google or Facebook above to leave your review.
+                    It only takes a moment and directly supports a local,
+                    independent cleaning company.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
 
           {/* Countdown + Redirect */}
           <div className="row justify-content-center mt-10">
