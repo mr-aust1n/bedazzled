@@ -494,55 +494,6 @@ const About = () => {
               </div>
             </div>
             {/*====== Testimonial Item  ======*/}
-            <div className="single-testimonial-item">
-              <div className="testimonial-inner-content">
-                <div className="quote-rating-box">
-                  <div className="icon">
-                    <img
-                      src="assets/images/testimonial/quote.png"
-                      alt="quote icon"
-                    />
-                  </div>
-                  <div className="ratings-box">
-                    <h6>Quality Services</h6>
-                    <ul className="ratings">
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                      <li>
-                        <i className="fas fa-star" />
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam eaque
-                  quae abillo inventore veritatis et quasi architecto
-                </p>
-                <div className="author-thumb-title">
-                  <div className="author-thumb">
-                    <img
-                      src="assets/images/testimonial/facebook_testimonial.jpg"
-                      alt="Author Image"
-                    />
-                  </div>
-                  <div className="author-title">
-                    <h6 className="title">Timothy V. Kim</h6>
-                    <p className="position">SR Manager</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </Slider>
         </div>
       </section>
