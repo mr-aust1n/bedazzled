@@ -9,54 +9,46 @@ import "../styles/globals.css";
 import "animate.css/animate.min.css";
 
 const App = ({ Component, pageProps }) => {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const router = useRouter();
 
-  // Handle client-side route changes for GA
+  useEffect(() => {
+    setMounted(true);
+    setLoading(true);
+
+    const timer = setTimeout(() => setLoading(false), 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   useEffect(() => {
     const handleRouteChange = (url) => {
-      // Skip tracking on /reviews if needed
       if (url === "/reviews") return;
       gtag.pageview(url);
     };
 
     router.events.on("routeChangeComplete", handleRouteChange);
-    return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
-    };
+    return () => router.events.off("routeChangeComplete", handleRouteChange);
   }, [router.events]);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-  }, []);
 
   return (
     <Fragment>
       <Head>
-        {/*====== Required Meta Tags ======*/}
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-
-        {/*====== Favicon ======*/}
         <link
           rel="shortcut icon"
           href="assets/images/favicon.ico"
           type="image/png"
         />
-
-        {/*====== Fonts ======*/}
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
-
-        {/*====== Vendor CSS ======*/}
         <link
           rel="stylesheet"
           href="assets/fonts/flaticon/flaticon_gadden.css"
@@ -87,9 +79,6 @@ const App = ({ Component, pageProps }) => {
         <link rel="stylesheet" href="assets/css/style.css" />
       </Head>
 
-      {/* Google Analytics Script */}
-
-      {/* Microsoft Clarity */}
       <Script id="microsoft-clarity" strategy="afterInteractive">
         {`
           (function(c,l,a,r,i,t,y){
@@ -99,6 +88,7 @@ const App = ({ Component, pageProps }) => {
           })(window, document, "clarity", "script", "tn3zd74i0j");
         `}
       </Script>
+
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
         strategy="afterInteractive"
@@ -108,14 +98,14 @@ const App = ({ Component, pageProps }) => {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          // Default config: disable auto pageview, we track manually
           gtag('config', '${gtag.GA_TRACKING_ID}', { send_page_view: false });
         `}
       </Script>
 
       <Component {...pageProps} />
-      {loading && <Preloader />}
+      {mounted && loading && <Preloader />}
     </Fragment>
   );
 };
+
 export default App;
