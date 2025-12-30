@@ -11,26 +11,55 @@ const Faqs = () => {
     {
       title: "Do you use tap water?",
       content:
-        "Achieving optimal window cleaning results requires filtering water to a neutral pH of 7 using reverse osmosis and deionization processes. This purifies the water, removing minerals and contaminants, ensuring no streaks or residues are left on the glass, leading to a spotless, visually appealing finish on windows.",
+        "No. We use purified water filtered through reverse osmosis and deionisation systems. This removes minerals and impurities, allowing windows to dry spotless with no streaks or residue.",
     },
     {
-      title: "What areas do you cover",
+      title: "What areas do you cover?",
       content:
-        "We cover the entire of Lancaster (Lancs), offering our services across the region to meet your needs with efficiency and reliability, ensuring accessibility and quality assistance wherever you are located.",
+        "WWe provide commercial window cleaning across Blackpool and the wider Lancashire area. This includes Preston, Lytham St Annes, Poulton-le-Fylde, Fleetwood, Thornton-Cleveleys, Bispham, Kirkham, and surrounding towns and business parks. We regularly work with offices, schools, hotels, retail units, and managed properties throughout the region and can travel further for larger commercial contracts.",
     },
-    // Add more items with content...
+    {
+      title: "Do you offer commercial window cleaning contracts?",
+      content:
+        "Yes. We offer regular commercial cleaning contracts tailored to your site, including weekly, fortnightly, monthly, or bespoke schedules depending on access and usage.",
+    },
+    {
+      title: "Are you insured and qualified?",
+      content:
+        "Yes. We are fully insured and trained. Our team is IPAF certified for high level access work and DBS checked where required for schools and sensitive sites.",
+    },
+    {
+      title: "Can you clean windows at height?",
+      content:
+        "Yes. We specialise in high level window cleaning using IPAF approved equipment including MEWPs and cherry pickers for multi storey and difficult access buildings.",
+    },
   ];
 
   const faqsData2 = [
     {
       title: "Can you clean my property tomorrow?",
       content:
-        "Should you wish for your property to be cleaned, please contact us; we are committed to assisting in the most effective manner possible.",
+        "We aim to accommodate urgent requests where possible. Availability depends on access requirements and location, so contact us and we will advise the soonest option.",
     },
     {
-      title: "How much do you charge?",
+      title: "How much does commercial window cleaning cost?",
       content:
-        "Fixed prices aren't provided to ensure fairness; each quote is personalised to match the specific needs and scope of your project, preventing overcharging.",
+        "Pricing depends on building size, access, frequency, and height. We provide clear, competitive quotes following a site assessment so you only pay for what you need.",
+    },
+    {
+      title: "Do you clean managed properties and apartment blocks?",
+      content:
+        "Yes. We work with managing agents, landlords, and housing providers to maintain communal areas, apartment blocks, and residential developments.",
+    },
+    {
+      title: "Will cleaning disrupt our business?",
+      content:
+        "No. We plan cleans around your operating hours wherever possible and work efficiently to minimise disruption to staff, customers, and residents.",
+    },
+    {
+      title: "How often should commercial windows be cleaned?",
+      content:
+        "Most commercial properties benefit from monthly or quarterly cleaning. High footfall sites such as retail or hospitality may require more frequent visits.",
     },
   ];
 
@@ -66,7 +95,8 @@ const Faqs = () => {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
-      <PageBanner pageName={"Faqs"} />
+      <PageBanner pageName={"FAQs"} />
+
       <section className="faq-section pt-95">
         <div className="container">
           <Accordion
@@ -79,9 +109,9 @@ const Faqs = () => {
                 <div className="faq-content-box wow fadeInLeft">
                   {faqsData1.map((faq, i) => (
                     <GaddenAccordion
+                      key={i}
                       title={faq.title}
                       content={faq.content}
-                      key={i}
                       event={`collapse${i}`}
                       onClick={() => setActive(`collapse${i}`)}
                       active={active === `collapse${i}`}
@@ -89,13 +119,14 @@ const Faqs = () => {
                   ))}
                 </div>
               </div>
+
               <div className="col-lg-6">
-                <div className="faq-content-box wow fadeInRight ">
+                <div className="faq-content-box wow fadeInRight">
                   {faqsData2.map((faq, i) => (
                     <GaddenAccordion
+                      key={i}
                       title={faq.title}
                       content={faq.content}
-                      key={i}
                       event={`collapseB${i}`}
                       onClick={() => setActive(`collapseB${i}`)}
                       active={active === `collapseB${i}`}
@@ -108,12 +139,13 @@ const Faqs = () => {
         </div>
       </section>
 
-      {/*====== Start Partners Section ======*/}
       <div className="section-title text-center mb-50 wow fadeInDown">
         <h2 style={{ paddingTop: "70px" }}>Some of our customers</h2>
       </div>
+
       <Partners />
     </Layout>
   );
 };
+
 export default Faqs;
