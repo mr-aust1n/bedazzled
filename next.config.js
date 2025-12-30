@@ -96,6 +96,33 @@ const nextConfig = {
         destination: "/",
         permanent: true,
       },
+
+      // Newly found indexed URLs to redirect
+      {
+        source: "/pricing",
+        destination: "/about",
+        permanent: true,
+      },
+      {
+        source: "/gutters-fascias",
+        destination: "/gutter-and-fascia-cleaning",
+        permanent: true,
+      },
+      {
+        source: "/commercial-cleaning",
+        destination: "/commercial-cleaning-services",
+        permanent: true,
+      },
+      {
+        source: "/blog-details",
+        destination: "/faqs",
+        permanent: true,
+      },
+      {
+        source: "/project-masonry",
+        destination: "/about",
+        permanent: true,
+      },
     ];
   },
 };
