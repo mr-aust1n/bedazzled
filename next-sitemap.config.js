@@ -6,29 +6,17 @@ module.exports = {
   changefreq: "weekly",
   priority: 0.7,
 
-  exclude: [
-    "/api/*",
-    "/_next/*",
-    "/server-sitemap.xml",
-    "/project-*",
-    "/*backup*",
-  ],
+  exclude: ["/api/*", "/_next/*", "/server-sitemap.xml"],
 
   transform: async (config, path) => {
     const priorityMap = {
       "/": 1.0,
 
       "/commercial-window-cleaning": 0.95,
-      "/commercial-window-cleaning-blackpool": 0.95,
-      "/commercial-window-cleaning-lancashire": 0.9,
-
       "/high-level-window-cleaning": 0.85,
-      "/high-level-window-cleaning-blackpool": 0.85,
-
       "/gutter-and-fascia-cleaning": 0.85,
-      "/gutter-cleaning-blackpool": 0.85,
-
       "/managed-property-cleaning": 0.85,
+      "/commercial-cleaning-services": 0.8,
 
       "/about": 0.7,
       "/contact": 0.7,
@@ -54,27 +42,17 @@ module.exports = {
       "/faqs",
       "/reviews",
 
+      "/commercial-cleaning-services",
       "/commercial-window-cleaning",
       "/high-level-window-cleaning",
       "/gutter-and-fascia-cleaning",
       "/managed-property-cleaning",
-
-      "/commercial-window-cleaning-blackpool",
-      "/commercial-window-cleaning-lancashire",
-      "/high-level-window-cleaning-blackpool",
-      "/gutter-cleaning-blackpool",
     ];
 
     return urls.map((p) => ({
       loc: `${base}${p}`,
       changefreq: "weekly",
-      priority: [
-        "/",
-        "/commercial-window-cleaning",
-        "/commercial-window-cleaning-blackpool",
-      ].includes(p)
-        ? 0.95
-        : 0.8,
+      priority: ["/", "/commercial-window-cleaning"].includes(p) ? 0.95 : 0.8,
       lastmod: new Date().toISOString(),
     }));
   },
