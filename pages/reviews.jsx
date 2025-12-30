@@ -32,26 +32,23 @@ export default function Reviews() {
   return (
     <Layout header={3} footer={3}>
       <Head>
-        {/* Meta Description */}
+        <title>Customer Reviews | BeDAZzled Cleaning Blackpool</title>
+
         <meta
           name="description"
-          content="Read real customer reviews for BeDazzled, commercial window cleaners serving Blackpool, Preston, Lytham St Annes and Lancashire. See why businesses trust us for reliable and professional window cleaning."
+          content="Read genuine customer reviews for BeDAZzled, trusted commercial window cleaners in Blackpool. See why businesses rely on our professional service."
         />
 
-        {/* Page Title */}
-        <title>
-          Customer Reviews | BeDazzled Commercial Window Cleaning Blackpool
-        </title>
+        <link rel="canonical" href="https://www.bedazzledwcs.co.uk/reviews" />
 
-        {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="BeDazzled Reviews | Trusted Commercial Window Cleaners in Blackpool"
+          content="Customer Reviews | BeDAZzled Cleaning Blackpool"
         />
         <meta
           property="og:description"
-          content="See real testimonials from businesses and customers across Blackpool and Lancashire who trust BeDazzled for professional commercial window cleaning."
+          content="Real reviews from businesses that trust BeDAZzled for commercial window cleaning in Blackpool."
         />
         <meta
           property="og:image"
@@ -62,20 +59,7 @@ export default function Reviews() {
           content="https://www.bedazzledwcs.co.uk/reviews"
         />
 
-        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="BeDazzled Customer Reviews | Commercial Window Cleaning"
-        />
-        <meta
-          name="twitter:description"
-          content="Discover what our customers say about BeDazzled window cleaning across Blackpool and Lancashire."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.bedazzledwcs.co.uk/assets/images/testimonial/facebook_testimonial.jpg"
-        />
       </Head>
 
       <section className="pt-95 pb-80">

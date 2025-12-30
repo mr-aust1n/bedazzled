@@ -6,27 +6,26 @@ const ProjectDetails = () => {
   return (
     <Layout header={3} footer={3}>
       <Head>
-        {/* Meta Description */}
+        <title>Managed Property Cleaning Blackpool | BeDAZzled</title>
+
         <meta
           name="description"
-          content="Commercial window cleaning for managed properties across Blackpool, Preston, Lytham St Annes and Lancashire. Ideal for apartment blocks, rental portfolios, HMOs and managed buildings requiring reliable, regular cleaning."
+          content="Reliable cleaning for managed properties in Blackpool. Ideal for apartment blocks, HMOs and commercial managed buildings, delivered by BeDAZzled."
         />
 
-        {/* Page Title */}
-        <title>
-          Managed Property Window Cleaning | Blackpool and Lancashire |
-          BeDazzled
-        </title>
+        <link
+          rel="canonical"
+          href="https://www.bedazzledwcs.co.uk/managed-property-cleaning"
+        />
 
-        {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Managed Property Window Cleaning | BeDazzled"
+          content="Managed Property Cleaning Blackpool | BeDAZzled"
         />
         <meta
           property="og:description"
-          content="Specialist window cleaning for managed properties in Blackpool and across Lancashire. Perfect for apartments, rental homes, HMOs and commercial-managed buildings."
+          content="Professional cleaning services for managed properties in Blackpool, including apartments and commercial buildings."
         />
         <meta
           property="og:image"
@@ -37,20 +36,7 @@ const ProjectDetails = () => {
           content="https://www.bedazzledwcs.co.uk/managed-property-cleaning"
         />
 
-        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Managed Property Window Cleaning | BeDazzled"
-        />
-        <meta
-          name="twitter:description"
-          content="Trusted window cleaning for managed properties across Blackpool, Preston and Lancashire."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.bedazzledwcs.co.uk/assets/images/gallery/managed_property01.png"
-        />
       </Head>
 
       <PageBanner
