@@ -46,7 +46,7 @@ const Faqs = () => {
           content="Frequently asked questions about commercial window cleaning in Blackpool. Learn about pricing, safety, methods and how BeDAZzled works."
         />
 
-        <link rel="canonical" href="https://www.bedazzledwcs.co.uk/faq" />
+        <link rel="canonical" href="https://www.bedazzledwcs.co.uk/faqs" />
 
         <meta property="og:type" content="website" />
         <meta
@@ -61,7 +61,7 @@ const Faqs = () => {
           property="og:image"
           content="https://www.bedazzledwcs.co.uk/assets/images/bg/page-bg-1.jpg"
         />
-        <meta property="og:url" content="https://www.bedazzledwcs.co.uk/faq" />
+        <meta property="og:url" content="https://www.bedazzledwcs.co.uk/faqs" />
 
         <meta name="twitter:card" content="summary_large_image" />
       </Head>

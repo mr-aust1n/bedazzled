@@ -299,9 +299,9 @@ const About = () => {
                   finishes, where we consistently go above and beyond to ensure
                   your utmost satisfaction.
                 </p>
-                <Link legacyBehavior href="/team">
+                <Link legacyBehavior href="/contact">
                   <a style={{ color: "#fff" }} className="main-btn golden-btn">
-                    Find Specialist
+                    Reach Out
                   </a>
                 </Link>
               </div>
