@@ -9,27 +9,23 @@ const Contact = () => {
   return (
     <Layout header={3} footer={3}>
       <Head>
-        {/* Meta Description */}
+        <title>Contact BeDAZzled | Commercial Cleaning Blackpool</title>
+
         <meta
           name="description"
-          content="Contact BeDazzled for commercial window cleaning across Blackpool, Preston, Lytham St Annes, Poulton le Fylde and Lancashire. Get quotes, arrange visits and speak with our expert team today."
+          content="Contact BeDAZzled for commercial window cleaning in Blackpool. Request a free quote or speak with our team about your commercial cleaning requirements."
         />
 
-        {/* Page Title */}
-        <title>
-          Contact BeDazzled | Commercial Window Cleaning in Blackpool and
-          Lancashire
-        </title>
+        <link rel="canonical" href="https://www.bedazzledwcs.co.uk/contact" />
 
-        {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Contact BeDazzled | Commercial Window Cleaning Specialists"
+          content="Contact BeDAZzled | Commercial Cleaning Blackpool"
         />
         <meta
           property="og:description"
-          content="Get in touch with BeDazzled for professional commercial window cleaning services across Blackpool and Lancashire. Request a quote or speak with our team today."
+          content="Get in touch with BeDAZzled for professional commercial window cleaning in Blackpool and surrounding areas."
         />
         <meta
           property="og:image"
@@ -40,20 +36,7 @@ const Contact = () => {
           content="https://www.bedazzledwcs.co.uk/contact"
         />
 
-        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Contact BeDazzled | Commercial Window Cleaning Experts"
-        />
-        <meta
-          name="twitter:description"
-          content="Contact BeDazzled for high quality commercial window cleaning across Blackpool and Lancashire."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.bedazzledwcs.co.uk/assets/images/bg/page-bg-1.jpg"
-        />
       </Head>
 
       <PageBanner pageName={"Contact Us"} />
