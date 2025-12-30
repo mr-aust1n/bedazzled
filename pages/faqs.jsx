@@ -39,27 +39,23 @@ const Faqs = () => {
   return (
     <Layout header={3} footer={3}>
       <Head>
-        {/* Meta Description */}
+        <title>FAQs | Commercial Window Cleaning Blackpool</title>
+
         <meta
           name="description"
-          content="Find answers to common questions about commercial window cleaning across Blackpool, Preston, Lytham St Annes, Poulton le Fylde and Lancashire. Learn about pricing, methods, safety and booking with BeDazzled."
+          content="Frequently asked questions about commercial window cleaning in Blackpool. Learn about pricing, safety, methods and how BeDAZzled works."
         />
 
-        {/* Page Title */}
-        <title>
-          FAQ | Commercial Window Cleaning Questions Answered | BeDazzled
-          Blackpool
-        </title>
+        <link rel="canonical" href="https://www.bedazzledwcs.co.uk/faq" />
 
-        {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="FAQ | BeDazzled Commercial Window Cleaning"
+          content="FAQs | Commercial Window Cleaning Blackpool"
         />
         <meta
           property="og:description"
-          content="Get answers to the most common questions about commercial window cleaning services in Blackpool and Lancashire. Learn how BeDazzled works, pricing, safety, equipment and booking info."
+          content="Answers to common questions about BeDAZzled commercial window cleaning services in Blackpool."
         />
         <meta
           property="og:image"
@@ -67,20 +63,7 @@ const Faqs = () => {
         />
         <meta property="og:url" content="https://www.bedazzledwcs.co.uk/faq" />
 
-        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="FAQ | Commercial Window Cleaning Across Blackpool and Lancashire"
-        />
-        <meta
-          name="twitter:description"
-          content="View common questions about BeDazzled commercial window cleaning services. Serving Blackpool, Preston, Lytham St Annes and Lancashire."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.bedazzledwcs.co.uk/assets/images/bg/page-bg-1.jpg"
-        />
       </Head>
 
       <PageBanner pageName={"Faqs"} />

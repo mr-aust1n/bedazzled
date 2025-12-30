@@ -6,27 +6,26 @@ const ProjectDetails = () => {
   return (
     <Layout header={3} footer={3}>
       <Head>
-        {/* Meta Description */}
+        <title>Gutter and Fascia Cleaning Blackpool | BeDAZzled</title>
+
         <meta
           name="description"
-          content="Professional fascia and gutter cleaning for commercial buildings across Blackpool, Preston, Lytham St Annes, Poulton le Fylde and Lancashire. Prevent water damage, improve appearance and protect your property with BeDazzled."
+          content="Commercial gutter and fascia cleaning in Blackpool. Protect your building from water damage and maintain a professional appearance with BeDAZzled."
         />
 
-        {/* Page Title */}
-        <title>
-          Fascia and Gutter Cleaning | Commercial Properties in Blackpool and
-          Lancashire | BeDazzled
-        </title>
+        <link
+          rel="canonical"
+          href="https://www.bedazzledwcs.co.uk/gutter-and-fascia-cleaning"
+        />
 
-        {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Commercial Fascia and Gutter Cleaning in Blackpool and Lancashire"
+          content="Gutter and Fascia Cleaning Blackpool | BeDAZzled"
         />
         <meta
           property="og:description"
-          content="BeDazzled provides expert fascia and gutter cleaning for commercial properties across Blackpool, Preston and Lancashire. Protect your building from water damage and maintain a professional appearance."
+          content="Professional gutter and fascia cleaning in Blackpool for commercial properties."
         />
         <meta
           property="og:image"
@@ -37,20 +36,7 @@ const ProjectDetails = () => {
           content="https://www.bedazzledwcs.co.uk/gutter-and-fascia-cleaning"
         />
 
-        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Commercial Fascia and Gutter Cleaning | BeDazzled Blackpool"
-        />
-        <meta
-          name="twitter:description"
-          content="Commercial fascia and gutter cleaning across Blackpool and Lancashire. Improve appearance, prevent water damage and maintain your property with BeDazzled."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.bedazzledwcs.co.uk/assets/images/gallery/gutter_clean01.png"
-        />
       </Head>
 
       <PageBanner
