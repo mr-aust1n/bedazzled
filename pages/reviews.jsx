@@ -72,7 +72,7 @@ export default function Reviews() {
                   <i className="fa fa-tint" />
                   Share your experience
                 </span>
-                <h2>Leave us a quick review</h2>
+                <h1>Leave a Review for BeDAZzled Window Cleaning</h1>
                 <p className="mt-15">
                   Your feedback helps neighbours choose a reliable window
                   cleaner and helps us keep improving.

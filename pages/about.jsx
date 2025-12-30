@@ -231,9 +231,7 @@ const About = () => {
                 </div>
                 <div className="member-info text-center">
                   <h3 className="title">
-                    <Link legacyBehavior href="#">
-                      Daz - M
-                    </Link>
+                    <span className="team-name">Daz - M</span>
                   </h3>
                   <p>Owner &amp; Senior Cleaner</p>
                 </div>
@@ -249,9 +247,7 @@ const About = () => {
                 </div>
                 <div className="member-info text-center">
                   <h3 className="title">
-                    <Link legacyBehavior href="/single-team">
-                      Liam - R
-                    </Link>
+                    <span className="team-name">Liam - R</span>
                   </h3>
                   <p>Senior Cleaner</p>
                 </div>
@@ -267,9 +263,7 @@ const About = () => {
                 </div>
                 <div className="member-info text-center">
                   <h3 className="title">
-                    <Link legacyBehavior href="/single-team">
-                      Reegan - M
-                    </Link>
+                    <span className="team-name">Reagan - M</span>
                   </h3>
                   <p>Junior Cleaner</p>
                 </div>
