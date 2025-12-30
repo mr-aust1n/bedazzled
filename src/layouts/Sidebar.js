@@ -159,7 +159,10 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a href="service" className="img-popup icon-btn">
+                      <a
+                        href="commercial-cleaning-services"
+                        className="img-popup icon-btn"
+                      >
                         <i className="far fa-tint" />
                       </a>
                     </div>
@@ -174,7 +177,10 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a href="service" className="img-popup icon-btn">
+                      <a
+                        href="commercial-cleaning-services"
+                        className="img-popup icon-btn"
+                      >
                         <i className="far fa-tint" />
                       </a>
                     </div>
@@ -189,7 +195,10 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a href="service" className="img-popup icon-btn">
+                      <a
+                        href="commercial-cleaning-services"
+                        className="img-popup icon-btn"
+                      >
                         <i className="far fa-tint" />
                       </a>
                     </div>
@@ -204,7 +213,10 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a href="service" className="img-popup icon-btn">
+                      <a
+                        href="commercial-cleaning-services"
+                        className="img-popup icon-btn"
+                      >
                         <i className="far fa-tint" />
                       </a>
                     </div>
@@ -219,7 +231,10 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a href="service" className="img-popup icon-btn">
+                      <a
+                        href="commercial-cleaning-services"
+                        className="img-popup icon-btn"
+                      >
                         <i className="far fa-tint" />
                       </a>
                     </div>
@@ -234,7 +249,10 @@ const Sidebar = ({ show, handleClose }) => {
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
-                      <a href="service" className="img-popup icon-btn">
+                      <a
+                        href="commercial-cleaning-services"
+                        className="img-popup icon-btn"
+                      >
                         <i className="far fa-tint" />
                       </a>
                     </div>

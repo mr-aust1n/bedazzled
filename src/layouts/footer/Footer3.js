@@ -82,16 +82,16 @@ const Footer3 = () => {
                   <div className="widget-content">
                     <ul className="footer-nav">
                       <li>
-                        <a href="contact">Need a Quote?</a>
+                        <a href="/contact">Need a Quote?</a>
                       </li>
                       <li>
-                        <a href="service">Our Services</a>
+                        <a href="commercial-cleaning-services">Our Services</a>
                       </li>
                       <li>
-                        <a href="about">About Company</a>
+                        <a href="/about">About Company</a>
                       </li>
                       <li>
-                        <a href="about">Meet Our Team</a>
+                        <a href="/about">Meet Our Team</a>
                       </li>
                     </ul>
                   </div>
