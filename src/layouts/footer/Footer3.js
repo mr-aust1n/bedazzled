@@ -34,7 +34,7 @@ const Footer3 = () => {
                 <div className="footer-widget footer-about-widget mb-40 pr-lg-70 wow fadeInDown">
                   <div className="widget-content">
                     <div className="footer-logo mb-25">
-                      <Link legacyBehavior href="/index">
+                      <Link legacyBehavior href="/">
                         <a>
                           <img
                             src="assets/images/logo/logo-white.png"

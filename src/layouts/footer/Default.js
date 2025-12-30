@@ -11,7 +11,7 @@ const Default = () => {
               <div className="footer-widget footer-about-widget mb-40 pr-lg-70 wow fadeInUp">
                 <div className="widget-content">
                   <div className="footer-logo mb-25">
-                    <Link legacyBehavior href="/index">
+                    <Link legacyBehavior href="/">
                       <a>
                         <img
                           src="assets/images/logo/logo-white.png"
@@ -21,8 +21,8 @@ const Default = () => {
                     </Link>
                   </div>
                   <p>
-                    default footer Quis autem eum reprehenderit volutate velit quam molestiae
-                    conseuatur{" "}
+                    default footer Quis autem eum reprehenderit volutate velit
+                    quam molestiae conseuatur{" "}
                   </p>
                   <Link legacyBehavior href="/contact">
                     <a className="main-btn filled-btn filled-white">

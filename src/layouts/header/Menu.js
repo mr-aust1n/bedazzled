@@ -5,7 +5,7 @@ const Menu = () => {
     <nav className="main-menu">
       <ul>
         <li className="menu-item has-children">
-          <a href="/index">
+          <a href="/">
             Home
             {/* <span className="dd-trigger">
               <i className="far fa-angle-down" />

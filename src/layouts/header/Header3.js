@@ -89,7 +89,7 @@ const Header3 = () => {
             <div className="primary-menu">
               {/*======= Site Branding ======*/}
               <div className="site-branding">
-                <Link legacyBehavior href="/index">
+                <Link legacyBehavior href="/">
                   <a className="brand-logo">
                     <img
                       src="assets/images/logo/logo-white-two.png"
@@ -102,7 +102,7 @@ const Header3 = () => {
               <div className="nav-menu">
                 {/* Mobile Logo */}
                 <div className="mobile-logo mb-30 d-block d-xl-none text-center">
-                  <Link legacyBehavior href="/index">
+                  <Link legacyBehavior href="/">
                     <a className="brand-logo">
                       <img
                         src="assets/images/logo/logo-black.png"

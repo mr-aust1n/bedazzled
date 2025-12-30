@@ -17,7 +17,7 @@ const Sidebar = ({ show, handleClose }) => {
             <div className="row no-gutters">
               <div className="col-lg-4 sidebar-widget">
                 <div className="sidebar-info-widget">
-                  <Link legacyBehavior href="/index">
+                  <Link legacyBehavior href="/">
                     <a className="footer-logo">
                       <img
                         src="assets/images/logo/logo-white.png"

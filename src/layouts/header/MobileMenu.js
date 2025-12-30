@@ -21,7 +21,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
           <div className="primary-menu">
             {/*====== Site Branding ======*/}
             <div className="site-branding">
-              <Link legacyBehavior href="/index">
+              <Link legacyBehavior href="/">
                 <a className="brand-logo">
                   <img
                     src={logo ? logo : "assets/images/logo/logo-black.png"}
@@ -34,7 +34,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
             <div className={`nav-menu ${toggle ? "menu-on" : ""}`}>
               {/*====== Site Branding ======*/}
               <div className="mobile-logo mb-30 d-block d-xl-none">
-                <Link legacyBehavior href="/index">
+                <Link legacyBehavior href="/">
                   <a className="brand-logo">
                     <img
                       src={"assets/images/logo/logo-black.png"}
