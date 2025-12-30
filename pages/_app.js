@@ -43,18 +43,6 @@ const App = ({ Component, pageProps }) => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        {/*====== SEO Meta Description ======*/}
-        <meta
-          name="description"
-          content="BeDAZzled provides professional commercial window cleaning across Blackpool, Fylde, Preston and the North West. Specialists in retail, offices, hospitality and multi-site contracts. Fully insured, IPAF certified and committed to spotless results."
-        />
-
-        {/*====== Page Title (SEO Optimised) ======*/}
-        <title>
-          Commercial Window Cleaning Blackpool | BeDAZzled | Offices, Retail,
-          Hotels
-        </title>
-
         {/*====== Favicon ======*/}
         <link
           rel="shortcut icon"
@@ -125,8 +113,8 @@ const App = ({ Component, pageProps }) => {
         `}
       </Script>
 
+      <Component {...pageProps} />
       {loading && <Preloader />}
-      {!loading && <Component {...pageProps} />}
     </Fragment>
   );
 };
