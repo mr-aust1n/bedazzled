@@ -78,11 +78,11 @@ const Index3 = () => {
                         Bedazzled
                       </span>
                       <h1 data-animation="fadeInDown" data-delay=".5s">
-                        COMMERCIAL
+                        Commercial Window Cleaner | Blackpool
                       </h1>
-                      <p data-animation="fadeInUp" data-delay=".6s">
-                        Window Cleaner
-                      </p>
+                      {/* <p data-animation="fadeInUp" data-delay=".6s">
+                        Blackpool
+                      </p> */}
                       <div
                         className="hero-button mb-30"
                         data-animation="fadeInDown"
@@ -135,22 +135,12 @@ const Index3 = () => {
                       <p data-animation="fadeInUp" data-delay=".6s">
                         Bringing a shine to the NorthWest!
                       </p>
+
                       <div
                         className="hero-button mb-30"
                         data-animation="fadeInDown"
                         data-delay=".7s"
-                      >
-                        {/* <Link legacyBehavior href="/about">
-                          <a className="main-btn golden-btn mb-10">
-                            Explore More
-                          </a>
-                        </Link> */}
-                        <Link legacyBehavior href="/contact">
-                          <a className="main-btn filled-btn filled-white mb-10">
-                            Contact Us!
-                          </a>
-                        </Link>
-                      </div>
+                      ></div>
                     </div>
                   </div>
                 </div>
@@ -185,6 +175,7 @@ const Index3 = () => {
                       <p data-animation="fadeInUp" data-delay=".6s">
                         Window Cleaning for the North West
                       </p>
+
                       <div
                         className="hero-button mb-30"
                         data-animation="fadeInDown"
@@ -660,3 +651,8 @@ const Index3 = () => {
   );
 };
 export default Index3;
+export async function getStaticProps() {
+  return {
+    props: {},
+  };
+}
