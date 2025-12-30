@@ -12,6 +12,30 @@ import Head from "next/head";
 const Index3 = () => {
   return (
     <Layout header={3} footer={3}>
+      <Head>
+        <title>Commercial Window Cleaning Blackpool | BeDAZzled</title>
+        <meta
+          name="description"
+          content="BeDAZzled provides commercial window cleaning in Blackpool and Lancashire for offices, schools, hotels and managed properties. Reliable, professional service."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Commercial Window Cleaning Blackpool | BeDAZzled"
+        />
+        <meta
+          property="og:description"
+          content="Commercial window cleaning in Blackpool and Lancashire for offices, schools, hotels and managed properties."
+        />
+        <meta
+          property="og:image"
+          content="https://www.bedazzledwcs.co.uk/assets/images/hero/hero_cherry_picker_window_clean.jpg"
+        />
+        <meta property="og:url" content="https://www.bedazzledwcs.co.uk/" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       {/*====== Start Banner Section ======*/}
       <section className="banner-section">
         {/*====== Hero Wrapper ======*/}
@@ -70,7 +94,7 @@ const Index3 = () => {
                           </a>
                         </Link> */}
                         {
-                          <Link legacyBehavior href="#">
+                          <Link legacyBehavior href="/contact">
                             <a className="main-btn filled-btn filled-white mb-10">
                               Contact Us!
                             </a>
@@ -121,7 +145,7 @@ const Index3 = () => {
                             Explore More
                           </a>
                         </Link> */}
-                        <Link legacyBehavior href="#">
+                        <Link legacyBehavior href="/contact">
                           <a className="main-btn filled-btn filled-white mb-10">
                             Contact Us!
                           </a>
@@ -171,7 +195,7 @@ const Index3 = () => {
                             Explore More
                           </a>
                         </Link> */}
-                        <Link legacyBehavior href="contact">
+                        <Link legacyBehavior href="/contact">
                           <a className="main-btn filled-btn filled-white mb-10">
                             Contact Us!
                           </a>
@@ -207,7 +231,7 @@ const Index3 = () => {
                   and showrooms. Exceptional quality and professionalism
                   guaranteed. Contact us today for a free, no-obligation quote.
                 </p>
-                <Link legacyBehavior href="#">
+                <Link legacyBehavior href="/about">
                   <a className="btn-link">
                     Learn More
                     <i className="far fa-angle-double-right" />
@@ -369,7 +393,7 @@ const Index3 = () => {
                           DBS Checked
                         </li>
                       </ul>
-                      <Link legacyBehavior href="#">
+                      <Link legacyBehavior href="/commercial-cleaning-services">
                         <a className="main-btn primary-btn">Learn More!</a>
                       </Link>
                     </div>
@@ -378,7 +402,7 @@ const Index3 = () => {
                         <Counter end={40} />+
                       </h2>
                       <h6>Years Of Customer Service</h6>
-                      <Link legacyBehavior href="#">
+                      <Link legacyBehavior href="/commercial-cleaning-services">
                         <a className="icon-btn">
                           <i className="far fa-arrow-right" />
                         </a>
