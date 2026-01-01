@@ -6,6 +6,41 @@ import * as gtag from "@/lib/gtag";
 import Head from "next/head";
 
 const Contact = () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const payload = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      phone: formData.get("number"),
+      subject: formData.get("subject"),
+      message: formData.get("message"),
+      source: "https://www.bedazzledwcs.co.uk/contact",
+      createdAt: new Date().toISOString(),
+    };
+
+    try {
+      const res = await fetch(
+        "https://hook.eu1.make.com/r76gjctruacgfjbqxai5hbnxpa53dpu6",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        }
+      );
+
+      if (!res.ok) throw new Error("Webhook failed");
+
+      alert("Thanks, your message has been sent.");
+      form.reset();
+    } catch (err) {
+      alert("Message failed to send. Please try again or email us directly.");
+    }
+  };
+
   return (
     <Layout header={3} footer={3}>
       <Head>
@@ -102,7 +137,7 @@ const Contact = () => {
                         href="tel:07773780671"
                         onClick={() =>
                           gtag.event({
-                            action: "contact", // GA4 recommended
+                            action: "contact",
                             params: { method: "phone", location: "header" },
                           })
                         }
@@ -118,6 +153,7 @@ const Contact = () => {
         </div>
       </section>
       {/*====== End Contact Info section ======*/}
+
       {/*====== Start Contact section ======*/}
       <section className="contact-section pt-95 pb-50">
         <div className="container">
@@ -144,12 +180,7 @@ const Contact = () => {
               <div className="col-lg-6">
                 {/*====== Contact Form Wrapper ======*/}
                 <div className="contact-form-wrapper mb-50 wow fadeInRight">
-                  <form
-                    action="https://formsubmit.co/craigaustin@me.com"
-                    method="POST"
-                    onSubmit={(e) => e.preventDefault()}
-                    className="contact-form"
-                  >
+                  <form onSubmit={handleSubmit} className="contact-form">
                     <div className="form_group">
                       <label>
                         <i className="far fa-user" />
@@ -211,7 +242,7 @@ const Contact = () => {
                       />
                     </div>
                     <div className="form_group">
-                      <button className="main-btn primary-btn">
+                      <button className="main-btn primary-btn" type="submit">
                         Send Messages
                       </button>
                     </div>
@@ -223,8 +254,6 @@ const Contact = () => {
         </div>
       </section>
       {/*====== End Contact section ======*/}
-
-      {/*====== Start Partners Section ======*/}
 
       {/*====== SEO Text Section ======*/}
       <section className="contact-section pt-0 pb-50">
