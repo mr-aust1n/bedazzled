@@ -78,6 +78,12 @@ const Menu = () => {
         </li>
 
         <li className="menu-item">
+          <Link legacyBehavior href="/areas-we-cover">
+            Areas We Cover
+          </Link>
+        </li>
+
+        <li className="menu-item">
           <Link legacyBehavior href="/faqs">
             FAQ's
           </Link>

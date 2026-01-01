@@ -413,6 +413,63 @@ const Index3 = () => {
       </section>
       {/*====== End About Section ======*/}
 
+      {/*====== Start Features Section ======*/}
+      <section className="features-section pt-95">
+        <div className="container">
+          <div className="row align-items-xl-center">
+            <div className="col-lg-6">
+              <div className="section-title mb-55 wow fadeInLeft">
+                <span className="sub-title">
+                  <i className="fa fa-map-marker-alt"></i>
+                  Areas We Cover
+                </span>
+                <h2>
+                  Commercial Window Cleaning Across Blackpool and Lancashire
+                </h2>
+              </div>
+            </div>
+
+            <div className="col-lg-6">
+              <div className="features-content-box mb-55 wow fadeInRight">
+                <p>
+                  BeDAZzled provides reliable commercial window cleaning across
+                  Blackpool, the Fylde Coast and wider Lancashire. We work with
+                  offices, schools, hotels, retail units and managed properties,
+                  delivering consistent results with minimal disruption.
+                </p>
+
+                <p>
+                  Start with{" "}
+                  <Link
+                    legacyBehavior
+                    href="/commercial-window-cleaning-blackpool"
+                  >
+                    <a>commercial window cleaning in Blackpool</a>
+                  </Link>{" "}
+                  or{" "}
+                  <Link
+                    legacyBehavior
+                    href="/commercial-window-cleaning-lancashire"
+                  >
+                    <a>commercial window cleaning across Lancashire</a>
+                  </Link>
+                  , or view our full coverage below.
+                </p>
+
+                <Link legacyBehavior href="/areas-we-cover">
+                  <a className="btn-link">
+                    View all areas we cover
+                    <i className="far fa-angle-double-right" />
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*====== End Features Section ======*/}
+
       {/*====== Start Testimonial Section  ======*/}
       <section className="testimonial-section">
         <div className="container-fluid">

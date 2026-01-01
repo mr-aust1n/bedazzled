@@ -119,6 +119,23 @@ const ProjectGrid = () => {
                 to help prevent blockages, leaks, and long term water damage.
               </p>
 
+              <h3 className="mt-35">Where we work</h3>
+
+              <p>
+                We provide these services across Blackpool, the Fylde Coast and
+                wider Lancashire. If you are unsure whether your site is
+                covered, view our <a href="/areas-we-cover">areas we cover</a>{" "}
+                or start with{" "}
+                <a href="/commercial-window-cleaning-blackpool">
+                  commercial window cleaning in Blackpool
+                </a>{" "}
+                and{" "}
+                <a href="/commercial-window-cleaning-lancashire">
+                  commercial window cleaning across Lancashire
+                </a>
+                .
+              </p>
+
               <h3 className="mt-35">Safe, professional and fully insured</h3>
 
               <p>
