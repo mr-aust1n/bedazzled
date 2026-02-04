@@ -240,7 +240,7 @@ const About = () => {
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="single-team-item mb-50 wow fadeInDown">
                 <div className="member-img">
-                  <img src="assets/images/team/liam.webp" alt="Image of Liam" />
+                  <img src="assets/images/team/laim.webp" alt="Image of Liam" />
                   <div className="icon-btn">
                     <i className="fa fa-user" />
                   </div>
