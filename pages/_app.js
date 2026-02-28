@@ -4,6 +4,7 @@ import Script from "next/script";
 import { Fragment, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
+import { Analytics } from "@vercel/analytics/next";
 
 import "../styles/globals.css";
 import "animate.css/animate.min.css";
@@ -104,6 +105,7 @@ const App = ({ Component, pageProps }) => {
 
       <Component {...pageProps} />
       {mounted && loading && <Preloader />}
+      <Analytics />
     </Fragment>
   );
 };
